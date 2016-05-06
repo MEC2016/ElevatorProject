@@ -1,0 +1,2643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="VKeys">
+    <Folder Name="Common" TargetIndex="4294967294">
+      <Object Name="TP_ALPHA_Quest" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quest]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">63</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Plus" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Plus]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">43</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Openparen" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openparen]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">40</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ENTER" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ENTER]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">358</UInt32>
+          <UInt32 Name="ActionDataSize">4</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="Action">13</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Semicolon" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Semicolon]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">59</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_BckSlsh" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_BckSlsh]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">92</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Minus" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Minus]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">45</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sp" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sp]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">112</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sq" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sq]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">113</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sr" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sr]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">114</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_ss" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_ss]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">115</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_st" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_st]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">116</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_su" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_su]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">117</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sv" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sv]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">118</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sw" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sw]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">119</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sx" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sx]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">120</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sy" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sy]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">121</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sz" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sz]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">122</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_R" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_R]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">82</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_3" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_3]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">51</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_2" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_2]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">50</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_1" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_1]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">49</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sd" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sd]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">100</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_7" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_7]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">55</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_6" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_6]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">54</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_5" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_5]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">53</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_4" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_4]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">52</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_si" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_si]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">105</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sj" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sj]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">106</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sk" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sk]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">107</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sl" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sl]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">108</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sm" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sm]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">109</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sn" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sn]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">110</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_so" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_so]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">111</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_CANCEL" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_CANCEL]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">358</UInt32>
+          <UInt32 Name="ActionDataSize">4</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="Action">57370</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Openbrace" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbrace]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">123</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_At_sign" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_At_sign]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">64</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Closebracket" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebracket]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">93</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Asterisk" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Asterisk]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">42</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Bigger" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Bigger]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">62</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_TAB" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_TAB]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">358</UInt32>
+          <UInt32 Name="ActionDataSize">4</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="Action">9</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Quotes" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quotes]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">34</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Cur_Right" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Right]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57363</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Small" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Small]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">60</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_V" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_V]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">86</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_T" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_T]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">84</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Closeparen" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closeparen]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">41</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Exclamation" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Exclamation]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">33</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Underscore" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Underscore]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">95</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Shift1" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift1]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">0</UInt32>
+          <Byte Name="Mode">5</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Shift0" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift0]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">0</UInt32>
+          <Byte Name="Mode">7</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Care" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Care]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">94</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Backquote" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Backquote]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">96</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sa" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sa]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">97</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sb" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sb]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">98</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sc" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sc]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">99</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_se" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_se]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">101</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sf" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sf]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">102</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sg" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sg]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">103</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_sh" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sh]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">104</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Comma" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Comma]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">44</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Slash" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Slash]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">47</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Ampersand" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Ampersand]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">38</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Openbracket" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbracket]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">91</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Percent" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Percent]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">37</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_B" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_B]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">66</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_A" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_A]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">65</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_G" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_G]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">71</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_F" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_F]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">70</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_E" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_E]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">69</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_D" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_D]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">68</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_K" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_K]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">75</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_J" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_J]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">74</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_I" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_I]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">73</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_H" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_H]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">72</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_O" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_O]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">79</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_N" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_N]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">78</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_M" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_M]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">77</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_L" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_L]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">76</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_S" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_S]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">83</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Apostrophy" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">39</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Q" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Q]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">81</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_P" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_P]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">80</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_W" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_W]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">87</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_0" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_0]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">48</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_U" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_U]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">85</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Closebrace" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebrace]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">125</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ShiftCapsLock1" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ShiftCapsLock1]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">0</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Z" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Z]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">90</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Y" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Y]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">89</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_X" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_X]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">88</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_9" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_9]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_8" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_8]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">56</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Equal" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Equal]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">61</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Colon" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Colon]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">58</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Dollar" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dollar]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">36</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_VBar" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_VBar]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">124</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_SIGN_CHANGE" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_SIGN_CHANGE]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">358</UInt32>
+          <UInt32 Name="ActionDataSize">4</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="Action">57368</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Space" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Space]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">32</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_C" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_C]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">67</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ShiftCapsLock0" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ShiftCapsLock0]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">1</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Hash" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Hash]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">35</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Tilde" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Tilde]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">126</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Cur_Left" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Left]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57362</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_DOT" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_DOT]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">46</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_BACKSPACE" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_BACKSPACE]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">358</UInt32>
+          <UInt32 Name="ActionDataSize">4</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="Action">8</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_SET_LAYER2" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER2]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">2</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_SET_LAYER4" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER4]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">4</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_SET_LAYER0" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER0]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">0</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_ALPHA_Apostrophy1" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">357</UInt32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">34</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_NaviPadUP" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_NaviPadUP]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">361</UInt32>
+          <UInt32 Name="ActionDataSize">80</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="Control[0x00001007]">4103</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001007]">57624</UInt16>
+          <UInt32 Name="Control[0x00001008]">4104</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001008]">57611</UInt16>
+          <UInt32 Name="Control[0x00001009]">4105</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001009]">57611</UInt16>
+          <UInt32 Name="Control[0x0000100B]">4107</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100B]">0</UInt16>
+          <UInt32 Name="Control[0x0000100C]">4108</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100C]">0</UInt16>
+          <UInt32 Name="Control[0x00001018]">4120</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001018]">0</UInt16>
+          <UInt32 Name="Control[0x00001013]">4115</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001013]">0</UInt16>
+          <UInt32 Name="Control[0x0000101F]">4127</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000101F]">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
+      </Object>
+      <Object Name="TP_NaviPadDown" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_NaviPadDown]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">361</UInt32>
+          <UInt32 Name="ActionDataSize">80</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="Control[0x00001007]">4103</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001007]">57623</UInt16>
+          <UInt32 Name="Control[0x00001008]">4104</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001008]">57612</UInt16>
+          <UInt32 Name="Control[0x00001009]">4105</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001009]">57612</UInt16>
+          <UInt32 Name="Control[0x0000100B]">4107</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100B]">0</UInt16>
+          <UInt32 Name="Control[0x0000100C]">4108</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100C]">0</UInt16>
+          <UInt32 Name="Control[0x00001018]">4120</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001018]">0</UInt16>
+          <UInt32 Name="Control[0x00001013]">4115</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001013]">0</UInt16>
+          <UInt32 Name="Control[0x0000101F]">4127</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000101F]">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
+      </Object>
+      <Object Name="TP_NaviPadEnter" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_NaviPadEnter]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">361</UInt32>
+          <UInt32 Name="ActionDataSize">80</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="Control[0x00001007]">4103</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001007]">13</UInt16>
+          <UInt32 Name="Control[0x00001008]">4104</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001008]">13</UInt16>
+          <UInt32 Name="Control[0x00001009]">4105</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001009]">57376</UInt16>
+          <UInt32 Name="Control[0x0000100B]">4107</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100B]">13</UInt16>
+          <UInt32 Name="Control[0x0000100C]">4108</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100C]">13</UInt16>
+          <UInt32 Name="Control[0x00001018]">4120</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001018]">0</UInt16>
+          <UInt32 Name="Control[0x00001013]">4115</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001013]">0</UInt16>
+          <UInt32 Name="Control[0x0000101F]">4127</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000101F]">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
+      </Object>
+      <Object Name="TP_NaviPadChancel" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_NaviPadChancel]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">361</UInt32>
+          <UInt32 Name="ActionDataSize">80</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="Control[0x00001007]">4103</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001007]">57370</UInt16>
+          <UInt32 Name="Control[0x00001008]">4104</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001008]">57370</UInt16>
+          <UInt32 Name="Control[0x00001009]">4105</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001009]">57370</UInt16>
+          <UInt32 Name="Control[0x0000100B]">4107</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100B]">57370</UInt16>
+          <UInt32 Name="Control[0x0000100C]">4108</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100C]">57370</UInt16>
+          <UInt32 Name="Control[0x00001018]">4120</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001018]">0</UInt16>
+          <UInt32 Name="Control[0x00001013]">4115</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001013]">0</UInt16>
+          <UInt32 Name="Control[0x0000101F]">4127</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000101F]">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
+      </Object>
+      <Object Name="TP_Shift2" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift2]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">0</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Shift3" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift3]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">2</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Shift4" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift4]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">360</UInt32>
+          <UInt32 Name="ActionDataSize">8</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="KeyLevel">4</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Confirm" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Confirm]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">361</UInt32>
+          <UInt32 Name="ActionDataSize">80</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="Control[0x00001007]">4103</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001007]">57604</UInt16>
+          <UInt32 Name="Control[0x00001008]">4104</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001008]">57604</UInt16>
+          <UInt32 Name="Control[0x00001009]">4105</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001009]">13</UInt16>
+          <UInt32 Name="Control[0x0000100B]">4107</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100B]">57604</UInt16>
+          <UInt32 Name="Control[0x0000100C]">4108</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100C]">57604</UInt16>
+          <UInt32 Name="Control[0x00001018]">4120</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001018]">57604</UInt16>
+          <UInt32 Name="Control[0x00001013]">4115</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001013]">57604</UInt16>
+          <UInt32 Name="Control[0x0000101F]">4127</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000101F]">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
+      </Object>
+      <Object Name="TP_Copy" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Copy]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57636</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Cur_Down" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Down]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57641</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Cur_Up" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Up]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57640</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Cut" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cut]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57635</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_End" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_End]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57645</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Home" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Home]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57644</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Insert" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Insert]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <UInt32 Name="ActionID">361</UInt32>
+          <UInt32 Name="ActionDataSize">80</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt32 Name="Control[0x00001007]">4103</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001007]">0</UInt16>
+          <UInt32 Name="Control[0x00001008]">4104</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001008]">0</UInt16>
+          <UInt32 Name="Control[0x00001009]">4105</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001009]">0</UInt16>
+          <UInt32 Name="Control[0x0000100B]">4107</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100B]">0</UInt16>
+          <UInt32 Name="Control[0x0000100C]">4108</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000100C]">0</UInt16>
+          <UInt32 Name="Control[0x00001018]">4120</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001018]">0</UInt16>
+          <UInt32 Name="Control[0x00001013]">4115</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x00001013]">57654</UInt16>
+          <UInt32 Name="Control[0x0000101F]">4127</UInt32>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt16 Name="Action[0x0000101F]">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
+      </Object>
+      <Object Name="TP_Page_Down" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Page_Down]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57643</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Page_Up" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Page_Up]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57642</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_Paste" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_Paste]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57637</UInt16>
+        </Group>
+      </Object>
+      <Object Name="TP_SelectionMode" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[TP_SelectionMode]">
+        <Group Name="LedMapping">
+          <UInt32 Name="Datapoint">4294967295</UInt32>
+          <Byte Name="Mode">0</Byte>
+          <Byte Name="Active">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="KeyMapping">
+          <UInt32 Name="KeyActionCount">1</UInt32>
+          <Int32 Name="ActionID">357</Int32>
+          <UInt32 Name="ActionDataSize">2</UInt32>
+          <Byte Name="Locking">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+          <UInt32 Name="LockingLevel">0</UInt32>
+          <UInt16 Name="UnicodeValue">57638</UInt16>
+        </Group>
+      </Object>
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_6]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_7]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_7]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_8]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_8]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_9]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_9]" />
+      <Object Name="Source[local].VirtualKey[%embVirtualKey_10]" ClsId="0x0" Version="1" TargetIndex="4294967295" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_10]" />
+    </Folder>
+  </Folder>
+</Intermediate>

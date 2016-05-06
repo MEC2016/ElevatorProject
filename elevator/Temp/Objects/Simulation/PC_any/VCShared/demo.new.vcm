@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Runtime>
+  <Property Name="VCPDAR00" Value="False" />
+  <Property Name="VCWXPRT" Value="False" />
+  <Module>
+    <Property Name="Name" Value="FileIO.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcresman.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccbtn.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccshape.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccline.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccnum.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccovl.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcctext.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccslider.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccstr.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccbmp.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccscale.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccbar.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcrt.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcbclass.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcgclass.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpdsw.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vctcal.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcnet.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcmgr.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpkat.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpdvnc.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcpfar00.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcalarm.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcdsint.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcdsloc.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcfntttf.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcfile.br" />
+    <Property Name="Version" Value="Core" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+</Runtime>

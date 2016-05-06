@@ -1,0 +1,2 @@
+Model	"$(AS_CPU_PATH)/Model/Cyclic.st.o" "$(AS_CPU_PATH)/Model/Init.st.o" "$(AS_CPU_PATH)/Model/Exit.st.o"  -o "$(AS_CPU_PATH)/Model/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x -nostdlib
+controller	"$(AS_CPU_PATH)/controller/Cyclic.st.o" "$(AS_CPU_PATH)/controller/Init.st.o" "$(AS_CPU_PATH)/controller/Exit.st.o"  -o "$(AS_CPU_PATH)/controller/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x -nostdlib

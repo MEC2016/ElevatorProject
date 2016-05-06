@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version = "3.0"?>
+<VCFirmware>
+  <File Name="vcresman.br" />
+  <File Name="vccbtn.br" />
+  <File Name="vccovl.br" />
+  <File Name="vcrt.br" />
+  <File Name="vcbclass.br" />
+  <File Name="vcgclass.br" />
+  <File Name="vcpdsw.br" />
+  <File Name="vcalarm.br" />
+  <File Name="vcdsint.br" />
+  <File Name="vcdsloc.br" />
+  <File Name="vcfntttf.br" />
+  <File Name="vcfile.br" />
+  <File Name="Debug03.br" />
+  <File Name="Debug02.br" />
+  <File Name="Debug01.br" />
+  <File Name="vcshared.br" />
+  <File Name="arial.br" />
+  <File Name="arialbd.br" />
+</VCFirmware>

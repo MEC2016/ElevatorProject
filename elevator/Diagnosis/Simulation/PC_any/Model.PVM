@@ -1,0 +1,45 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Model 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=29 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                              RightTower                         tTower_Interface    0 "                                                               0"    0    4    1   10    0    1         
+                       Sensor_DoorOpened                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                       Sensor_DoorClosed                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                 Sensor_Floor1Approached                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                 Sensor_Floor2Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor3Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor4Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor5Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor6Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor7Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                Signal_Start_DoorMotor_P                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                Signal_Start_DoorMotor_N                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               Signal_Start_CabinMotor_P                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               Signal_Start_CabinMotor_N                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                  Signal_Stop_CabinMotor                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                    Sensor_Position_Door                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                   Sensor_Position_Cabin                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          RightDoorState                                     DINT    0 "                                                               0"    0    4    1   10    1    0 e,0,Door
+
+                         RightCabinState                                     DINT    0 "                                                               2"    0    4    1   10    1    0 e,0,Cabi
+
+                               LeftTower                         tTower_Interface    0 "                                                               *"    0   24    1    0    0    1         
+                       Sensor_DoorOpened                                     DINT    0 "                       2#0000_0000_0000_0000_0000_0000_0000_0001"    1    4    1    2    0    0         
+                       Sensor_DoorClosed                                     DINT    0 "                       2#0000_0000_0000_0000_0000_0000_0000_0000"    1    4    1    2    0    0         
+                 Sensor_Floor1Approached                                     DINT    0 "                       2#0000_0000_0000_0000_0000_0000_0000_0001"    1    4    1    2    0    0         
+                 Sensor_Floor2Approached                                     DINT    0 "                       2#0000_0000_0000_0000_0000_0000_0000_0000"    1    4    1    2    0    0         
+                 Sensor_Floor3Approached                                     DINT    0 "                       2#0000_0000_0000_0000_0000_0000_0000_0000"    1    4    1    2    0    0         
+                 Sensor_Floor4Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor5Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor6Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                 Sensor_Floor7Approached                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                Signal_Start_DoorMotor_P                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                Signal_Start_DoorMotor_N                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               Signal_Start_CabinMotor_P                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               Signal_Start_CabinMotor_N                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                  Signal_Stop_CabinMotor                                     DINT    0 "                       2#0000_0000_0000_0000_0000_0000_0000_0000"    1    4    1    2    0    0         
+                    Sensor_Position_Door                                     DINT    0 "                                                              50"    1    4    1   10    0    0         
+                   Sensor_Position_Cabin                         tTower_Interface    0 "                                                               0"    1   24    1   10    0    0         
+                           LeftDoorState                         tTower_Interface    0 "                                                               1"    0   24    1   10    1    0 e,0,Door
+
+                          LeftCabinState                                     DINT    0 "                                                               0"    0    4    1   10    1    0 e,0,Cabi
+

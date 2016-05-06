@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Triggered" ClsId="0x306" Version="1" TargetIndex="20" Type="GFX" RefString="Source[local].Bitmap[Triggered]">
+        <UInt16 Name="Width">17</UInt16>
+        <UInt16 Name="Height">15</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAALi4uLi4uLi4uLi4uLi4uAAAuLi4uLi4uLi4uLi4uLi4AAC4uLi4uLi4AAAAAAAAALgAALi4uLi4uLgAuLi4uLi4uAAAuLi4uLi4uAC4uLi4uLi4AAC4uLi4uLi4ALi4uLi4uLgAALi4uLi4uAAAALi4uLi4uAAAuLi4uLgAuAC4ALi4uLi4AAC4uLi4uLi4ALi4uLi4uLgAALi4uLi4uLgAuLi4uLi4uAAAuLi4uLi4uAC4uLi4uLi4AAC4AAAAAAAAALi4uLi4uLgAALi4uLi4uLi4uLi4uLi4uAAAAAAAAAAAAAAAAAAAAAAAA</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

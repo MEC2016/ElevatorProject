@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="1" Type="REF" RefString="Source[local].BitmapGroup[NumPad]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="NumPad" ClsId="0x308" Version="1" TargetIndex="1" Type="BMPG" RefString="Source[local].BitmapGroup[NumPad_en]">
+            <UInt32 Name="Count">2</UInt32>
+            <Group Name="zuneNumPad_released">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[zuneNumPad_released]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="zuneNumPad_pressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[zuneNumPad_pressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="NumPad" ClsId="0x308" Version="1" TargetIndex="1" Type="BMPG" RefString="Source[local].BitmapGroup[NumPad_de]">
+            <UInt32 Name="Count">2</UInt32>
+            <Group Name="zuneNumPad_released">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[zuneNumPad_released]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="zuneNumPad_pressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[zuneNumPad_pressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

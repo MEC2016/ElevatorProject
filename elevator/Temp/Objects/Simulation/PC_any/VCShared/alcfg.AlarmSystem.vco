@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="AlarmSystems">
+    <Folder Name="AS1" TargetIndex="Source[global].AlarmSystem[AS1]">
+      <Folder Name="POBJ">
+        <Object Name="AS1" ClsId="0x10A" Version="1" Type="AS" RefString="Source[global].AlarmSystem[AS1]">
+          <Reference Name="SystemID" Type="AS">Source[global].AlarmSystem[AS1]</Reference>
+          <UInt32 Name="HisALLength">1000</UInt32>
+          <UInt32 Name="SnippetBufferSize">150</UInt32>
+          <Byte Name="StoreDatamodule">0</Byte>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version = "3.0"?>
+<TrueTypeFont Name="arialbd">
+  <Property Name="File" Value="C:\Windows\fonts\arialbd.TTF" />
+  <Property Name="Flags" Value="" />
+</TrueTypeFont>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="left_pressed" ClsId="0x306" Version="1" TargetIndex="36" Type="GFX" RefString="Source[local].Bitmap[left_pressed]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Lv//////////////////////////////////////By7/9/b29vb29vb29vb29vb29vb29vb29vb29vb29vcILv/39/f39/f39/f39/f39/f39/f39/f39/f39/f39//1/5GRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGR//X/////////////////////////////////////////9f/////////////////////////////////////////1//////////////////////////////////////////X/////////////////////////////////////////9f////////////////////////9m///////////////1////////////////////////B/z///////////////X/////////////////////CDsPD///////////////9f///////////////////2b7Dw8P///////////////1//////////////////8H/A8PDw////////////////X///////////////8I+g8PDw8PD///////////////9f//////////////ZvwPDw8PDw8P///////////////1/////////////wgPDw8PDw8PDw////////////////X//////////////wf8Dw8PDw8PD///////////////9f///////////////wj7Dw8PDw8P///////////////1//////////////////87Dw8PDw////////////////X///////////////////8H/A8PD///////////////9f////////////////////8I+w8P///////////////1////////////////////////Ow////////////////X/////////////////////////B///////////////9f/////////////////////////////////////////1//////////////////////////////////////////X/////////////////////////////////////////9f/////////////////////////////////////////1CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICPUIBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcI9f87Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O/8AOwhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb/vPUuLgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD1Lg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

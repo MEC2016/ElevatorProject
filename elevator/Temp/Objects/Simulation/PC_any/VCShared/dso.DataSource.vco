@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">81</UInt32>
+          <UInt32 Name="ImageSize">151</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="Model:switch">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="LeftTower.Sensor_Position_Door">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">1</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">13</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Open">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">3</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">44</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Close">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">63</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor1">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">5</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">83</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor2">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">6</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">104</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor3">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">7</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">125</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor4">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">8</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">146</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor5">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">9</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">167</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor6">
+              <UInt16 Name="ID">9</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">10</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">188</Int32>
+            </Group>
+            <Group Name="LeftCabin.Key_Floor7">
+              <UInt16 Name="ID">10</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">209</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Current_Floor">
+              <UInt16 Name="ID">11</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">12</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">230</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Current_Direction">
+              <UInt16 Name="ID">12</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">13</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">262</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor1Selected">
+              <UInt16 Name="ID">13</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">16</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">298</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor2Selected">
+              <UInt16 Name="ID">14</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">17</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">331</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor3Selected">
+              <UInt16 Name="ID">15</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">21</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">364</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor4Selected">
+              <UInt16 Name="ID">16</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">25</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">397</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor5Selected">
+              <UInt16 Name="ID">17</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">29</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">430</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor6Selected">
+              <UInt16 Name="ID">18</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">33</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">463</Int32>
+            </Group>
+            <Group Name="LeftCabin.Display_Floor7Selected">
+              <UInt16 Name="ID">19</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">37</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">496</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Open">
+              <UInt16 Name="ID">20</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">41</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">529</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Close">
+              <UInt16 Name="ID">21</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">42</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">549</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor1">
+              <UInt16 Name="ID">22</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">43</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">570</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor2">
+              <UInt16 Name="ID">23</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">44</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">592</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor3">
+              <UInt16 Name="ID">24</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">45</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">614</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor4">
+              <UInt16 Name="ID">25</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">46</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">636</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor5">
+              <UInt16 Name="ID">26</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">47</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">658</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor6">
+              <UInt16 Name="ID">27</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">48</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">680</Int32>
+            </Group>
+            <Group Name="RightCabin.Key_Floor7">
+              <UInt16 Name="ID">28</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">49</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">702</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Current_Floor">
+              <UInt16 Name="ID">29</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">50</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">724</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Current_Direction">
+              <UInt16 Name="ID">30</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">51</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">757</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor1Selected">
+              <UInt16 Name="ID">31</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">54</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">794</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor2Selected">
+              <UInt16 Name="ID">32</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">55</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">828</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor3Selected">
+              <UInt16 Name="ID">33</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">59</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">862</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor4Selected">
+              <UInt16 Name="ID">34</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">63</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">896</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor5Selected">
+              <UInt16 Name="ID">35</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">67</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">930</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor6Selected">
+              <UInt16 Name="ID">36</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">71</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">964</Int32>
+            </Group>
+            <Group Name="RightCabin.Display_Floor7Selected">
+              <UInt16 Name="ID">37</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">75</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">998</Int32>
+            </Group>
+            <Group Name="Floor1Panel.Key_Up">
+              <UInt16 Name="ID">38</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">79</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1032</Int32>
+            </Group>
+            <Group Name="Floor1Panel.Key_Down">
+              <UInt16 Name="ID">39</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">80</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1051</Int32>
+            </Group>
+            <Group Name="Floor1Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">40</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">81</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1072</Int32>
+            </Group>
+            <Group Name="Floor1Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">41</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">82</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1111</Int32>
+            </Group>
+            <Group Name="Floor1Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">42</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">83</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1151</Int32>
+            </Group>
+            <Group Name="Floor1Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">43</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">86</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1194</Int32>
+            </Group>
+            <Group Name="Floor2Panel.Key_Up">
+              <UInt16 Name="ID">44</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">89</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1238</Int32>
+            </Group>
+            <Group Name="Floor2Panel.Key_Down">
+              <UInt16 Name="ID">45</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">90</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1257</Int32>
+            </Group>
+            <Group Name="Floor2Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">46</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">91</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1278</Int32>
+            </Group>
+            <Group Name="Floor2Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">47</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">92</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1317</Int32>
+            </Group>
+            <Group Name="Floor2Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">48</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">93</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1357</Int32>
+            </Group>
+            <Group Name="Floor2Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">49</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">96</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1400</Int32>
+            </Group>
+            <Group Name="Floor3Panel.Key_Up">
+              <UInt16 Name="ID">50</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">99</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1444</Int32>
+            </Group>
+            <Group Name="Floor3Panel.Key_Down">
+              <UInt16 Name="ID">51</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">100</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1463</Int32>
+            </Group>
+            <Group Name="Floor3Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">52</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">101</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1484</Int32>
+            </Group>
+            <Group Name="Floor3Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">53</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">102</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1523</Int32>
+            </Group>
+            <Group Name="Floor3Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">54</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">103</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1563</Int32>
+            </Group>
+            <Group Name="Floor3Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">55</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">106</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1606</Int32>
+            </Group>
+            <Group Name="Floor4Panel.Key_Up">
+              <UInt16 Name="ID">56</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">109</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1650</Int32>
+            </Group>
+            <Group Name="Floor4Panel.Key_Down">
+              <UInt16 Name="ID">57</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">110</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1669</Int32>
+            </Group>
+            <Group Name="Floor4Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">58</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">111</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1690</Int32>
+            </Group>
+            <Group Name="Floor4Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">59</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">112</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1729</Int32>
+            </Group>
+            <Group Name="Floor4Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">60</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">113</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1769</Int32>
+            </Group>
+            <Group Name="Floor4Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">61</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">116</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1812</Int32>
+            </Group>
+            <Group Name="Floor5Panel.Key_Up">
+              <UInt16 Name="ID">62</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">119</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1856</Int32>
+            </Group>
+            <Group Name="Floor5Panel.Key_Down">
+              <UInt16 Name="ID">63</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">120</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1875</Int32>
+            </Group>
+            <Group Name="Floor5Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">64</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">121</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1896</Int32>
+            </Group>
+            <Group Name="Floor5Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">65</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">122</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1935</Int32>
+            </Group>
+            <Group Name="Floor5Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">66</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">123</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1975</Int32>
+            </Group>
+            <Group Name="Floor5Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">67</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">126</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">2018</Int32>
+            </Group>
+            <Group Name="Floor6Panel.Key_Up">
+              <UInt16 Name="ID">68</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">129</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">2062</Int32>
+            </Group>
+            <Group Name="Floor6Panel.Key_Down">
+              <UInt16 Name="ID">69</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">130</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">2081</Int32>
+            </Group>
+            <Group Name="Floor6Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">70</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">131</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2102</Int32>
+            </Group>
+            <Group Name="Floor6Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">71</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">132</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2141</Int32>
+            </Group>
+            <Group Name="Floor6Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">72</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">133</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">2181</Int32>
+            </Group>
+            <Group Name="Floor6Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">73</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">136</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">2224</Int32>
+            </Group>
+            <Group Name="Floor7Panel.Key_Up">
+              <UInt16 Name="ID">74</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">139</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">2268</Int32>
+            </Group>
+            <Group Name="Floor7Panel.Key_Down">
+              <UInt16 Name="ID">75</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">140</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">2287</Int32>
+            </Group>
+            <Group Name="Floor7Panel.Display_Current_Floor_Left">
+              <UInt16 Name="ID">76</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">141</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2308</Int32>
+            </Group>
+            <Group Name="Floor7Panel.Display_Current_Floor_Right">
+              <UInt16 Name="ID">77</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">142</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2347</Int32>
+            </Group>
+            <Group Name="Floor7Panel.Display_Current_Direction_Left">
+              <UInt16 Name="ID">78</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">143</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">2387</Int32>
+            </Group>
+            <Group Name="Floor7Panel.Display_Current_Direction_Right">
+              <UInt16 Name="ID">79</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">146</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">2430</Int32>
+            </Group>
+            <Group Name="RightTower.Sensor_Position_Door">
+              <UInt16 Name="ID">80</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">149</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">2474</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">TW9kZWw6c3dpdGNoAExlZnRUb3dlci5TZW5zb3JfUG9zaXRpb25fRG9vcgBMZWZ0Q2FiaW4uS2V5X09wZW4ATGVmdENhYmluLktleV9DbG9zZQBMZWZ0Q2FiaW4uS2V5X0Zsb29yMQBMZWZ0Q2FiaW4uS2V5X0Zsb29yMgBMZWZ0Q2FiaW4uS2V5X0Zsb29yMwBMZWZ0Q2FiaW4uS2V5X0Zsb29yNABMZWZ0Q2FiaW4uS2V5X0Zsb29yNQBMZWZ0Q2FiaW4uS2V5X0Zsb29yNgBMZWZ0Q2FiaW4uS2V5X0Zsb29yNwBMZWZ0Q2FiaW4uRGlzcGxheV9DdXJyZW50X0Zsb29yAExlZnRDYWJpbi5EaXNwbGF5X0N1cnJlbnRfRGlyZWN0aW9uAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yMVNlbGVjdGVkAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yMlNlbGVjdGVkAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yM1NlbGVjdGVkAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yNFNlbGVjdGVkAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yNVNlbGVjdGVkAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yNlNlbGVjdGVkAExlZnRDYWJpbi5EaXNwbGF5X0Zsb29yN1NlbGVjdGVkAFJpZ2h0Q2FiaW4uS2V5X09wZW4AUmlnaHRDYWJpbi5LZXlfQ2xvc2UAUmlnaHRDYWJpbi5LZXlfRmxvb3IxAFJpZ2h0Q2FiaW4uS2V5X0Zsb29yMgBSaWdodENhYmluLktleV9GbG9vcjMAUmlnaHRDYWJpbi5LZXlfRmxvb3I0AFJpZ2h0Q2FiaW4uS2V5X0Zsb29yNQBSaWdodENhYmluLktleV9GbG9vcjYAUmlnaHRDYWJpbi5LZXlfRmxvb3I3AFJpZ2h0Q2FiaW4uRGlzcGxheV9DdXJyZW50X0Zsb29yAFJpZ2h0Q2FiaW4uRGlzcGxheV9DdXJyZW50X0RpcmVjdGlvbgBSaWdodENhYmluLkRpc3BsYXlfRmxvb3IxU2VsZWN0ZWQAUmlnaHRDYWJpbi5EaXNwbGF5X0Zsb29yMlNlbGVjdGVkAFJpZ2h0Q2FiaW4uRGlzcGxheV9GbG9vcjNTZWxlY3RlZABSaWdodENhYmluLkRpc3BsYXlfRmxvb3I0U2VsZWN0ZWQAUmlnaHRDYWJpbi5EaXNwbGF5X0Zsb29yNVNlbGVjdGVkAFJpZ2h0Q2FiaW4uRGlzcGxheV9GbG9vcjZTZWxlY3RlZABSaWdodENhYmluLkRpc3BsYXlfRmxvb3I3U2VsZWN0ZWQARmxvb3IxUGFuZWwuS2V5X1VwAEZsb29yMVBhbmVsLktleV9Eb3duAEZsb29yMVBhbmVsLkRpc3BsYXlfQ3VycmVudF9GbG9vcl9MZWZ0AEZsb29yMVBhbmVsLkRpc3BsYXlfQ3VycmVudF9GbG9vcl9SaWdodABGbG9vcjFQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRGlyZWN0aW9uX0xlZnQARmxvb3IxUGFuZWwuRGlzcGxheV9DdXJyZW50X0RpcmVjdGlvbl9SaWdodABGbG9vcjJQYW5lbC5LZXlfVXAARmxvb3IyUGFuZWwuS2V5X0Rvd24ARmxvb3IyUGFuZWwuRGlzcGxheV9DdXJyZW50X0Zsb29yX0xlZnQARmxvb3IyUGFuZWwuRGlzcGxheV9DdXJyZW50X0Zsb29yX1JpZ2h0AEZsb29yMlBhbmVsLkRpc3BsYXlfQ3VycmVudF9EaXJlY3Rpb25fTGVmdABGbG9vcjJQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRGlyZWN0aW9uX1JpZ2h0AEZsb29yM1BhbmVsLktleV9VcABGbG9vcjNQYW5lbC5LZXlfRG93bgBGbG9vcjNQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRmxvb3JfTGVmdABGbG9vcjNQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRmxvb3JfUmlnaHQARmxvb3IzUGFuZWwuRGlzcGxheV9DdXJyZW50X0RpcmVjdGlvbl9MZWZ0AEZsb29yM1BhbmVsLkRpc3BsYXlfQ3VycmVudF9EaXJlY3Rpb25fUmlnaHQARmxvb3I0UGFuZWwuS2V5X1VwAEZsb29yNFBhbmVsLktleV9Eb3duAEZsb29yNFBhbmVsLkRpc3BsYXlfQ3VycmVudF9GbG9vcl9MZWZ0AEZsb29yNFBhbmVsLkRpc3BsYXlfQ3VycmVudF9GbG9vcl9SaWdodABGbG9vcjRQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRGlyZWN0aW9uX0xlZnQARmxvb3I0UGFuZWwuRGlzcGxheV9DdXJyZW50X0RpcmVjdGlvbl9SaWdodABGbG9vcjVQYW5lbC5LZXlfVXAARmxvb3I1UGFuZWwuS2V5X0Rvd24ARmxvb3I1UGFuZWwuRGlzcGxheV9DdXJyZW50X0Zsb29yX0xlZnQARmxvb3I1UGFuZWwuRGlzcGxheV9DdXJyZW50X0Zsb29yX1JpZ2h0AEZsb29yNVBhbmVsLkRpc3BsYXlfQ3VycmVudF9EaXJlY3Rpb25fTGVmdABGbG9vcjVQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRGlyZWN0aW9uX1JpZ2h0AEZsb29yNlBhbmVsLktleV9VcABGbG9vcjZQYW5lbC5LZXlfRG93bgBGbG9vcjZQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRmxvb3JfTGVmdABGbG9vcjZQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRmxvb3JfUmlnaHQARmxvb3I2UGFuZWwuRGlzcGxheV9DdXJyZW50X0RpcmVjdGlvbl9MZWZ0AEZsb29yNlBhbmVsLkRpc3BsYXlfQ3VycmVudF9EaXJlY3Rpb25fUmlnaHQARmxvb3I3UGFuZWwuS2V5X1VwAEZsb29yN1BhbmVsLktleV9Eb3duAEZsb29yN1BhbmVsLkRpc3BsYXlfQ3VycmVudF9GbG9vcl9MZWZ0AEZsb29yN1BhbmVsLkRpc3BsYXlfQ3VycmVudF9GbG9vcl9SaWdodABGbG9vcjdQYW5lbC5EaXNwbGF5X0N1cnJlbnRfRGlyZWN0aW9uX0xlZnQARmxvb3I3UGFuZWwuRGlzcGxheV9DdXJyZW50X0RpcmVjdGlvbl9SaWdodABSaWdodFRvd2VyLlNlbnNvcl9Qb3NpdGlvbl9Eb29yAA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

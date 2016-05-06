@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Overlays">
+    <Folder Name="NumPad" TargetIndex="Source[local].TouchPad[NumPad]">
+      <Folder Name="Controls">
+        <Object Name="TouchPadEdit" ClsId="0x100E" Version="1" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit]">
+          <UInt32 Name="Left">10</UInt32>
+          <UInt32 Name="Top">11</UInt32>
+          <UInt32 Name="Right">170</UInt32>
+          <UInt32 Name="Bottom">40</UInt32>
+          <Reference Name="Border" Type="BRD">Source[local].Border[Flat_grey]</Reference>
+          <Reference Name="Font" Type="FNT">Source[local].Font[Arial9px]</Reference>
+          <UInt32 Name="ForeColor">0</UInt32>
+          <UInt32 Name="BackColor">252</UInt32>
+          <Reference Name="StyleClass" Type="SC">None</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Object>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="NumPad" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[NumPad]">
+          <UInt32 Name="Top">0</UInt32>
+          <UInt32 Name="Left">0</UInt32>
+          <UInt32 Name="Width">180</UInt32>
+          <UInt32 Name="Height">220</UInt32>
+          <Group Name="Grid Control">
+            <UInt32 Name="Left">10</UInt32>
+            <UInt32 Name="Top">49</UInt32>
+            <UInt32 Name="Right">169</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt16 Name="ColumnWidth">40</UInt16>
+            <UInt16 Name="Columns">4</UInt16>
+            <UInt16 Name="RowHeight">40</UInt16>
+            <UInt16 Name="Rows">4</UInt16>
+          </Group>
+          <UInt32 Name="KeyLevel">1</UInt32>
+          <Reference Name="InputCtrl" Type="CTRL">Source[local].TouchPad[NumPad].Control[TouchPadEdit]</Reference>
+          <Group Name="MinControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="MaxControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="DescriptionControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="TeachInControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <UInt32 Name="CtrlCount">2</UInt32>
+          <Byte Name="Type">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Reference">4</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Type">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Reference">5</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="VKeyLevel 1">
+            <Reference Name="BmpGrpRefUp" Type="BMPG">Source[local].BitmapGroup[NumPad]</Reference>
+            <Reference Name="BmpGrpRefDown" Type="BMPG">Source[local].BitmapGroup[NumPad]</Reference>
+            <Reference Name="BmpRefUp" Type="GFX">None</Reference>
+            <Reference Name="BmpRefDown" Type="GFX">None</Reference>
+            <UInt16 Name="BmpUpIdx">0</UInt16>
+            <UInt16 Name="BmpDownIdx">1</UInt16>
+            <UInt32 Name="KeyEntries">16</UInt32>
+            <UInt32 Name="ChainingEntries">0</UInt32>
+            <UInt32 Name="KeyLevelDepend">0</UInt32>
+            <Group Name="Chaining Data" />
+            <Group Name="VKey Data">
+              <Reference Name="VirtualKey 1" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_1]</Reference>
+              <Reference Name="VirtualKey 2" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_2]</Reference>
+              <Reference Name="VirtualKey 3" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_3]</Reference>
+              <Reference Name="VirtualKey 4" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 5" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_4]</Reference>
+              <Reference Name="VirtualKey 6" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_5]</Reference>
+              <Reference Name="VirtualKey 7" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_6]</Reference>
+              <Reference Name="VirtualKey 8" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 9" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_7]</Reference>
+              <Reference Name="VirtualKey 10" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_8]</Reference>
+              <Reference Name="VirtualKey 11" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_9]</Reference>
+              <Reference Name="VirtualKey 12" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 13" Type="VKEY">Source[local].VirtualKey[TP_SIGN_CHANGE]</Reference>
+              <Reference Name="VirtualKey 14" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_0]</Reference>
+              <Reference Name="VirtualKey 15" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_DOT]</Reference>
+              <Reference Name="VirtualKey 16" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+            </Group>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

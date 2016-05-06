@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="E:\0-elevator\elevator\Logical\"
+  TempDirectory="E:\0-elevator\elevator\Temp\"
+  AutomationStudioVersion="4.2.1.214"
+  AutomationStudioEdition="Standard"
+  CrossReference="false"
+  ActiveConfiguration="Simulation"
+  CreateAnsiCDeclarations="false" />

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<EnvironmentSettings xmlns="http://br-automation.co.at/AS/VC/Project">
+  <EditorMainFrame>
+    <Property Name="DockingWindowReg" Value="1"/>
+    <PagePallete>
+      <Property Name="PaletteIcons" Value="1"/>
+    </PagePallete>
+    <PropertyEditor>
+      <Property Name="ColumnHandling" Value="3"/>
+      <Property Name="ExpansionStatus" Value="1"/>
+      <Property Name="PropertyDescription" Value="1"/>
+      <Property Name="StyleableMode" Value="1"/>
+    </PropertyEditor>
+    <ImportSettings>
+      <Property Name="ImportPath" Value=""/>
+    </ImportSettings>
+  </EditorMainFrame>
+  <GridSettings>
+    <Property Name="GetTouchGrid" Value="0"/>
+    <Property Name="GridAutoColor" Value="1"/>
+    <Property Name="GridColor" Value="15658734"/>
+    <Property Name="GridSizeX" Value="10"/>
+    <Property Name="GridSizeY" Value="10"/>
+    <Property Name="GridVisible" Value="0"/>
+    <Property Name="ShowGridAtZoom" Value="0"/>
+    <Property Name="SnapToGrid" Value="0"/>
+  </GridSettings>
+</EnvironmentSettings>

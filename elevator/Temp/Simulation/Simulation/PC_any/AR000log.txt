@@ -1,0 +1,82 @@
+
+
+Thu May 05 23:35:40 2016
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Thu May 05 23:35:40 2016
+COMMAND_COLDSTART
+InstanceName : 01d1a6e3c741f2b0
+
+WorkingPath :
+E:\0-elevator\elevator\Temp\Simulation\Simulation\PC_any\
+
+
+
+Thu May 05 23:35:40 2016
+COMMAND_COLDSTART
+Version : D4.21
+
+Version : D4.21
+
+
+
+Thu May 05 23:36:03 2016
+COMMAND_TERMINATE
+
+
+Thu May 05 23:36:04 2016
+
+
+Thu May 05 23:36:04 2016
+COMMAND_COLDSTART
+Version : D4.21
+
+Version : D4.21
+
+
+
+Fri May 06 00:16:23 2016
+COMMAND_TERMINATE
+
+
+Fri May 06 00:16:25 2016
+
+
+Fri May 06 00:16:25 2016
+COMMAND_COLDSTART
+Version : D4.21
+
+Version : D4.21
+
+
+
+Fri May 06 01:17:23 2016
+COMMAND_TERMINATE
+
+
+Fri May 06 01:17:25 2016
+
+
+Fri May 06 01:17:25 2016
+COMMAND_COLDSTART
+Version : D4.21
+
+Version : D4.21
+
+
+
+Fri May 06 01:25:38 2016
+COMMAND_TERMINATE
+
+
+Fri May 06 01:25:39 2016
+
+
+Fri May 06 01:25:39 2016
+COMMAND_TERMINATE
+
+
+Fri May 06 01:25:39 2016

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<EnvironmentSettings xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Visual_Components_Frames>
+    <Property Name="ActiveFrame" Value="0"/>
+    <Property Name="SaveFrameLimit" Value="4"/>
+    <Property Name="ShowCmd" Value="3"/>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="Main_Page"/>
+      <Property Name="ParentObjectType" Value="Page"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="412"/>
+      <Property Name="WndPosLeft" Value="0"/>
+      <Property Name="WndPosRight" Value="637"/>
+      <Property Name="WndPosTop" Value="0"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="32"/>
+          <Property Name="Scalecx" Value="100"/>
+          <Property Name="Scalecy" Value="100"/>
+          <Property Name="ScrollPositionX" Value="342"/>
+          <Property Name="ScrollPositionY" Value="178"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="536870912"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="16384"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="262144"/>
+        </View>
+      </Views>
+    </Frame>
+  </Visual_Components_Frames>
+  <StyleSheets>
+    <Property Name="ActiveStyleSheet" Value="Color"/>
+  </StyleSheets>
+  <Languages>
+    <Property Name="ActiveLanguage" Value="en"/>
+  </Languages>
+  <VisualComponentOptions>
+    <Property Name="AllowTextClipboard" Value="1"/>
+    <Property Name="DefaultFont" Value="DefaultFont"/>
+    <Property Name="ExtGraphicEditor" Value="mspaint.exe"/>
+  </VisualComponentOptions>
+</EnvironmentSettings>

@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Overlays">
+    <Folder Name="AlphaPad" TargetIndex="Source[local].TouchPad[AlphaPad]">
+      <Folder Name="Controls">
+        <Object Name="TouchPadEdit" ClsId="0x100E" Version="1" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit]">
+          <UInt32 Name="Left">11</UInt32>
+          <UInt32 Name="Top">15</UInt32>
+          <UInt32 Name="Right">445</UInt32>
+          <UInt32 Name="Bottom">44</UInt32>
+          <Reference Name="Border" Type="BRD">Source[local].Border[Flat_grey]</Reference>
+          <Reference Name="Font" Type="FNT">Source[local].Font[Arial9px]</Reference>
+          <UInt32 Name="ForeColor">0</UInt32>
+          <UInt32 Name="BackColor">252</UInt32>
+          <Reference Name="StyleClass" Type="SC">None</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Object>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="AlphaPad" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[AlphaPad]">
+          <UInt32 Name="Top">0</UInt32>
+          <UInt32 Name="Left">0</UInt32>
+          <UInt32 Name="Width">620</UInt32>
+          <UInt32 Name="Height">220</UInt32>
+          <Group Name="Grid Control">
+            <UInt32 Name="Left">8</UInt32>
+            <UInt32 Name="Top">10</UInt32>
+            <UInt32 Name="Right">607</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
+            <UInt16 Name="ColumnWidth">20</UInt16>
+            <UInt16 Name="Columns">30</UInt16>
+            <UInt16 Name="RowHeight">40</UInt16>
+            <UInt16 Name="Rows">5</UInt16>
+          </Group>
+          <UInt32 Name="KeyLevel">2</UInt32>
+          <Reference Name="InputCtrl" Type="CTRL">Source[local].TouchPad[AlphaPad].Control[TouchPadEdit]</Reference>
+          <Group Name="MinControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="MaxControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="DescriptionControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="TeachInControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <UInt32 Name="CtrlCount">2</UInt32>
+          <Byte Name="Type">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Reference">4</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Type">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Reference">5</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="VKeyLevel 1">
+            <Reference Name="BmpGrpRefUp" Type="BMPG">None</Reference>
+            <Reference Name="BmpGrpRefDown" Type="BMPG">None</Reference>
+            <Reference Name="BmpRefUp" Type="GFX">Source[local].Bitmap[zuneAlphaPad_released]</Reference>
+            <Reference Name="BmpRefDown" Type="GFX">Source[local].Bitmap[zuneAlphaPad_pressed]</Reference>
+            <UInt16 Name="BmpUpIdx">0</UInt16>
+            <UInt16 Name="BmpDownIdx">0</UInt16>
+            <UInt32 Name="KeyEntries">150</UInt32>
+            <UInt32 Name="ChainingEntries">0</UInt32>
+            <UInt32 Name="KeyLevelDepend">0</UInt32>
+            <Group Name="Chaining Data" />
+            <Group Name="VKey Data">
+              <Reference Name="VirtualKey 1" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 2" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 3" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 4" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 5" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 6" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 7" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 8" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 9" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 10" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 11" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 12" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 13" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 14" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 15" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 16" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 17" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 18" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 19" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 20" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 21" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 22" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 23" Type="VKEY">Source[local].VirtualKey[TP_Cur_Left]</Reference>
+              <Reference Name="VirtualKey 24" Type="VKEY">Source[local].VirtualKey[TP_Cur_Left]</Reference>
+              <Reference Name="VirtualKey 25" Type="VKEY">Source[local].VirtualKey[TP_Cur_Right]</Reference>
+              <Reference Name="VirtualKey 26" Type="VKEY">Source[local].VirtualKey[TP_Cur_Right]</Reference>
+              <Reference Name="VirtualKey 27" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 28" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 29" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 30" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 31" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Tilde]</Reference>
+              <Reference Name="VirtualKey 32" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Tilde]</Reference>
+              <Reference Name="VirtualKey 33" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_1]</Reference>
+              <Reference Name="VirtualKey 34" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_1]</Reference>
+              <Reference Name="VirtualKey 35" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_2]</Reference>
+              <Reference Name="VirtualKey 36" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_2]</Reference>
+              <Reference Name="VirtualKey 37" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_3]</Reference>
+              <Reference Name="VirtualKey 38" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_3]</Reference>
+              <Reference Name="VirtualKey 39" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_4]</Reference>
+              <Reference Name="VirtualKey 40" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_4]</Reference>
+              <Reference Name="VirtualKey 41" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_5]</Reference>
+              <Reference Name="VirtualKey 42" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_5]</Reference>
+              <Reference Name="VirtualKey 43" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_6]</Reference>
+              <Reference Name="VirtualKey 44" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_6]</Reference>
+              <Reference Name="VirtualKey 45" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_7]</Reference>
+              <Reference Name="VirtualKey 46" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_7]</Reference>
+              <Reference Name="VirtualKey 47" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_8]</Reference>
+              <Reference Name="VirtualKey 48" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_8]</Reference>
+              <Reference Name="VirtualKey 49" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_9]</Reference>
+              <Reference Name="VirtualKey 50" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_9]</Reference>
+              <Reference Name="VirtualKey 51" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_0]</Reference>
+              <Reference Name="VirtualKey 52" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_0]</Reference>
+              <Reference Name="VirtualKey 53" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Minus]</Reference>
+              <Reference Name="VirtualKey 54" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Minus]</Reference>
+              <Reference Name="VirtualKey 55" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Equal]</Reference>
+              <Reference Name="VirtualKey 56" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Equal]</Reference>
+              <Reference Name="VirtualKey 57" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 58" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 59" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 60" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 61" Type="VKEY">Source[local].VirtualKey[TP_TAB]</Reference>
+              <Reference Name="VirtualKey 62" Type="VKEY">Source[local].VirtualKey[TP_TAB]</Reference>
+              <Reference Name="VirtualKey 63" Type="VKEY">Source[local].VirtualKey[TP_TAB]</Reference>
+              <Reference Name="VirtualKey 64" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sq]</Reference>
+              <Reference Name="VirtualKey 65" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sq]</Reference>
+              <Reference Name="VirtualKey 66" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sw]</Reference>
+              <Reference Name="VirtualKey 67" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sw]</Reference>
+              <Reference Name="VirtualKey 68" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_se]</Reference>
+              <Reference Name="VirtualKey 69" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_se]</Reference>
+              <Reference Name="VirtualKey 70" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sr]</Reference>
+              <Reference Name="VirtualKey 71" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sr]</Reference>
+              <Reference Name="VirtualKey 72" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_st]</Reference>
+              <Reference Name="VirtualKey 73" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_st]</Reference>
+              <Reference Name="VirtualKey 74" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sy]</Reference>
+              <Reference Name="VirtualKey 75" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sy]</Reference>
+              <Reference Name="VirtualKey 76" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_su]</Reference>
+              <Reference Name="VirtualKey 77" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_su]</Reference>
+              <Reference Name="VirtualKey 78" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_si]</Reference>
+              <Reference Name="VirtualKey 79" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_si]</Reference>
+              <Reference Name="VirtualKey 80" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_so]</Reference>
+              <Reference Name="VirtualKey 81" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_so]</Reference>
+              <Reference Name="VirtualKey 82" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sp]</Reference>
+              <Reference Name="VirtualKey 83" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sp]</Reference>
+              <Reference Name="VirtualKey 84" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Openbracket]</Reference>
+              <Reference Name="VirtualKey 85" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Openbracket]</Reference>
+              <Reference Name="VirtualKey 86" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Closebracket]</Reference>
+              <Reference Name="VirtualKey 87" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Closebracket]</Reference>
+              <Reference Name="VirtualKey 88" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_BckSlsh]</Reference>
+              <Reference Name="VirtualKey 89" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_BckSlsh]</Reference>
+              <Reference Name="VirtualKey 90" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_BckSlsh]</Reference>
+              <Reference Name="VirtualKey 91" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock0]</Reference>
+              <Reference Name="VirtualKey 92" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock0]</Reference>
+              <Reference Name="VirtualKey 93" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock0]</Reference>
+              <Reference Name="VirtualKey 94" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock0]</Reference>
+              <Reference Name="VirtualKey 95" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sa]</Reference>
+              <Reference Name="VirtualKey 96" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sa]</Reference>
+              <Reference Name="VirtualKey 97" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_ss]</Reference>
+              <Reference Name="VirtualKey 98" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_ss]</Reference>
+              <Reference Name="VirtualKey 99" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sd]</Reference>
+              <Reference Name="VirtualKey 100" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sd]</Reference>
+              <Reference Name="VirtualKey 101" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sf]</Reference>
+              <Reference Name="VirtualKey 102" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sf]</Reference>
+              <Reference Name="VirtualKey 103" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sg]</Reference>
+              <Reference Name="VirtualKey 104" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sg]</Reference>
+              <Reference Name="VirtualKey 105" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sh]</Reference>
+              <Reference Name="VirtualKey 106" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sh]</Reference>
+              <Reference Name="VirtualKey 107" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sj]</Reference>
+              <Reference Name="VirtualKey 108" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sj]</Reference>
+              <Reference Name="VirtualKey 109" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sk]</Reference>
+              <Reference Name="VirtualKey 110" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sk]</Reference>
+              <Reference Name="VirtualKey 111" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sl]</Reference>
+              <Reference Name="VirtualKey 112" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sl]</Reference>
+              <Reference Name="VirtualKey 113" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Semicolon]</Reference>
+              <Reference Name="VirtualKey 114" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Semicolon]</Reference>
+              <Reference Name="VirtualKey 115" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Apostrophy]</Reference>
+              <Reference Name="VirtualKey 116" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Apostrophy]</Reference>
+              <Reference Name="VirtualKey 117" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 118" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 119" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 120" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 121" Type="VKEY">Source[local].VirtualKey[TP_Shift1]</Reference>
+              <Reference Name="VirtualKey 122" Type="VKEY">Source[local].VirtualKey[TP_Shift1]</Reference>
+              <Reference Name="VirtualKey 123" Type="VKEY">Source[local].VirtualKey[TP_Shift1]</Reference>
+              <Reference Name="VirtualKey 124" Type="VKEY">Source[local].VirtualKey[TP_Shift1]</Reference>
+              <Reference Name="VirtualKey 125" Type="VKEY">Source[local].VirtualKey[TP_Shift1]</Reference>
+              <Reference Name="VirtualKey 126" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sz]</Reference>
+              <Reference Name="VirtualKey 127" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sz]</Reference>
+              <Reference Name="VirtualKey 128" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sx]</Reference>
+              <Reference Name="VirtualKey 129" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sx]</Reference>
+              <Reference Name="VirtualKey 130" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sc]</Reference>
+              <Reference Name="VirtualKey 131" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sc]</Reference>
+              <Reference Name="VirtualKey 132" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sv]</Reference>
+              <Reference Name="VirtualKey 133" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sv]</Reference>
+              <Reference Name="VirtualKey 134" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sb]</Reference>
+              <Reference Name="VirtualKey 135" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sb]</Reference>
+              <Reference Name="VirtualKey 136" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sn]</Reference>
+              <Reference Name="VirtualKey 137" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sn]</Reference>
+              <Reference Name="VirtualKey 138" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sm]</Reference>
+              <Reference Name="VirtualKey 139" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_sm]</Reference>
+              <Reference Name="VirtualKey 140" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Comma]</Reference>
+              <Reference Name="VirtualKey 141" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Comma]</Reference>
+              <Reference Name="VirtualKey 142" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_DOT]</Reference>
+              <Reference Name="VirtualKey 143" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_DOT]</Reference>
+              <Reference Name="VirtualKey 144" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Slash]</Reference>
+              <Reference Name="VirtualKey 145" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Slash]</Reference>
+              <Reference Name="VirtualKey 146" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 147" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 148" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 149" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 150" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+            </Group>
+          </Group>
+          <Group Name="VKeyLevel 2">
+            <Reference Name="BmpGrpRefUp" Type="BMPG">None</Reference>
+            <Reference Name="BmpGrpRefDown" Type="BMPG">None</Reference>
+            <Reference Name="BmpRefUp" Type="GFX">Source[local].Bitmap[zuneAlphaPad_released]</Reference>
+            <Reference Name="BmpRefDown" Type="GFX">Source[local].Bitmap[zuneAlphaPad_pressed]</Reference>
+            <UInt16 Name="BmpUpIdx">0</UInt16>
+            <UInt16 Name="BmpDownIdx">0</UInt16>
+            <UInt32 Name="KeyEntries">150</UInt32>
+            <UInt32 Name="ChainingEntries">0</UInt32>
+            <UInt32 Name="KeyLevelDepend">0</UInt32>
+            <Group Name="Chaining Data" />
+            <Group Name="VKey Data">
+              <Reference Name="VirtualKey 1" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 2" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 3" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 4" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 5" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 6" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 7" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 8" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 9" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 10" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 11" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 12" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 13" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 14" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 15" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 16" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 17" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 18" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 19" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 20" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 21" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 22" Type="VKEY">None</Reference>
+              <Reference Name="VirtualKey 23" Type="VKEY">Source[local].VirtualKey[TP_Cur_Left]</Reference>
+              <Reference Name="VirtualKey 24" Type="VKEY">Source[local].VirtualKey[TP_Cur_Left]</Reference>
+              <Reference Name="VirtualKey 25" Type="VKEY">Source[local].VirtualKey[TP_Cur_Right]</Reference>
+              <Reference Name="VirtualKey 26" Type="VKEY">Source[local].VirtualKey[TP_Cur_Right]</Reference>
+              <Reference Name="VirtualKey 27" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 28" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 29" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 30" Type="VKEY">Source[local].VirtualKey[TP_CANCEL]</Reference>
+              <Reference Name="VirtualKey 31" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Backquote]</Reference>
+              <Reference Name="VirtualKey 32" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Backquote]</Reference>
+              <Reference Name="VirtualKey 33" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Exclamation]</Reference>
+              <Reference Name="VirtualKey 34" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Exclamation]</Reference>
+              <Reference Name="VirtualKey 35" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_At_sign]</Reference>
+              <Reference Name="VirtualKey 36" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_At_sign]</Reference>
+              <Reference Name="VirtualKey 37" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Hash]</Reference>
+              <Reference Name="VirtualKey 38" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Hash]</Reference>
+              <Reference Name="VirtualKey 39" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Dollar]</Reference>
+              <Reference Name="VirtualKey 40" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Dollar]</Reference>
+              <Reference Name="VirtualKey 41" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Percent]</Reference>
+              <Reference Name="VirtualKey 42" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Percent]</Reference>
+              <Reference Name="VirtualKey 43" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Care]</Reference>
+              <Reference Name="VirtualKey 44" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Care]</Reference>
+              <Reference Name="VirtualKey 45" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Ampersand]</Reference>
+              <Reference Name="VirtualKey 46" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Ampersand]</Reference>
+              <Reference Name="VirtualKey 47" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Asterisk]</Reference>
+              <Reference Name="VirtualKey 48" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Asterisk]</Reference>
+              <Reference Name="VirtualKey 49" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Openparen]</Reference>
+              <Reference Name="VirtualKey 50" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Openparen]</Reference>
+              <Reference Name="VirtualKey 51" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Closeparen]</Reference>
+              <Reference Name="VirtualKey 52" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Closeparen]</Reference>
+              <Reference Name="VirtualKey 53" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Underscore]</Reference>
+              <Reference Name="VirtualKey 54" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Underscore]</Reference>
+              <Reference Name="VirtualKey 55" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Plus]</Reference>
+              <Reference Name="VirtualKey 56" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Plus]</Reference>
+              <Reference Name="VirtualKey 57" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 58" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 59" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 60" Type="VKEY">Source[local].VirtualKey[TP_BACKSPACE]</Reference>
+              <Reference Name="VirtualKey 61" Type="VKEY">Source[local].VirtualKey[TP_TAB]</Reference>
+              <Reference Name="VirtualKey 62" Type="VKEY">Source[local].VirtualKey[TP_TAB]</Reference>
+              <Reference Name="VirtualKey 63" Type="VKEY">Source[local].VirtualKey[TP_TAB]</Reference>
+              <Reference Name="VirtualKey 64" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Q]</Reference>
+              <Reference Name="VirtualKey 65" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Q]</Reference>
+              <Reference Name="VirtualKey 66" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_W]</Reference>
+              <Reference Name="VirtualKey 67" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_W]</Reference>
+              <Reference Name="VirtualKey 68" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_E]</Reference>
+              <Reference Name="VirtualKey 69" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_E]</Reference>
+              <Reference Name="VirtualKey 70" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_R]</Reference>
+              <Reference Name="VirtualKey 71" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_R]</Reference>
+              <Reference Name="VirtualKey 72" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_T]</Reference>
+              <Reference Name="VirtualKey 73" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_T]</Reference>
+              <Reference Name="VirtualKey 74" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Y]</Reference>
+              <Reference Name="VirtualKey 75" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Y]</Reference>
+              <Reference Name="VirtualKey 76" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_U]</Reference>
+              <Reference Name="VirtualKey 77" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_U]</Reference>
+              <Reference Name="VirtualKey 78" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_I]</Reference>
+              <Reference Name="VirtualKey 79" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_I]</Reference>
+              <Reference Name="VirtualKey 80" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_O]</Reference>
+              <Reference Name="VirtualKey 81" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_O]</Reference>
+              <Reference Name="VirtualKey 82" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_P]</Reference>
+              <Reference Name="VirtualKey 83" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_P]</Reference>
+              <Reference Name="VirtualKey 84" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Openbrace]</Reference>
+              <Reference Name="VirtualKey 85" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Openbrace]</Reference>
+              <Reference Name="VirtualKey 86" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Closebrace]</Reference>
+              <Reference Name="VirtualKey 87" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Closebrace]</Reference>
+              <Reference Name="VirtualKey 88" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_VBar]</Reference>
+              <Reference Name="VirtualKey 89" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_VBar]</Reference>
+              <Reference Name="VirtualKey 90" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_VBar]</Reference>
+              <Reference Name="VirtualKey 91" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock1]</Reference>
+              <Reference Name="VirtualKey 92" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock1]</Reference>
+              <Reference Name="VirtualKey 93" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock1]</Reference>
+              <Reference Name="VirtualKey 94" Type="VKEY">Source[local].VirtualKey[TP_ShiftCapsLock1]</Reference>
+              <Reference Name="VirtualKey 95" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_A]</Reference>
+              <Reference Name="VirtualKey 96" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_A]</Reference>
+              <Reference Name="VirtualKey 97" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_S]</Reference>
+              <Reference Name="VirtualKey 98" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_S]</Reference>
+              <Reference Name="VirtualKey 99" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_D]</Reference>
+              <Reference Name="VirtualKey 100" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_D]</Reference>
+              <Reference Name="VirtualKey 101" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_F]</Reference>
+              <Reference Name="VirtualKey 102" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_F]</Reference>
+              <Reference Name="VirtualKey 103" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_G]</Reference>
+              <Reference Name="VirtualKey 104" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_G]</Reference>
+              <Reference Name="VirtualKey 105" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_H]</Reference>
+              <Reference Name="VirtualKey 106" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_H]</Reference>
+              <Reference Name="VirtualKey 107" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_J]</Reference>
+              <Reference Name="VirtualKey 108" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_J]</Reference>
+              <Reference Name="VirtualKey 109" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_K]</Reference>
+              <Reference Name="VirtualKey 110" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_K]</Reference>
+              <Reference Name="VirtualKey 111" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_L]</Reference>
+              <Reference Name="VirtualKey 112" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_L]</Reference>
+              <Reference Name="VirtualKey 113" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Colon]</Reference>
+              <Reference Name="VirtualKey 114" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Colon]</Reference>
+              <Reference Name="VirtualKey 115" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Quotes]</Reference>
+              <Reference Name="VirtualKey 116" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Quotes]</Reference>
+              <Reference Name="VirtualKey 117" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 118" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 119" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 120" Type="VKEY">Source[local].VirtualKey[TP_ENTER]</Reference>
+              <Reference Name="VirtualKey 121" Type="VKEY">Source[local].VirtualKey[TP_Shift2]</Reference>
+              <Reference Name="VirtualKey 122" Type="VKEY">Source[local].VirtualKey[TP_Shift2]</Reference>
+              <Reference Name="VirtualKey 123" Type="VKEY">Source[local].VirtualKey[TP_Shift2]</Reference>
+              <Reference Name="VirtualKey 124" Type="VKEY">Source[local].VirtualKey[TP_Shift2]</Reference>
+              <Reference Name="VirtualKey 125" Type="VKEY">Source[local].VirtualKey[TP_Shift2]</Reference>
+              <Reference Name="VirtualKey 126" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Z]</Reference>
+              <Reference Name="VirtualKey 127" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Z]</Reference>
+              <Reference Name="VirtualKey 128" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_X]</Reference>
+              <Reference Name="VirtualKey 129" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_X]</Reference>
+              <Reference Name="VirtualKey 130" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_C]</Reference>
+              <Reference Name="VirtualKey 131" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_C]</Reference>
+              <Reference Name="VirtualKey 132" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_V]</Reference>
+              <Reference Name="VirtualKey 133" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_V]</Reference>
+              <Reference Name="VirtualKey 134" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_B]</Reference>
+              <Reference Name="VirtualKey 135" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_B]</Reference>
+              <Reference Name="VirtualKey 136" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_N]</Reference>
+              <Reference Name="VirtualKey 137" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_N]</Reference>
+              <Reference Name="VirtualKey 138" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_M]</Reference>
+              <Reference Name="VirtualKey 139" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_M]</Reference>
+              <Reference Name="VirtualKey 140" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Small]</Reference>
+              <Reference Name="VirtualKey 141" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Small]</Reference>
+              <Reference Name="VirtualKey 142" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Bigger]</Reference>
+              <Reference Name="VirtualKey 143" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Bigger]</Reference>
+              <Reference Name="VirtualKey 144" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Quest]</Reference>
+              <Reference Name="VirtualKey 145" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Quest]</Reference>
+              <Reference Name="VirtualKey 146" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 147" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 148" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 149" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+              <Reference Name="VirtualKey 150" Type="VKEY">Source[local].VirtualKey[TP_ALPHA_Space]</Reference>
+            </Group>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

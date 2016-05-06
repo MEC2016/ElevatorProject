@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="Internal" ClsId="0x221" Version="1" Type="DS" RefString="Source[global].DataSource[Internal]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[Internal]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <Group Name="FixedVarMapTable">
+            <UInt16 Name="Var0">10</UInt16>
+            <UInt16 Name="Var1">11</UInt16>
+            <UInt16 Name="Var2">12</UInt16>
+            <UInt16 Name="Var3">16</UInt16>
+            <UInt16 Name="Var4">15</UInt16>
+            <UInt16 Name="Var5">13</UInt16>
+            <UInt16 Name="Var6">14</UInt16>
+            <UInt16 Name="Var7">5</UInt16>
+            <UInt16 Name="Var8">6</UInt16>
+            <UInt16 Name="Var9">7</UInt16>
+            <UInt16 Name="Var10">4</UInt16>
+            <UInt16 Name="Var11">8</UInt16>
+            <UInt16 Name="Var12">3</UInt16>
+            <UInt16 Name="Var13">9</UInt16>
+            <UInt16 Name="Var14">2</UInt16>
+            <UInt16 Name="Var15">1</UInt16>
+            <UInt16 Name="Var16">0</UInt16>
+            <UInt16 Name="Var17">65535</UInt16>
+          </Group>
+          <UInt32 Name="InternVarCount">0</UInt32>
+          <UInt32 Name="InternVarImageSize">0</UInt32>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

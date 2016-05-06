@@ -1,0 +1,3141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="AdditionalDrivers">
+    <Folder Name="POBJ">
+      <Object Name="VNCServer" ClsId="0x20E" Version="1" Type="KS" RefString="Source[local].KeySource[VNCServer]">
+        <Int32 Name="">0</Int32>
+        <Reference Name="KSTID" Type="KSTable">Source[local].KSTable[PS2-Keyboard]</Reference>
+        <UInt16 Name="ResolutionX">800</UInt16>
+        <UInt16 Name="ResolutionY">600</UInt16>
+        <UInt16 Name="Port">5900</UInt16>
+        <UInt16 Name="RefreshRate">1000</UInt16>
+        <UInt16 Name="MaxClients">1</UInt16>
+        <Byte Name="AuthenticationDisable">1</Byte>
+        <Byte Name="Reserved">0</Byte>
+        <Binary Name="Password" Encoding="Base64">WrLNwLrcrxM=</Binary>
+        <Binary Name="Password" Encoding="Base64">WrLNwLrcrxM=</Binary>
+        <UInt16 Name="Timeout">4</UInt16>
+        <Int16 Name="Reserved">0</Int16>
+        <Binary Name="Title" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Binary>
+        <Group Name="PaletteData">
+          <UInt32 Name="Palettem_entriesCount">256</UInt32>
+          <Group Name="ColorIndex 0">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 1">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 2">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 3">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 4">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 5">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 6">
+            <Byte Name="B">127</Byte>
+            <Byte Name="G">120</Byte>
+            <Byte Name="R">150</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 7">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 8">
+            <Byte Name="B">127</Byte>
+            <Byte Name="G">127</Byte>
+            <Byte Name="R">127</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 9">
+            <Byte Name="B">197</Byte>
+            <Byte Name="G">110</Byte>
+            <Byte Name="R">110</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 10">
+            <Byte Name="B">5</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 11">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 12">
+            <Byte Name="B">133</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 13">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 14">
+            <Byte Name="B">95</Byte>
+            <Byte Name="G">240</Byte>
+            <Byte Name="R">240</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 15">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 16">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 17">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 18">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 19">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 20">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 21">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 22">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 23">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 24">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 25">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 26">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 27">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 28">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 29">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 30">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 31">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 32">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 33">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 34">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 35">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 36">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 37">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 38">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 39">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 40">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 41">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 42">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 43">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 44">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 45">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 46">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 47">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 48">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 49">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 50">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 51">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 52">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 53">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 54">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 55">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 56">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 57">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 58">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 59">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 60">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 61">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 62">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 63">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 64">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 65">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 66">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 67">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 68">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 69">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 70">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 71">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 72">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 73">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 74">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 75">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 76">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 77">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 78">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 79">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 80">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 81">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 82">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 83">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 84">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 85">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 86">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 87">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 88">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 89">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 90">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 91">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 92">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 93">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 94">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 95">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 96">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 97">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 98">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 99">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 100">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 101">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 102">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 103">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 104">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 105">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 106">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 107">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 108">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 109">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 110">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 111">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 112">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 113">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 114">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 115">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 116">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 117">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 118">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 119">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 120">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 121">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 122">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 123">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 124">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 125">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 126">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 127">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 128">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 129">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 130">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 131">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 132">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 133">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 134">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 135">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 136">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 137">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 138">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 139">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 140">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 141">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 142">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 143">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 144">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 145">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 146">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 147">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 148">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 149">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 150">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 151">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 152">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 153">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 154">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 155">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 156">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 157">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 158">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 159">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 160">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 161">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 162">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 163">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 164">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 165">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 166">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 167">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 168">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 169">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 170">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 171">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 172">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 173">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 174">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 175">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 176">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 177">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 178">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 179">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 180">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 181">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 182">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 183">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 184">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 185">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 186">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 187">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 188">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 189">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 190">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 191">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 192">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 193">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 194">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 195">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 196">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 197">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 198">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 199">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 200">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 201">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 202">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 203">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 204">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 205">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 206">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 207">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 208">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 209">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 210">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 211">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 212">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 213">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 214">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 215">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 216">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 217">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 218">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 219">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 220">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 221">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 222">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 223">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 224">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 225">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 226">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 227">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 228">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 229">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 230">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 231">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 232">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 233">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 234">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 235">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 236">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 237">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 238">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 239">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 240">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 241">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 242">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 243">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 244">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 245">
+            <Byte Name="B">26</Byte>
+            <Byte Name="G">26</Byte>
+            <Byte Name="R">26</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 246">
+            <Byte Name="B">64</Byte>
+            <Byte Name="G">64</Byte>
+            <Byte Name="R">64</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 247">
+            <Byte Name="B">77</Byte>
+            <Byte Name="G">77</Byte>
+            <Byte Name="R">77</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 248">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 249">
+            <Byte Name="B">222</Byte>
+            <Byte Name="G">222</Byte>
+            <Byte Name="R">222</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 250">
+            <Byte Name="B">217</Byte>
+            <Byte Name="G">217</Byte>
+            <Byte Name="R">217</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 251">
+            <Byte Name="B">230</Byte>
+            <Byte Name="G">230</Byte>
+            <Byte Name="R">230</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 252">
+            <Byte Name="B">242</Byte>
+            <Byte Name="G">242</Byte>
+            <Byte Name="R">242</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 253">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">136</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 254">
+            <Byte Name="B">77</Byte>
+            <Byte Name="G">77</Byte>
+            <Byte Name="R">77</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 255">
+            <Byte Name="B">122</Byte>
+            <Byte Name="G">122</Byte>
+            <Byte Name="R">122</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+        </Group>
+        <Byte Name="KeyCount">0</Byte>
+        <Byte Name="LedCount">0</Byte>
+        <Int16 Name="Reserved">0</Int16>
+        <UInt32 Name="KeyMapEntryCount">0</UInt32>
+        <UInt32 Name="LedMapEntryCount">0</UInt32>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Drivers">
+    <Folder Name="POBJ">
+      <Object Name="DisplaySW" ClsId="0x206" Version="1" Type="DRV" RefString="Source[local].Driver[DisplaySW]">
+        <UInt16 Name="ResolutionX">800</UInt16>
+        <UInt16 Name="ResolutionY">600</UInt16>
+        <UInt16 Name="StrideX">800</UInt16>
+        <UInt16 Name="StrideY">600</UInt16>
+        <UInt32 Name="Rotation">0</UInt32>
+        <Byte Name="BitPerPixel">8</Byte>
+        <Byte Name="RefreshRate">60</Byte>
+        <Byte Name="Dither">0</Byte>
+        <Byte Name="HardwareAcceleration">0</Byte>
+        <UInt32 Name="ForceChipVersion">0</UInt32>
+        <UInt32 Name="VPPointer">0</UInt32>
+        <Group Name="PaletteData">
+          <UInt32 Name="Palettem_entriesCount">256</UInt32>
+          <Group Name="ColorIndex 0">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 1">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 2">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 3">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 4">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 5">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 6">
+            <Byte Name="B">127</Byte>
+            <Byte Name="G">120</Byte>
+            <Byte Name="R">150</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 7">
+            <Byte Name="B">170</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 8">
+            <Byte Name="B">127</Byte>
+            <Byte Name="G">127</Byte>
+            <Byte Name="R">127</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 9">
+            <Byte Name="B">197</Byte>
+            <Byte Name="G">110</Byte>
+            <Byte Name="R">110</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 10">
+            <Byte Name="B">5</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 11">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">170</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 12">
+            <Byte Name="B">133</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 13">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">170</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 14">
+            <Byte Name="B">95</Byte>
+            <Byte Name="G">240</Byte>
+            <Byte Name="R">240</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 15">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 16">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 17">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 18">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 19">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 20">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 21">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 22">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 23">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 24">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 25">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 26">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 27">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 28">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 29">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 30">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 31">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 32">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 33">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 34">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 35">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 36">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 37">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 38">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 39">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 40">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 41">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 42">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 43">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 44">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 45">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 46">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 47">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 48">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 49">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 50">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 51">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 52">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 53">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 54">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 55">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 56">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 57">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 58">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 59">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 60">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 61">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 62">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 63">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 64">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 65">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 66">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 67">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 68">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 69">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 70">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 71">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 72">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 73">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 74">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 75">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 76">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 77">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 78">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 79">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 80">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 81">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 82">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 83">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 84">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 85">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 86">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 87">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">204</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 88">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 89">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 90">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 91">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 92">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 93">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 94">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 95">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 96">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 97">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 98">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 99">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 100">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 101">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 102">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 103">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 104">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 105">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 106">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 107">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 108">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 109">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 110">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 111">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 112">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 113">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 114">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 115">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 116">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 117">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 118">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 119">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 120">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 121">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 122">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 123">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 124">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 125">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 126">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 127">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 128">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 129">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 130">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 131">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 132">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 133">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 134">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 135">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 136">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 137">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 138">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 139">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 140">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 141">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 142">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 143">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 144">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 145">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 146">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 147">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 148">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 149">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 150">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 151">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 152">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 153">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 154">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 155">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 156">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 157">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 158">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 159">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">102</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 160">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 161">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 162">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 163">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 164">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 165">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 166">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 167">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 168">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 169">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 170">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 171">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 172">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 173">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 174">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 175">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 176">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 177">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 178">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 179">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 180">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 181">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 182">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 183">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 184">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 185">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 186">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 187">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 188">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 189">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 190">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 191">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 192">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 193">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 194">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 195">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">51</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 196">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 197">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 198">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 199">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 200">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 201">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 202">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 203">
+            <Byte Name="B">255</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 204">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 205">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 206">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 207">
+            <Byte Name="B">204</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 208">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 209">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 210">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 211">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 212">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 213">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 214">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 215">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 216">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 217">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 218">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 219">
+            <Byte Name="B">102</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 220">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 221">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 222">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 223">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 224">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 225">
+            <Byte Name="B">51</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 226">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">255</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 227">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">204</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 228">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 229">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">102</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 230">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">51</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 231">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 232">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 233">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 234">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 235">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 236">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 237">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 238">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 239">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 240">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 241">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 242">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 243">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 244">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">0</Byte>
+            <Byte Name="R">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 245">
+            <Byte Name="B">26</Byte>
+            <Byte Name="G">26</Byte>
+            <Byte Name="R">26</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 246">
+            <Byte Name="B">64</Byte>
+            <Byte Name="G">64</Byte>
+            <Byte Name="R">64</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 247">
+            <Byte Name="B">77</Byte>
+            <Byte Name="G">77</Byte>
+            <Byte Name="R">77</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 248">
+            <Byte Name="B">153</Byte>
+            <Byte Name="G">153</Byte>
+            <Byte Name="R">153</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 249">
+            <Byte Name="B">222</Byte>
+            <Byte Name="G">222</Byte>
+            <Byte Name="R">222</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 250">
+            <Byte Name="B">217</Byte>
+            <Byte Name="G">217</Byte>
+            <Byte Name="R">217</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 251">
+            <Byte Name="B">230</Byte>
+            <Byte Name="G">230</Byte>
+            <Byte Name="R">230</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 252">
+            <Byte Name="B">242</Byte>
+            <Byte Name="G">242</Byte>
+            <Byte Name="R">242</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 253">
+            <Byte Name="B">0</Byte>
+            <Byte Name="G">136</Byte>
+            <Byte Name="R">255</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 254">
+            <Byte Name="B">77</Byte>
+            <Byte Name="G">77</Byte>
+            <Byte Name="R">77</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+          <Group Name="ColorIndex 255">
+            <Byte Name="B">122</Byte>
+            <Byte Name="G">122</Byte>
+            <Byte Name="R">122</Byte>
+            <Byte Name="Reserved">0</Byte>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Drivers">
+    <Folder Name="POBJ">
+      <Object Name="KeyMatrixMgr" ClsId="0x103" Version="1" Type="KS" RefString="Source[local].KS[default]">
+        <Reference Name="KSTID" Type="KSTable">Source[local].KSTable[PC_any]</Reference>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="KeyHandling">
+    <Folder Name="KeySourceTables">
+      <Folder Name="POBJ">
+        <Object Name="PC_any" ClsId="0x307" Version="1" Type="KSTable" RefString="Source[local].KSTable[PC_any]">
+          <UInt16 Name="KeyCount">0</UInt16>
+          <UInt16 Name="LevelCount">4</UInt16>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

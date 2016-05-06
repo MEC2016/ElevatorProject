@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="UnitGroups">
+    <Folder Name="POBJ" TargetIndex="0">
+      <Object Name="Pressure" ClsId="0x108" Version="1" Type="UG" RefString="Source[global].UnitGroup[Pressure]">
+        <Reference Name="DefaultPLCUnit" Type="UNIT">Source[global].UnitGroup[Pressure].Unit[PLCUnit]</Reference>
+        <Reference Name="DefaultDisplayUnit" Type="UNIT">Source[global].UnitGroup[Pressure].Unit[Pascal]</Reference>
+        <UInt32 Name="DefaultLimit">4294967295</UInt32>
+        <UInt32 Name="RuntimeUnitChange">4294967295</UInt32>
+        <UInt32 Name="RuntimeUnitCurrent">4294967295</UInt32>
+        <Reference Name="TextGroup" Type="TG">Source[global].TextGroup[Pressure_embedded]</Reference>
+        <UInt16 Name="UnitCount">8</UInt16>
+        <UInt16 Name="LimitCount">0</UInt16>
+        <Group Name="Unit Bar 0x00000602">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">1E-05</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <UInt32 Name="Index">4</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">2</UInt32>
+          <UInt32 Name="TextIndexDescription">1</UInt32>
+          <Int16 Name="DefaultPrecision">6</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit PLCUnit 0x00000603">
+          <UInt32 Name="Type">1539</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="Value[0].Internal">0</Double>
+          <Double Name="Value[0].Scaled">0</Double>
+          <Double Name="Value[1].Internal">1</Double>
+          <Double Name="Value[1].Scaled">1</Double>
+          <UInt32 Name="Index">0</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">4</UInt32>
+          <UInt32 Name="TextIndexDescription">3</UInt32>
+          <Int16 Name="DefaultPrecision">2</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit Millibar 0x00000602">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">0.01</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <UInt32 Name="Index">5</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">6</UInt32>
+          <UInt32 Name="TextIndexDescription">5</UInt32>
+          <Int16 Name="DefaultPrecision">4</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit Microbar 0x00000602">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">10</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <UInt32 Name="Index">6</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">8</UInt32>
+          <UInt32 Name="TextIndexDescription">7</UInt32>
+          <Int16 Name="DefaultPrecision">2</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit Pascal 0x00000602">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">1</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <UInt32 Name="Index">1</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">10</UInt32>
+          <UInt32 Name="TextIndexDescription">9</UInt32>
+          <Int16 Name="DefaultPrecision">2</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit KiloPascal 0x00000602">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">0.001</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <UInt32 Name="Index">2</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">12</UInt32>
+          <UInt32 Name="TextIndexDescription">11</UInt32>
+          <Int16 Name="DefaultPrecision">5</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit MegaPascal 0x00000602">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">1E-06</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <UInt32 Name="Index">3</UInt32>
+          <UInt32 Name="TextIndexAbbreviation">14</UInt32>
+          <UInt32 Name="TextIndexDescription">13</UInt32>
+          <Int16 Name="DefaultPrecision">7</Int16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">2</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+        <Group Name="Unit $OneToOne">
+          <UInt32 Name="Type">1538</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <Double Name="ConstantOffset">0</Double>
+          <Double Name="Faktor">1</Double>
+          <Double Name="Reserved0">0</Double>
+          <Double Name="Reserved1">0</Double>
+          <Reference Name="Index" Type="UNIT">Source[global].UnitGroup[Pressure].Unit[$OneToOne]</Reference>
+          <UInt32 Name="TextIndexAbbreviation">4294967295</UInt32>
+          <UInt32 Name="TextIndexDescription">4294967295</UInt32>
+          <UInt16 Name="DefaultPrecision">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="DefaultPrecisionDatapoint">4294967295</UInt32>
+          <Byte Name="UnitFraction">0</Byte>
+          <Byte Name="UnitReduce">0</Byte>
+          <UInt16 Name="UnitDenominator">0</UInt16>
+          <UInt16 Name="UnitMode">0</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+        </Group>
+      </Object>
+      <Object Name="$OneToOne" ClsId="0x0" Version="1" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[$OneToOne]" />
+      <Object Name="$default" ClsId="0x0" Version="1" TargetIndex="Source[global].UnitGroup[Pressure].Unit[PLCUnit]" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[$default]" />
+      <Object Name="Bar" ClsId="0x0" Version="1" TargetIndex="4" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[Bar]" />
+      <Object Name="PLCUnit" ClsId="0x0" Version="1" TargetIndex="0" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[PLCUnit]" />
+      <Object Name="Millibar" ClsId="0x0" Version="1" TargetIndex="5" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[Millibar]" />
+      <Object Name="Microbar" ClsId="0x0" Version="1" TargetIndex="6" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[Microbar]" />
+      <Object Name="Pascal" ClsId="0x0" Version="1" TargetIndex="1" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[Pascal]" />
+      <Object Name="KiloPascal" ClsId="0x0" Version="1" TargetIndex="2" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[KiloPascal]" />
+      <Object Name="MegaPascal" ClsId="0x0" Version="1" TargetIndex="3" Type="UNIT" RefString="Source[global].UnitGroup[Pressure].Unit[MegaPascal]" />
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="Pressure_embedded" TargetIndex="Source[global].TextGroup[Pressure_embedded]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[global].TextGroup[Pressure_embedded]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">15</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">0</UInt32>
+            <UInt32 Name="TextIndex">87058</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">1</UInt32>
+            <UInt32 Name="TextIndex">263</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">2</UInt32>
+            <UInt32 Name="TextIndex">264</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">3</UInt32>
+            <UInt32 Name="TextIndex">7585</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">4</UInt32>
+            <UInt32 Name="TextIndex">7586</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">5</UInt32>
+            <UInt32 Name="TextIndex">8535</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">6</UInt32>
+            <UInt32 Name="TextIndex">8536</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">7</UInt32>
+            <UInt32 Name="TextIndex">8537</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">8</UInt32>
+            <UInt32 Name="TextIndex">8538</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">9</UInt32>
+            <UInt32 Name="TextIndex">86422</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">10</UInt32>
+            <UInt32 Name="TextIndex">86423</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">11</UInt32>
+            <UInt32 Name="TextIndex">86728</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">12</UInt32>
+            <UInt32 Name="TextIndex">86729</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">13</UInt32>
+            <UInt32 Name="TextIndex">86730</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">14</UInt32>
+            <UInt32 Name="TextIndex">86731</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[Pressure_embedded]" Type="TG" RefString="Source[global].TextGroup[Pressure_embedded].Language[en]">
+            <UInt32 Name="NumberOfTexts">15</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">263</UInt32>
+                <UInt32 Name="TextOffset">184</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">264</UInt32>
+                <UInt32 Name="TextOffset">192</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">7585</UInt32>
+                <UInt32 Name="TextOffset">200</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">7586</UInt32>
+                <UInt32 Name="TextOffset">202</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8535</UInt32>
+                <UInt32 Name="TextOffset">204</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8536</UInt32>
+                <UInt32 Name="TextOffset">222</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8537</UInt32>
+                <UInt32 Name="TextOffset">232</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8538</UInt32>
+                <UInt32 Name="TextOffset">250</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86422</UInt32>
+                <UInt32 Name="TextOffset">260</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86423</UInt32>
+                <UInt32 Name="TextOffset">274</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86728</UInt32>
+                <UInt32 Name="TextOffset">280</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86729</UInt32>
+                <UInt32 Name="TextOffset">302</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86730</UInt32>
+                <UInt32 Name="TextOffset">310</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86731</UInt32>
+                <UInt32 Name="TextOffset">332</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">87058</UInt32>
+                <UInt32 Name="TextOffset">340</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"bar"</String>
+              <String Name="Text" Encoding="Unicode">"bar"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">"millibar"</String>
+              <String Name="Text" Encoding="Unicode">"mbar"</String>
+              <String Name="Text" Encoding="Unicode">"microbar"</String>
+              <String Name="Text" Encoding="Unicode">"µbar"</String>
+              <String Name="Text" Encoding="Unicode">"pascal"</String>
+              <String Name="Text" Encoding="Unicode">"Pa"</String>
+              <String Name="Text" Encoding="Unicode">"kilopascal"</String>
+              <String Name="Text" Encoding="Unicode">"kPa"</String>
+              <String Name="Text" Encoding="Unicode">"megapascal"</String>
+              <String Name="Text" Encoding="Unicode">"MPa"</String>
+              <String Name="Text" Encoding="Unicode">"pascal"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[Pressure_embedded]" Type="TG" RefString="Source[global].TextGroup[Pressure_embedded].Language[de]">
+            <UInt32 Name="NumberOfTexts">15</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">263</UInt32>
+                <UInt32 Name="TextOffset">184</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">264</UInt32>
+                <UInt32 Name="TextOffset">192</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">7585</UInt32>
+                <UInt32 Name="TextOffset">200</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">7586</UInt32>
+                <UInt32 Name="TextOffset">202</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8535</UInt32>
+                <UInt32 Name="TextOffset">204</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8536</UInt32>
+                <UInt32 Name="TextOffset">222</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8537</UInt32>
+                <UInt32 Name="TextOffset">232</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">8538</UInt32>
+                <UInt32 Name="TextOffset">250</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86422</UInt32>
+                <UInt32 Name="TextOffset">260</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86423</UInt32>
+                <UInt32 Name="TextOffset">274</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86728</UInt32>
+                <UInt32 Name="TextOffset">280</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86729</UInt32>
+                <UInt32 Name="TextOffset">302</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86730</UInt32>
+                <UInt32 Name="TextOffset">310</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">86731</UInt32>
+                <UInt32 Name="TextOffset">332</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">87058</UInt32>
+                <UInt32 Name="TextOffset">340</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Bar"</String>
+              <String Name="Text" Encoding="Unicode">"bar"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">"Millibar"</String>
+              <String Name="Text" Encoding="Unicode">"mbar"</String>
+              <String Name="Text" Encoding="Unicode">"Mikrobar"</String>
+              <String Name="Text" Encoding="Unicode">"µbar"</String>
+              <String Name="Text" Encoding="Unicode">"Pascal"</String>
+              <String Name="Text" Encoding="Unicode">"Pa"</String>
+              <String Name="Text" Encoding="Unicode">"Kilopascal"</String>
+              <String Name="Text" Encoding="Unicode">"kPa"</String>
+              <String Name="Text" Encoding="Unicode">"Megapascal"</String>
+              <String Name="Text" Encoding="Unicode">"MPa"</String>
+              <String Name="Text" Encoding="Unicode">"Pascal"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

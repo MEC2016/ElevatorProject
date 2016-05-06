@@ -1,0 +1,2 @@
+Model	 -T SG4  -M IA32  -G V4.1.2  -s "Model" -t "$(AS_TEMP_PATH)" -pointers -extComments -extBitAccess -extConstants -D _SG4 -l "$(AS_PROJECT_PATH)/Logical/Model/Types.typ" "$(AS_PROJECT_PATH)/Logical/Model/Variables.var"
+controller	 -T SG4  -M IA32  -G V4.1.2  -s "controller" -t "$(AS_TEMP_PATH)" -pointers -extComments -extBitAccess -extConstants -D _SG4 -l "$(AS_PROJECT_PATH)/Logical/controller/Types.typ" "$(AS_PROJECT_PATH)/Logical/controller/Variables.var"

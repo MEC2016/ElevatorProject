@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="TrendDataConfiguration">
+    <Object Name="TrendData" ClsId="0x1804" Version="1" Type="TDC" RefString="Source[local].TrendDataConfiguration[TrendData]">
+      <UInt16 Name="TrendDataOnlinePriority">9</UInt16>
+    </Object>
+  </Folder>
+</Intermediate>

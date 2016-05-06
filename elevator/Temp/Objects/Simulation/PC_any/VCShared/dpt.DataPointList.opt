@@ -1,0 +1,10 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="E:/0-elevator/elevator/Physical/Simulation/PC_any/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Model" Source="Model.prg" />
+      <Task Name="controller" Source="controller.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

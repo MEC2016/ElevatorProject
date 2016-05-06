@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<Objects>
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="131069305979729454" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131069424373981218"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131069314358298681"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\runtime.var"
+    LogicalPath="Libraries.Runtime.runtime.var"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\runtime.typ"
+    LogicalPath="Libraries.Runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\runtime.fun"
+    LogicalPath="Libraries.Runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\Binary.lby"
+    LogicalPath="Libraries.Runtime"
+    Type="Library"
+    LastWriteTime="130632881200000000" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Operator\operator.fun"
+    LogicalPath="Libraries.Operator.operator.fun"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Operator\Binary.lby"
+    LogicalPath="Libraries.Operator"
+    Type="Library"
+    LastWriteTime="130632881200000000" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="130632881200000000" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="130632881200000000" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131058874132229657"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131058874132269659"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131058874132319662"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131058874132359664" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="131058874253106570"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="131058874253486592"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="131058874254026623"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="131058874254066625" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="131058874607296829"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="131058874607326831"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="131058874607486840"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="131058874607516842" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131058876421570600" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Model\Cyclic.st"
+    LogicalPath="Model.Cyclic.st"
+    Type="File"
+    LastWriteTime="131069374632266155"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Model\Init.st"
+    LogicalPath="Model.Init.st"
+    Type="File"
+    LastWriteTime="131069362722034928"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Model\Exit.st"
+    LogicalPath="Model.Exit.st"
+    Type="File"
+    LastWriteTime="131058866370525713"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Model\Types.typ"
+    LogicalPath="Model.Types.typ"
+    Type="File"
+    LastWriteTime="131069303471095969"
+    Private="true" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Model\Variables.var"
+    LogicalPath="Model.Variables.var"
+    Type="File"
+    LastWriteTime="131069307153326580"
+    Private="true" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Model\IEC.prg"
+    LogicalPath="Model"
+    Type="Program"
+    LastWriteTime="131058866370575716" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\demo\VCObject.vc"
+    LogicalPath="demo.VCObject.vc"
+    Type="File"
+    LastWriteTime="131058878122447884"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\demo\Vc.dob"
+    LogicalPath="demo"
+    Type="DataObject"
+    LastWriteTime="131058878122457885" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\controller\Cyclic.st"
+    LogicalPath="controller.Cyclic.st"
+    Type="File"
+    LastWriteTime="131069423551614181"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\controller\Init.st"
+    LogicalPath="controller.Init.st"
+    Type="File"
+    LastWriteTime="131069418968772058"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\controller\Exit.st"
+    LogicalPath="controller.Exit.st"
+    Type="File"
+    LastWriteTime="131067843985154479"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\controller\Types.typ"
+    LogicalPath="controller.Types.typ"
+    Type="File"
+    LastWriteTime="131067843985214483"
+    Private="true" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\controller\Variables.var"
+    LogicalPath="controller.Variables.var"
+    Type="File"
+    LastWriteTime="131067843985234484"
+    Private="true" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\controller\IEC.prg"
+    LogicalPath="controller"
+    Type="Program"
+    LastWriteTime="131067843985254485" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\Config.pkg"
+    LogicalPath="Simulation"
+    Type="Configuration"
+    LastWriteTime="131058866532774993" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\Hardware.hw"
+    LogicalPath="Simulation.Hardware.hw"
+    Type="File"
+    LastWriteTime="131059659260282559"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\Hardware.hwl"
+    LogicalPath="Simulation.Hardware.hwl"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\Cpu.sw"
+    LogicalPath="Simulation.PC_any.Cpu.sw"
+    Type="File"
+    LastWriteTime="131069305980889521"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\Cpu.per"
+    LogicalPath="Simulation.PC_any.Cpu.per"
+    Type="File"
+    LastWriteTime="131058863564015189"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\IoMap.iom"
+    LogicalPath="Simulation.PC_any.IoMap.iom"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\PvMap.vvm"
+    LogicalPath="Simulation.PC_any.PvMap.vvm"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\VC\PS2-Keyboard.dis"
+    LogicalPath="Simulation.PC_any.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="131059659258012429"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\VC\Package.pkg"
+    LogicalPath="Simulation.PC_any.VC"
+    Type="Package"
+    LastWriteTime="131059659257412395" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\Cpu.pkg"
+    LogicalPath="Simulation.PC_any"
+    Type="Cpu"
+    LastWriteTime="131059659256142322" />
+  <Object
+    Path="E:\0-elevator\elevator\Physical\Simulation\Hardware.jpg"
+    LogicalPath="Simulation.Hardware.jpg"
+    Type="File"
+    LastWriteTime="131069360925102150"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\SG4\brsystem.h"
+    LogicalPath="brsystem.h"
+    Type="File"
+    LastWriteTime="130716883280000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Operator\SG4\Operator.h"
+    LogicalPath="Operator.h"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\SG4\Runtime.h"
+    LogicalPath="Runtime.h"
+    Type="File"
+    LastWriteTime="130632881200000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\standard\SG4\standard.h"
+    LogicalPath="standard.h"
+    Type="File"
+    LastWriteTime="130716883320000000"
+    Private="false" />
+  <Object
+    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\SG4\sys_lib.h"
+    LogicalPath="sys_lib.h"
+    Type="File"
+    LastWriteTime="130716883320000000"
+    Private="false" />
+</Objects>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="multi_up_pressed" ClsId="0x306" Version="1" TargetIndex="42" Type="GFX" RefString="Source[local].Bitmap[multi_up_pressed]">
+        <UInt16 Name="Width">32</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">46</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">Lv//////////////////////////////////////By7/9/b29vb29vb29vb29vb29vb29vb29vb29vb29vf/Lv/39/f39/f39/f39/f39/f39/f39/f39/f39/f39//1/5GRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGR//X/////////////////////////////////////////9f/////////////////////////////////////////1//////////////////////////////////////////X///////////////////8I////////////////////9f//////////////////Bw8H///////////////////1/////////////////wcPDw8H//////////////////X///////////////8HDw8PDw8H////////////////9f//////////////Bw8PDw8PDw8H///////////////1/////////////wcPDw8PDw8PDw8H//////////////X///////////8HDw8PDw8PDw8PDw8H////////////9f//////////Bw8PDw8PDw8PDw8PDw8H///////////1//////////////////9m/Gb///////////////////X/////////////////ZvwP/Gb/////////////////9f///////////////2b8Dw8P/Gb////////////////1//////////////9m/A8PDw8P/Gb///////////////X/////////////ZvwPDw8PDw8P/Gb/////////////9f///////////2b8Dw8PDw8PDw8P/Gb////////////1//////////9m/A8PDw8PDw8PDw8P/Gb///////////X//////////2ZmZmZmZmZmZmZmZmZmZv//////////9f/////////////////////////////////////////1//////////////////////////////////////////X/////////////////////////////////////////9f/////////////////////////////////////////1CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICPUIBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcI9f87Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O/8ABwhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmb/vPUu+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD1Lg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

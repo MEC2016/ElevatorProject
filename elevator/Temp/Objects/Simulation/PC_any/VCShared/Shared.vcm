@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Runtime>
+  <Controls />
+  <Core>
+    <Module>
+      <Property Name="Name" Value="vcalarm.br" />
+      <Property Name="Version" Value="Core" />
+      <Property Name="Platform" Value="Platform.x86.Generic" />
+    </Module>
+    <Module>
+      <Property Name="Name" Value="vcdsint.br" />
+      <Property Name="Version" Value="Core" />
+      <Property Name="Platform" Value="Platform.x86.Generic" />
+    </Module>
+    <Module>
+      <Property Name="Name" Value="vcdsloc.br" />
+      <Property Name="Version" Value="Core" />
+      <Property Name="Platform" Value="Platform.x86.Generic" />
+    </Module>
+    <Module>
+      <Property Name="Name" Value="vcfntttf.br" />
+      <Property Name="Version" Value="Core" />
+      <Property Name="Platform" Value="Platform.x86.Generic" />
+    </Module>
+  </Core>
+  <Platform />
+</Runtime>

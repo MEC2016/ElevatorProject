@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Overlays">
+    <Folder Name="NavigationPad_hor" TargetIndex="Source[local].TouchPad[NavigationPad_hor]">
+      <Folder Name="Controls" />
+      <Folder Name="POBJ">
+        <Object Name="NavigationPad_hor" ClsId="0x1801" Version="1" Type="OVL" RefString="Source[local].TouchPad[NavigationPad_hor]">
+          <UInt32 Name="Top">0</UInt32>
+          <UInt32 Name="Left">0</UInt32>
+          <UInt32 Name="Width">180</UInt32>
+          <UInt32 Name="Height">60</UInt32>
+          <Group Name="Grid Control">
+            <UInt32 Name="Left">10</UInt32>
+            <UInt32 Name="Top">10</UInt32>
+            <UInt32 Name="Right">169</UInt32>
+            <UInt32 Name="Bottom">49</UInt32>
+            <UInt16 Name="ColumnWidth">40</UInt16>
+            <UInt16 Name="Columns">4</UInt16>
+            <UInt16 Name="RowHeight">40</UInt16>
+            <UInt16 Name="Rows">1</UInt16>
+          </Group>
+          <UInt32 Name="KeyLevel">1</UInt32>
+          <UInt32 Name="InputCtrl">4294967295</UInt32>
+          <Group Name="MinControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="MaxControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="DescriptionControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <Group Name="TeachInControl">
+            <UInt32 Name="Top">0</UInt32>
+            <UInt32 Name="Left">0</UInt32>
+            <UInt32 Name="Width">0</UInt32>
+            <UInt32 Name="Height">0</UInt32>
+            <Byte Name="ValueType">255</Byte>
+            <Byte Name="Format.HAlign">0</Byte>
+            <Byte Name="Format.VAlign">0</Byte>
+            <Byte Name="Appearance.FillStyle">0</Byte>
+            <UInt32 Name="Appearance.Foreground">0</UInt32>
+            <UInt32 Name="Appearance.Background">0</UInt32>
+            <UInt32 Name="Appearance.LogicalFont">0</UInt32>
+            <Byte Name="Multiline">0</Byte>
+            <Byte Name="Reserved">0</Byte>
+            <UInt16 Name="Reserved">0</UInt16>
+          </Group>
+          <UInt32 Name="CtrlCount">1</UInt32>
+          <Byte Name="Type">0</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Byte Name="Reference">4</Byte>
+          <Byte Name="Reserved">0</Byte>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="VKeyLevel 1">
+            <Reference Name="BmpGrpRefUp" Type="BMPG">Source[local].BitmapGroup[NavigationPad]</Reference>
+            <Reference Name="BmpGrpRefDown" Type="BMPG">Source[local].BitmapGroup[NavigationPad]</Reference>
+            <Reference Name="BmpRefUp" Type="GFX">None</Reference>
+            <Reference Name="BmpRefDown" Type="GFX">None</Reference>
+            <UInt16 Name="BmpUpIdx">2</UInt16>
+            <UInt16 Name="BmpDownIdx">3</UInt16>
+            <UInt32 Name="KeyEntries">4</UInt32>
+            <UInt32 Name="ChainingEntries">0</UInt32>
+            <UInt32 Name="KeyLevelDepend">0</UInt32>
+            <Group Name="Chaining Data" />
+            <Group Name="VKey Data">
+              <Reference Name="VirtualKey 1" Type="VKEY">Source[local].VirtualKey[TP_NaviPadUP]</Reference>
+              <Reference Name="VirtualKey 2" Type="VKEY">Source[local].VirtualKey[TP_NaviPadDown]</Reference>
+              <Reference Name="VirtualKey 3" Type="VKEY">Source[local].VirtualKey[TP_NaviPadEnter]</Reference>
+              <Reference Name="VirtualKey 4" Type="VKEY">Source[local].VirtualKey[TP_NaviPadChancel]</Reference>
+            </Group>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

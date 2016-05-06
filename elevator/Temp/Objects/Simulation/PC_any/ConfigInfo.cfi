@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.1.214"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="Model"
+      Disable="false"
+      Source="Model"
+      Language="IEC">
+      <InternalFile
+        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\Model\Cyclic.st.var" />
+      <InternalFile
+        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\Model\Init.st.var" />
+      <InternalFile
+        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\Model\Exit.st.var" />
+      <File
+        Path="E:\0-elevator\elevator\Logical\Model\Types.typ" />
+      <File
+        Path="E:\0-elevator\elevator\Logical\Model\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="controller"
+      Disable="false"
+      Source="controller"
+      Language="IEC">
+      <InternalFile
+        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\controller\Cyclic.st.var" />
+      <InternalFile
+        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\controller\Init.st.var" />
+      <InternalFile
+        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\controller\Exit.st.var" />
+      <File
+        Path="E:\0-elevator\elevator\Logical\controller\Types.typ" />
+      <File
+        Path="E:\0-elevator\elevator\Logical\controller\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

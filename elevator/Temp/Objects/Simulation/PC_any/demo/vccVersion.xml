@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--A change of the Majorversion always enforces a Project Rebuild-->
+<!--MinorVersion is used for ServicePacks where no Project Rebuild is necessary-->
+<!--BuildNumber is for internal use only and is known as 'changeset'-->
+<VCCompiler xmlns="http://br.automation.co.at/AS/VC/VCCompilerConfig">
+  <VersionInfo>
+    <RTVersion>3.61.0</RTVersion>
+    <ASVersion>3.00.90.1</ASVersion>
+    <MajorVersion>9</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <BuildNumber>12000</BuildNumber>
+    <Revision>0</Revision>
+    <SuppressRebuild>0</SuppressRebuild>
+  </VersionInfo>
+</VCCompiler>

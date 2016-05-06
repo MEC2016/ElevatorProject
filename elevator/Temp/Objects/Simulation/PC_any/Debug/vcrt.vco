@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="POBJ">
+    <Object Name="Debug" ClsId="0x10" Version="1" Type="RTM" RefString="Source[local].Runtime[Debug]">
+      <UInt32 Name="StackSize">65535</UInt32>
+      <UInt16 Name="TaskPriority">66</UInt16>
+      <Byte Name="DefaultKeyLevelNumeric">0</Byte>
+      <Byte Name="DefaultKeyLevelString">0</Byte>
+      <Int32 Name="KeyRepeatDelay">300</Int32>
+      <Int32 Name="KeyRepeatRate">50</Int32>
+      <Reference Name="DefaultPage" Type="PAGE">Source[local].Page[Init_Page]</Reference>
+      <Reference Name="ConnectionErrorPage" Type="ConnectionErrorPage">None</Reference>
+      <UInt32 Name="ServicePage">4294967295</UInt32>
+      <Reference Name="DefaultLanguage" Type="LOC">Source[local].Localizer[en]</Reference>
+      <Reference Name="DefaultStyleSheet" Type="SS">Source[local].StyleSheet[Color]</Reference>
+      <Reference Name="KeyLevelChangeDP" Type="DP">None</Reference>
+      <Reference Name="KeyLevelCurrentDP" Type="DP">None</Reference>
+      <Reference Name="LanguageChangeDP" Type="DP">None</Reference>
+      <Reference Name="LanguageCurrentDP" Type="DP">None</Reference>
+      <Reference Name="KeyMatrixDP" Type="DP">None</Reference>
+      <Reference Name="LEDMatrixDP" Type="DP">None</Reference>
+      <Reference Name="PageChangeDP" Type="DP">None</Reference>
+      <Reference Name="PageCurrentDP" Type="DP">None</Reference>
+      <Reference Name="ScreensaverPage" Type="PAGE">None</Reference>
+      <UInt32 Name="ScreensaverTimeout">0</UInt32>
+      <Reference Name="ScreensaverDP" Type="DP">None</Reference>
+      <Reference Name="ScreenSaverTimeDatapoint" Type="DP">None</Reference>
+      <Byte Name="Backlight">0</Byte>
+      <Byte Name="BacklightIgnoreFirst">0</Byte>
+      <UInt16 Name="Reserved">0</UInt16>
+      <UInt32 Name="BacklightTimeout">0</UInt32>
+      <Reference Name="BacklightTimeDatapoint" Type="DP">None</Reference>
+      <Reference Name="BacklightDatapoint" Type="DP">None</Reference>
+      <Byte Name="TextLengthOverrunCut">0</Byte>
+      <Byte Name="TouchPadCancel">0</Byte>
+      <Byte Name="BeepKey">0</Byte>
+      <Byte Name="BeepTouch">0</Byte>
+      <UInt32 Name="TextMarkerForeColor">4294967295</UInt32>
+      <UInt32 Name="TextMarkerBackColor">4294967295</UInt32>
+      <Reference Name="LifeSignDP" Type="DP">None</Reference>
+      <Byte Name="ColorMode">8</Byte>
+      <Byte Name="FontAntialiasing">0</Byte>
+      <UInt16 Name="Reserved">0</UInt16>
+      <Reference Name="FocusControl" Type="DP">None</Reference>
+      <Reference Name="IPAdressDatapoint" Type="DP">None</Reference>
+      <Reference Name="CalibrationDP" Type="DP">None</Reference>
+      <Reference Name="CalibrationStateDP" Type="DP">None</Reference>
+      <Reference Name="HelpControlDP" Type="DP">None</Reference>
+      <Reference Name="WheelCountDatapoint" Type="DP">None</Reference>
+      <Reference Name="WheelEnterDatapoint" Type="DP">None</Reference>
+      <String Name="TargetResourceRoot" Encoding="ASCII">&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;</String>
+      <String Name="AdvancedOptions" Encoding="ASCII">&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;</String>
+      <UInt16 Name="BeepKeyDuration">130</UInt16>
+      <UInt16 Name="BeepKeyFrequency">750</UInt16>
+      <Reference Name="BeepKeyMuteDatapoint" Type="DP">None</Reference>
+      <UInt16 Name="BeepTouchDuration">130</UInt16>
+      <UInt16 Name="BeepTouchFrequency">750</UInt16>
+      <Reference Name="BeepTouchMuteDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepKeyDurationDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepKeyFrequencyDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepTouchDurationDatapoint" Type="DP">None</Reference>
+      <Reference Name="BeepTouchFrequencyDatapoint" Type="DP">None</Reference>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+      <UInt32 Name="Reserved">0</UInt32>
+    </Object>
+  </Folder>
+</Intermediate>
