@@ -3,6 +3,39 @@ PROGRAM _CYCLIC
 	(* Insert code here *)
 	(*ÏÂÁÐ´úÂëÖ»ÊÇÎªÁË²âÊÔ*)
 	
+	(*停电梯*)
+	IF Target_Floor_Left=1 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=2 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=3 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=4 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=5 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=6 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=7 AND	Current_Floor_Left=Target_Floor_Left THEN 
+		LeftTower.Signal_Stop_CabinMotor:=1;
+		END_IF 
+	
+	IF Target_Floor_Right=1 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=2 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=3 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=4 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=5 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=6 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=7 AND	Current_Floor_Right=Target_Floor_Right THEN 
+		RightTower.Signal_Stop_CabinMotor:=1;
+	END_IF
+	(*停电梯*)
 	
 	LeftTower.Signal_Start_DoorMotor_P := LeftCabin.Key_Open ;
 	LeftTower.Signal_Start_DoorMotor_N := LeftCabin.Key_Close ;
