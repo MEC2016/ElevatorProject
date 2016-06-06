@@ -1,7 +1,7 @@
 
 PROGRAM _CYCLIC
 	(* Insert code here *)
-	(*���д���ֻ��Ϊ�˲���*)
+	(*ÏÂÁÐ´úÂëÖ»ÊÇÎªÁË²âÊÔ*)
 	
 	
 	LeftTower.Signal_Start_DoorMotor_P := LeftCabin.Key_Open ;
@@ -63,6 +63,18 @@ PROGRAM _CYCLIC
 		RightCabin.Display_Floor7Selected := Checked;
 	END_IF	
 		
+	(*此处插入左电梯目标楼层判断代码*)
+	(*下面是左右电梯分工判断*)
+	// 当两侧电梯均处于停止状态
+	IF LeftTower.Signal_Stop_CabinMotor = 1 AND RightTower.Signal_Stop_CabinMotor = 1 THEN
+		IF ABS(Current_Floor_Left - Target_Floor_Left) > ABS(Current_Floor_Right - Target_Floor_Left) THEN
+			Target_Floor_Right := Target_Floor_Left; // 将左侧电梯目标值赋给右侧电梯目标
+			Target_Floor_Left := Current_Floor_Left; // 将左侧电梯目标赋值为当前位置使其保持停止
+			RETURN; // 结束函数
+		END_IF
+	END_IF
+	
+	(*此处插入右电梯目标楼层判断代码*)
 	
 	
 	
