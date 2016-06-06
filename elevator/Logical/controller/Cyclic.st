@@ -64,6 +64,232 @@ PROGRAM _CYCLIC
 	END_IF	
 		
 	(*此处插入左电梯目标楼层判断代码*)
+	
+	// 左侧电梯处于停止状态
+	IF LeftTower.Signal_Stop_CabinMotor = 1 THEN
+		
+		//左侧电梯处于1楼时
+		IF Current_Floor_Left = 1 THEN
+			//LeftTower.Sensor_Floor1Approached := 1;
+			//LeftCabin.Key_Floor1 := 0;
+			// 只能停止或向上运动
+			IF LeftCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Up = 1 THEN //floor 2
+				Target_Floor_Left := 2;
+			ELSIF LeftCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Left := 3;
+			ELSIF LeftCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF LeftCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF LeftCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF LeftCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Left := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Left := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Left := 3;	
+			ELSIF Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Left := 2;	
+			END_IF;
+			
+			
+		//左侧电梯处于2楼时	
+		ELSIF Current_Floor_Left = 2 THEN	
+				
+			IF LeftCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Left := 3;
+			ELSIF LeftCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF LeftCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF LeftCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF LeftCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Left := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Left := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Left := 3;
+				
+			ELSIF LeftCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Left := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Left := 1;
+	
+			END_IF
+			
+		//左侧电梯处于3楼时	
+		ELSIF Current_Floor_Left = 3 THEN	
+						
+			IF LeftCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF LeftCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF LeftCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF LeftCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Left := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Left := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			
+			
+			ELSIF LeftCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Left := 2;
+			ELSIF LeftCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Left := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Left := 1;
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Left := 2;
+		
+			END_IF
+			
+		//左侧电梯处于4楼时	
+		ELSIF Current_Floor_Left = 4 THEN
+				
+			IF LeftCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF LeftCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF LeftCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Left := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Left := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			
+			
+			
+			ELSIF LeftCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Left := 3;
+			ELSIF LeftCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Left := 2;
+			ELSIF LeftCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Left := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Left := 1;
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Left := 2;
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Left := 3;
+		
+			END_IF	
+	
+		//左侧电梯处于5楼时	
+		ELSIF Current_Floor_Left = 5 THEN		
+						
+			IF LeftCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF LeftCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Left := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Left := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Left := 6;		
+			
+			ELSIF LeftCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF LeftCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Left := 3;
+			ELSIF LeftCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Left := 2;
+			ELSIF LeftCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Left := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Left := 1;
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Left := 2;
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Left := 3;	
+			ELSIF Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			END_IF	
+			
+		//左侧电梯处于6楼时	
+		ELSIF Current_Floor_Left = 6 THEN
+					
+			IF LeftCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Left := 7;		
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Left := 7;
+		
+		
+			ELSIF LeftCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Left := 5;		
+			ELSIF LeftCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Left := 4;		
+			ELSIF LeftCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Left := 3;		
+			ELSIF LeftCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Left := 2;		
+			ELSIF LeftCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Left := 1;		
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Left := 1;	
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Left := 2;		
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Left := 3;	
+			ELSIF Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+				
+			END_IF
+			
+		//左侧电梯处于7楼时	
+		ELSIF Current_Floor_Left = 7 THEN
+		
+			IF LeftCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			ELSIF LeftCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Left := 5;		
+			ELSIF LeftCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Left := 4;		
+			ELSIF LeftCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Left := 3;		
+			ELSIF LeftCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Left := 2;		
+			ELSIF LeftCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Left := 1;		
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Left := 1;	
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Left := 2;		
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Left := 3;	
+			ELSIF Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Left := 4;
+			ELSIF Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Left := 5;
+			ELSIF Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Left := 6;
+			END_IF	
+	
+		END_IF
+	END_IF
+	
 	(*下面是左右电梯分工判断*)
 	// 当两侧电梯均处于停止状态
 	IF LeftTower.Signal_Stop_CabinMotor = 1 AND RightTower.Signal_Stop_CabinMotor = 1 THEN
@@ -76,6 +302,231 @@ PROGRAM _CYCLIC
 	
 	(*此处插入右电梯目标楼层判断代码*)
 	
+	// 右侧电梯处于停止状态
+	IF RightTower.Signal_Stop_CabinMotor = 1 THEN
+		
+		//右侧电梯处于1楼时
+		IF Current_Floor_Right = 1 THEN
+			//RightTower.Sensor_Floor1Approached := 1;
+			//RightCabin.Key_Floor1 := 0;
+			// 只能停止或向上运动
+			IF RightCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Up = 1 THEN //floor 2
+				Target_Floor_Right := 2;
+			ELSIF RightCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Right := 3;
+			ELSIF RightCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF RightCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF RightCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF RightCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Right := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Right := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Right := 3;	
+			ELSIF Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Right := 2;	
+			END_IF;
+			
+			
+		//右侧电梯处于2楼时	
+		ELSIF Current_Floor_Right = 2 THEN	
+				
+			IF RightCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Right := 3;
+			ELSIF RightCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF RightCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF RightCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF RightCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Right := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Right := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Right := 3;
+				
+			ELSIF RightCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Right := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Right := 1;
+	
+			END_IF
+			
+		//右侧电梯处于3楼时	
+		ELSIF Current_Floor_Right = 3 THEN	
+						
+			IF RightCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF RightCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF RightCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF RightCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Right := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Right := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			
+			
+			ELSIF RightCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Right := 2;
+			ELSIF RightCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Right := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Right := 1;
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Right := 2;
+		
+			END_IF
+			
+		//右侧电梯处于4楼时	
+		ELSIF Current_Floor_Right = 4 THEN
+				
+			IF RightCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF RightCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF RightCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Right := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Right := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			
+			
+			
+			ELSIF RightCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Right := 3;
+			ELSIF RightCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Right := 2;
+			ELSIF RightCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Right := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Right := 1;
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Right := 2;
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Right := 3;
+		
+			END_IF	
+	
+		//右侧电梯处于5楼时	
+		ELSIF Current_Floor_Right = 5 THEN		
+						
+			IF RightCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF RightCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Right := 7;	
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Right := 7;
+			ELSIF Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Right := 6;		
+			
+			ELSIF RightCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF RightCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Right := 3;
+			ELSIF RightCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Right := 2;
+			ELSIF RightCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Right := 1;
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Right := 1;
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Right := 2;
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Right := 3;	
+			ELSIF Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			END_IF	
+			
+		//右侧电梯处于6楼时	
+		ELSIF Current_Floor_Right = 6 THEN
+					
+			IF RightCabin.Key_Floor7 = 1  THEN //floor 7:不能继续向上
+				Target_Floor_Right := 7;		
+			ELSIF Floor7Panel.Key_Down = 1 THEN //floor 7
+				Target_Floor_Right := 7;
+		
+		
+			ELSIF RightCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Right := 5;		
+			ELSIF RightCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Right := 4;		
+			ELSIF RightCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Right := 3;		
+			ELSIF RightCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Right := 2;		
+			ELSIF RightCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Right := 1;		
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Right := 1;	
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Right := 2;		
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Right := 3;	
+			ELSIF Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+				
+			END_IF
+			
+			//右侧电梯处于7楼时	
+		ELSIF Current_Floor_Right = 7 THEN
+		
+			IF RightCabin.Key_Floor6 = 1 OR Floor6Panel.Key_Down = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			ELSIF RightCabin.Key_Floor5 = 1 OR Floor5Panel.Key_Down = 1 THEN //floor 5
+				Target_Floor_Right := 5;		
+			ELSIF RightCabin.Key_Floor4 = 1 OR Floor4Panel.Key_Down = 1 THEN //floor 4
+				Target_Floor_Right := 4;		
+			ELSIF RightCabin.Key_Floor3 = 1 OR Floor3Panel.Key_Down = 1 THEN //floor 3
+				Target_Floor_Right := 3;		
+			ELSIF RightCabin.Key_Floor2 = 1 OR Floor2Panel.Key_Down = 1 THEN //floor 2
+				Target_Floor_Right := 2;		
+			ELSIF RightCabin.Key_Floor1 = 1 THEN //floor 1:不能继续下行
+				Target_Floor_Right := 1;		
+			ELSIF Floor1Panel.Key_Up = 1 THEN //floor 1
+				Target_Floor_Right := 1;	
+			ELSIF Floor2Panel.Key_Up = 1 THEN  //floor 2
+				Target_Floor_Right := 2;		
+			ELSIF Floor3Panel.Key_Up = 1 THEN //floor 3
+				Target_Floor_Right := 3;	
+			ELSIF Floor4Panel.Key_Up = 1 THEN //floor 4
+				Target_Floor_Right := 4;
+			ELSIF Floor5Panel.Key_Up = 1 THEN //floor 5
+				Target_Floor_Right := 5;
+			ELSIF Floor6Panel.Key_Up = 1 THEN //floor 6
+				Target_Floor_Right := 6;
+			END_IF	
+	
+		END_IF
+	END_IF
+
 	
 	
 END_PROGRAM
