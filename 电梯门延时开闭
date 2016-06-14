@@ -1,0 +1,23 @@
+PROGRAM _CYCLIC
+	(* Insert code here *)
+	TON_1(IN:= NOT TON_1.Q ,PT:= TIME#1S );(*定义一个1S定时器*)
+	IF LeftTower.Sensor_Floor1Approached=1 OR LeftTower.Sensor_Floor2Approached=1 OR LeftTower.Sensor_Floor3Approached=1 
+		OR LeftTower.Sensor_Floor4Approached=1 OR LeftTower.Sensor_Floor5Approached=1 OR LeftTower.Sensor_Floor6Approached=1
+		OR LeftTower.Sensor_Floor7Approached=1 THEN  
+		IF TON_1.Q  THEN (*定时时间到，D0++，D0大于2，那么清零*)
+			D0 := D0 + 1;
+			IF  D0>2 THEN
+				D0 := 0;
+			END_IF;
+		END_IF;
+		LeftTower.Signal_Start_DoorMotor_P :=1;
+		IF LeftTower.Sensor_DoorOpened=1 THEN
+			IF TON_1.Q  THEN (*定时时间到，D0++，D0大于10，那么清零*)
+				D0 := D0 + 1;
+				IF  D0>10 THEN
+					D0 := 0;
+				END_IF;
+			END_IF;
+			LeftTower.Signal_Start_DoorMotor_N :=1;
+		END_IF;
+	END_IF;
