@@ -1,0 +1,275 @@
+PROGRAM _CYCLIC
+	
+	(*左电梯轿厢内数字指示灯亮起与熄灭*)
+	IF LeftCabin.Key_Floor1=1 AND LeftCabin.Display_Floor1Selected=UnChecked THEN
+		LeftCabin.Display_Floor1Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor1Selected=Checked AND LeftTower.Sensor_Floor1Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		LeftCabin.Display_Floor1Selected:=UnChecked;
+	END_IF
+			
+		
+	IF LeftCabin.Key_Floor2=1 AND LeftCabin.Display_Floor2Selected=UnChecked THEN
+		LeftCabin.Display_Floor2Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor2Selected=Checked AND LeftTower.Sensor_Floor2Approached=1 AND LeftTower.Sensor_DoorOpened=1 THEN
+		LeftCabin.Display_Floor2Selected:=UnChecked;
+	END_IF
+	
+	
+	IF LeftCabin.Key_Floor3=1 AND LeftCabin.Display_Floor3Selected=UnChecked THEN
+		LeftCabin.Display_Floor3Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor3Selected=Checked AND LeftTower.Sensor_Floor3Approached=1 AND LeftTower.Sensor_DoorOpened=1 THEN
+		LeftCabin.Display_Floor3Selected:=UnChecked;
+	END_IF
+	
+	
+	IF LeftCabin.Key_Floor4=1 AND LeftCabin.Display_Floor4Selected=UnChecked THEN
+		LeftCabin.Display_Floor4Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor4Selected=Checked AND LeftTower.Sensor_Floor4Approached=1 AND LeftTower.Sensor_DoorOpened=1 THEN
+		LeftCabin.Display_Floor4Selected:=UnChecked;
+	END_IF
+	
+	
+	IF LeftCabin.Key_Floor5=1 AND LeftCabin.Display_Floor5Selected=UnChecked THEN
+		LeftCabin.Display_Floor5Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor5Selected=Checked AND LeftTower.Sensor_Floor5Approached=1 AND LeftTower.Sensor_DoorOpened=1 THEN
+		LeftCabin.Display_Floor5Selected:=UnChecked;
+	END_IF
+	
+	
+	IF LeftCabin.Key_Floor6=1 AND LeftCabin.Display_Floor6Selected=UnChecked THEN
+		LeftCabin.Display_Floor6Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor6Selected=Checked AND LeftTower.Sensor_Floor6Approached=1 AND LeftTower.Sensor_DoorOpened=1 THEN
+		LeftCabin.Display_Floor6Selected:=UnChecked;
+	END_IF
+	
+	
+	IF LeftCabin.Key_Floor7=1 AND LeftCabin.Display_Floor7Selected=UnChecked THEN
+		LeftCabin.Display_Floor7Selected:=Checked;
+	END_IF
+	IF LeftCabin.Display_Floor7Selected=Checked AND LeftTower.Sensor_Floor7Approached=1 AND LeftTower.Sensor_DoorOpened=1 THEN
+		LeftCabin.Display_Floor7Selected:=UnChecked;
+	END_IF
+	
+	(*右电梯轿厢内数字指示灯亮起与熄灭*)
+	IF RightCabin.Key_Floor1=1 AND RightCabin.Display_Floor1Selected=UnChecked THEN
+		RightCabin.Display_Floor1Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor1Selected=Checked AND RightTower.Sensor_Floor1Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor1Selected:=UnChecked;
+	END_IF
+			
+		
+	IF RightCabin.Key_Floor2=1 AND RightCabin.Display_Floor2Selected=UnChecked THEN
+		RightCabin.Display_Floor2Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor2Selected=Checked AND RightTower.Sensor_Floor2Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor2Selected:=UnChecked;
+	END_IF
+	
+	
+	IF RightCabin.Key_Floor3=1 AND RightCabin.Display_Floor3Selected=UnChecked THEN
+		RightCabin.Display_Floor3Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor3Selected=Checked AND RightTower.Sensor_Floor3Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor3Selected:=UnChecked;
+	END_IF
+	
+	
+	IF RightCabin.Key_Floor4=1 AND RightCabin.Display_Floor4Selected=UnChecked THEN
+		RightCabin.Display_Floor4Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor4Selected=Checked AND RightTower.Sensor_Floor4Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor4Selected:=UnChecked;
+	END_IF
+	
+	
+	IF RightCabin.Key_Floor5=1 AND RightCabin.Display_Floor5Selected=UnChecked THEN
+		RightCabin.Display_Floor5Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor5Selected=Checked AND RightTower.Sensor_Floor5Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor5Selected:=UnChecked;
+	END_IF
+	
+	
+	IF RightCabin.Key_Floor6=1 AND RightCabin.Display_Floor6Selected=UnChecked THEN
+		RightCabin.Display_Floor6Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor6Selected=Checked AND RightTower.Sensor_Floor6Approached=1  AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor6Selected:=UnChecked;
+	END_IF
+	
+	
+	IF RightCabin.Key_Floor7=1 AND RightCabin.Display_Floor7Selected=UnChecked THEN
+		RightCabin.Display_Floor7Selected:=Checked;
+	END_IF
+	IF RightCabin.Display_Floor7Selected=Checked AND RightTower.Sensor_Floor7Approached=1  AND RightTower.Sensor_DoorOpened=1 THEN
+		RightCabin.Display_Floor7Selected:=UnChecked;
+	END_IF
+	
+	
+	(*电梯外上升按键LED灯亮起与熄灭*)
+
+	IF Floor1Panel.Key_Up=1 AND Floor1Panel.Display_UpSelected=UnChecked  THEN
+		Floor1Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor1Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor1Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor1Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor1Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor2Panel.Key_Up=1 AND Floor2Panel.Display_UpSelected=UnChecked  THEN
+		Floor2Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor2Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor2Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor2Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor2Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor3Panel.Key_Up=1 AND Floor3Panel.Display_UpSelected=UnChecked  THEN
+		Floor3Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor3Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor3Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor3Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor3Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor4Panel.Key_Up=1 AND Floor4Panel.Display_UpSelected=UnChecked  THEN
+		Floor4Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor4Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor4Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor4Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor4Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor5Panel.Key_Up=1 AND Floor5Panel.Display_UpSelected=UnChecked  THEN
+		Floor5Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor5Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor5Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor5Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor5Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor6Panel.Key_Up=1 AND Floor6Panel.Display_UpSelected=UnChecked  THEN
+		Floor6Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor6Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor6Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor6Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor6Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor7Panel.Key_Up=1 AND Floor7Panel.Display_UpSelected=UnChecked  THEN
+		Floor7Panel.Display_UpSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor7Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor7Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor7Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor7Panel.Display_UpSelected:=UnChecked;
+	END_IF
+	
+	
+	(*电梯外下降按键LED灯亮起与熄灭*)
+
+	IF Floor1Panel.Key_Down=1 AND Floor1Panel.Display_DownSelected=UnChecked  THEN
+		Floor1Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor1Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor1Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor1Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor1Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor2Panel.Key_Down=1 AND Floor2Panel.Display_DownSelected=UnChecked  THEN
+		Floor2Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor2Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor2Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor2Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor2Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor3Panel.Key_Down=1 AND Floor3Panel.Display_DownSelected=UnChecked  THEN
+		Floor3Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor3Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor3Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor3Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor3Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor4Panel.Key_Down=1 AND Floor4Panel.Display_DownSelected=UnChecked  THEN
+		Floor4Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor4Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor4Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor4Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor4Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor5Panel.Key_Down=1 AND Floor5Panel.Display_DownSelected=UnChecked  THEN
+		Floor5Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor5Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor5Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor5Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor5Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor6Panel.Key_Down=1 AND Floor6Panel.Display_DownSelected=UnChecked  THEN
+		Floor6Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor6Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor6Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor6Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor6Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	IF Floor7Panel.Key_Down=1 AND Floor7Panel.Display_DownSelected=UnChecked  THEN
+		Floor7Panel.Display_DownSelected:=Checked;
+	END_IF
+	IF LeftTower.Sensor_Floor7Approached=1 AND LeftTower.Sensor_DoorOpened=1  THEN
+		Floor7Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	IF RightTower.Sensor_Floor7Approached=1 AND RightTower.Sensor_DoorOpened=1 THEN
+		Floor7Panel.Display_DownSelected:=UnChecked;
+	END_IF
+	
+	
+	
+END_PROGRAM
