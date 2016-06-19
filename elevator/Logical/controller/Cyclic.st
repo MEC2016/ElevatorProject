@@ -96,6 +96,112 @@ PROGRAM _CYCLIC
 		RightCabin.Display_Floor7Selected := Checked;
 	END_IF	
 	
+	(*电梯门延时两秒正常开启和关门时强制开启*)
+	
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Target_Floor_Right=Current_Floor_Right  THEN
+		
+		IF j2>=2 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;Target_Floor_Right:=100;
+			j2:=0;
+		ELSE j2:=j2+1;
+		END_IF
+	END_IF
+	
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Target_Floor_Left=Current_Floor_Left  THEN
+		
+		IF j1>=2 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;Target_Floor_Left:=100;
+			j1:=0;
+		ELSE j1:=j1+1;
+		END_IF
+	END_IF
+
+	
+	
+	
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND RightCabin.Key_Open=1 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor1Panel.Key_Up=1 AND RightCabin.Display_Current_Floor=1 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor2Panel.Key_Up=1 AND RightCabin.Display_Current_Floor=2 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor2Panel.Key_Down=1 AND RightCabin.Display_Current_Floor=2 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor3Panel.Key_Up=1 AND RightCabin.Display_Current_Floor=3 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor3Panel.Key_Down=1 AND RightCabin.Display_Current_Floor=3 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor4Panel.Key_Up=1 AND RightCabin.Display_Current_Floor=4 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor4Panel.Key_Down=1 AND RightCabin.Display_Current_Floor=4 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor5Panel.Key_Up=1 AND RightCabin.Display_Current_Floor=5 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor5Panel.Key_Down=1 AND RightCabin.Display_Current_Floor=5 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor6Panel.Key_Up=1 AND RightCabin.Display_Current_Floor=6 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor6Panel.Key_Down=1 AND RightCabin.Display_Current_Floor=6 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorClosed=1 AND Floor7Panel.Key_Down=1 AND RightCabin.Display_Current_Floor=7 THEN
+		RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	
+	
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND LeftCabin.Key_Open=1 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor1Panel.Key_Up=1 AND LeftCabin.Display_Current_Floor=1 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor2Panel.Key_Up=1 AND LeftCabin.Display_Current_Floor=2 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor2Panel.Key_Down=1 AND LeftCabin.Display_Current_Floor=2 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor3Panel.Key_Up=1 AND LeftCabin.Display_Current_Floor=3 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor3Panel.Key_Down=1 AND LeftCabin.Display_Current_Floor=3 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor4Panel.Key_Up=1 AND LeftCabin.Display_Current_Floor=4 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor4Panel.Key_Down=1 AND LeftCabin.Display_Current_Floor=4 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor5Panel.Key_Up=1 AND LeftCabin.Display_Current_Floor=5 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor5Panel.Key_Down=1 AND LeftCabin.Display_Current_Floor=5 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor6Panel.Key_Up=1 AND LeftCabin.Display_Current_Floor=6 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor6Panel.Key_Down=1 AND LeftCabin.Display_Current_Floor=6 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorClosed=1 AND Floor7Panel.Key_Down=1 AND LeftCabin.Display_Current_Floor=7 THEN
+		LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;
+	END_IF
+	
 	(*电梯门延时10秒关闭和强制关闭电梯*)
 		IF i2>=10 AND RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 THEN  RightTower.Signal_Start_DoorMotor_P:=0;RightTower.Signal_Start_DoorMotor_N:=1;
 	i2:=0;	END_IF
