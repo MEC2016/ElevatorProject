@@ -4,7 +4,7 @@ PROGRAM _CYCLIC
 	(*ÏÂÁÐ´úÂëÖ»ÊÇÎªÁË²âÊÔ*)
 	
 	(*停电梯*)
-	IF Target_Floor_Left=1 AND	Current_Floor_Left=Target_Floor_Left THEN 
+	(*IF Target_Floor_Left=1 AND	Current_Floor_Left=Target_Floor_Left THEN 
 		LeftTower.Signal_Stop_CabinMotor:=1;
 	ELSIF Target_Floor_Left=2 AND	Current_Floor_Left=Target_Floor_Left THEN 
 		LeftTower.Signal_Stop_CabinMotor:=1;
@@ -34,67 +34,98 @@ PROGRAM _CYCLIC
 		RightTower.Signal_Stop_CabinMotor:=1;
 	ELSIF Target_Floor_Right=7 AND	Current_Floor_Right=Target_Floor_Right THEN 
 		RightTower.Signal_Stop_CabinMotor:=1;
+	END_IF*)
+	
+	(*给CurrentFloor赋值*)	
+	(*IF LeftTower.Sensor_Floor1Approached=1 THEN Current_Floor_Left:=1;END_IF
+	IF LeftTower.Sensor_Floor2Approached=1 THEN Current_Floor_Left:=2;END_IF
+	IF LeftTower.Sensor_Floor3Approached=1 THEN Current_Floor_Left:=3;END_IF
+	IF LeftTower.Sensor_Floor4Approached=1 THEN Current_Floor_Left:=4;END_IF
+	IF LeftTower.Sensor_Floor5Approached=1 THEN Current_Floor_Left:=5;END_IF
+	IF LeftTower.Sensor_Floor6Approached=1 THEN Current_Floor_Left:=6;END_IF
+	IF LeftTower.Sensor_Floor7Approached=1 THEN Current_Floor_Left:=7;END_IF
+	IF RightTower.Sensor_Floor1Approached=1 THEN Current_Floor_Right:=1;END_IF
+	IF RightTower.Sensor_Floor2Approached=1 THEN Current_Floor_Right:=2;END_IF
+	IF RightTower.Sensor_Floor3Approached=1 THEN Current_Floor_Right:=3;END_IF
+	IF RightTower.Sensor_Floor4Approached=1 THEN Current_Floor_Right:=4;END_IF
+	IF RightTower.Sensor_Floor5Approached=1 THEN Current_Floor_Right:=5;END_IF
+	IF RightTower.Sensor_Floor6Approached=1 THEN Current_Floor_Right:=6;END_IF
+	IF RightTower.Sensor_Floor7Approached=1 THEN Current_Floor_Right:=7;END_IF*)
+	Current_Floor_Left:=LeftCabin.Display_Current_Floor;
+	Current_Floor_Right:=RightCabin.Display_Current_Floor;
+	(*第一步电梯停止*)
+	(*IF Target_Floor_Left=1 AND	LeftTower.Sensor_Floor1Approached=1 THEN 
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=2 AND	LeftTower.Sensor_Floor2Approached=1 THEN 
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=3 AND	LeftTower.Sensor_Floor3Approached=1 THEN
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=4 AND	LeftTower.Sensor_Floor4Approached=1 THEN 
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=5 AND	LeftTower.Sensor_Floor5Approached=1 THEN 
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=6 AND	LeftTower.Sensor_Floor6Approached=1 THEN 
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Left=7 AND	LeftTower.Sensor_Floor7Approached=1 THEN 
+	LeftTower.Signal_Start_CabinMotor_P := 0;
+	LeftTower.Signal_Start_CabinMotor_N := 0;
+	LeftTower.Signal_Stop_CabinMotor:=1;
+	END_IF 
+	
+	IF Target_Floor_Right=1 AND	RightTower.Sensor_Floor1Approached=1 THEN 
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=2 AND	RightTower.Sensor_Floor2Approached=1 THEN 
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=3 AND	RightTower.Sensor_Floor3Approached=1 THEN 
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=4 AND	RightTower.Sensor_Floor4Approached=1 THEN 
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=5 AND	RightTower.Sensor_Floor5Approached=1 THEN 
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=6 AND	RightTower.Sensor_Floor6Approached=1 THEN
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	ELSIF Target_Floor_Right=7 AND	RightTower.Sensor_Floor7Approached=1 THEN
+	RightTower.Signal_Start_CabinMotor_P := 0;
+	RightTower.Signal_Start_CabinMotor_N := 0;
+	RightTower.Signal_Stop_CabinMotor:=1;
+	END_IF*)
+	
+	IF Target_Floor_Right=Current_Floor_Right THEN 
+		RightTower.Signal_Start_CabinMotor_P := 0;
+		RightTower.Signal_Start_CabinMotor_N := 0;
+		RightTower.Signal_Stop_CabinMotor:=1;
 	END_IF
-	(*停电梯*)
-	
-	LeftTower.Signal_Start_DoorMotor_P := LeftCabin.Key_Open ;
-	LeftTower.Signal_Start_DoorMotor_N := LeftCabin.Key_Close ;
-	
-	RightTower.Signal_Start_DoorMotor_P := RightCabin.Key_Open ;
-	RightTower.Signal_Start_DoorMotor_N := RightCabin.Key_Close ;
-	
-	LeftTower.Signal_Start_CabinMotor_P := Floor1Panel.Key_Up ;
-	RightTower.Signal_Start_CabinMotor_P := Floor1Panel.Key_Up ;
-	
-	LeftTower.Signal_Start_CabinMotor_N := Floor7Panel.Key_Down ;
-	RightTower.Signal_Start_CabinMotor_N := Floor7Panel.Key_Down ;
+	IF Target_Floor_Left=Current_Floor_Left THEN 
+		LeftTower.Signal_Start_CabinMotor_P := 0;
+		LeftTower.Signal_Start_CabinMotor_N := 0;
+		LeftTower.Signal_Stop_CabinMotor:=1;
+	END_IF
 
-	LeftTower.Signal_Stop_CabinMotor := Floor3Panel.Key_Up ;
-	RightTower.Signal_Stop_CabinMotor := Floor3Panel.Key_Up ;
-	
-	IF LeftCabin.Display_Floor1Selected = UnChecked AND LeftCabin.Key_Floor1 =1 THEN
-		LeftCabin.Display_Floor1Selected := Checked;
-	END_IF	
-	IF LeftCabin.Display_Floor2Selected = UnChecked AND LeftCabin.Key_Floor2 =1 THEN
-		LeftCabin.Display_Floor2Selected := Checked;
-	END_IF	
-	IF LeftCabin.Display_Floor3Selected = UnChecked AND LeftCabin.Key_Floor3 =1 THEN
-		LeftCabin.Display_Floor3Selected := Checked;
-	END_IF	
-	IF LeftCabin.Display_Floor4Selected = UnChecked AND LeftCabin.Key_Floor4 =1 THEN
-		LeftCabin.Display_Floor4Selected := Checked;
-	END_IF	
-	IF LeftCabin.Display_Floor5Selected = UnChecked AND LeftCabin.Key_Floor5 =1 THEN
-		LeftCabin.Display_Floor5Selected := Checked;
-	END_IF	
-	IF LeftCabin.Display_Floor6Selected = UnChecked AND LeftCabin.Key_Floor6 =1 THEN
-		LeftCabin.Display_Floor6Selected := Checked;
-	END_IF	
-	IF LeftCabin.Display_Floor7Selected = UnChecked AND LeftCabin.Key_Floor7 =1 THEN
-		LeftCabin.Display_Floor7Selected := Checked;
-	END_IF	
-	
-	IF RightCabin.Display_Floor1Selected = UnChecked AND RightCabin.Key_Floor1 =1 THEN
-		RightCabin.Display_Floor1Selected := Checked;
-	END_IF	
-	IF RightCabin.Display_Floor2Selected = UnChecked AND RightCabin.Key_Floor2 =1 THEN
-		RightCabin.Display_Floor2Selected := Checked;
-	END_IF	
-	IF RightCabin.Display_Floor3Selected = UnChecked AND RightCabin.Key_Floor3 =1 THEN
-		RightCabin.Display_Floor3Selected := Checked;
-	END_IF	
-	IF RightCabin.Display_Floor4Selected = UnChecked AND RightCabin.Key_Floor4 =1 THEN
-		RightCabin.Display_Floor4Selected := Checked;
-	END_IF	
-	IF RightCabin.Display_Floor5Selected = UnChecked AND RightCabin.Key_Floor5 =1 THEN
-		RightCabin.Display_Floor5Selected := Checked;
-	END_IF	
-	IF RightCabin.Display_Floor6Selected = UnChecked AND RightCabin.Key_Floor6 =1 THEN
-		RightCabin.Display_Floor6Selected := Checked;
-	END_IF	
-	IF RightCabin.Display_Floor7Selected = UnChecked AND RightCabin.Key_Floor7 =1 THEN
-		RightCabin.Display_Floor7Selected := Checked;
-	END_IF	
+
 	
 	(*电梯门延时两秒正常开启和关门时强制开启*)
 	
