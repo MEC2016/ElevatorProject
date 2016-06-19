@@ -1,0 +1,26 @@
+PROGRAM _CYCLIC
+	(* Insert code here *)
+	IF i>=10 AND LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 THEN  LeftTower.Signal_Start_DoorMotor_N:=1;
+
+	  i:=0;	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 THEN
+		i:=i+1;
+		IF LeftTower.Sensor_DoorOpened=1 THEN 
+		    IF Key_Open_Left=1 THEN i:=i+9;END_IF
+			IF Key_Close_Left=1 THEN LeftTower.Signal_Start_DoorMotor_N:=1;END_IF 
+		 
+	ELSIF Key_Open_Left=1 THEN LeftTower.Signal_Start_DoorMotor_P:=1;(*此处逻辑可能要改*)
+		END_IF
+	END_IF
+	(*IF i>=2 AND RightTower.Signal_Start_DoorMotor_P = 0 AND RightTower.Signal_Start_DoorMotor_N =0 THEN  RightTower.Signal_Start_DoorMotor_N:=1;
+	END_IF*)
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 THEN
+		IF RightTower.Sensor_DoorOpened=1 THEN 
+			IF Key_Open_Right=1 THEN i:=i+2;END_IF
+			IF Key_Close_Right=1 THEN RightTower.Signal_Start_DoorMotor_N:=1;END_IF 
+		 
+		ELSIF Key_Open_Right=1 THEN RightTower.Signal_Start_DoorMotor_P:=1;
+		END_IF
+	END_IF
+	IF LeftTower.Signal_Start_DoorMotor_N=1 AND Key_Open_Left=1 THEN LeftTower.Signal_Start_DoorMotor_N:=0;
+		LeftTower.Signal_Start_DoorMotor_P:=1; END_IF 
