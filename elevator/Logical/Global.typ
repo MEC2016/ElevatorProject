@@ -8,13 +8,13 @@
 
 TYPE
 	
- (*µçÌİ¾®½Ó¿ÚĞÅºÅ¶¨Òå*)	
+ (*ç”µæ¢¯äº•æ¥å£ä¿¡å·å®šä¹‰*)	
 tTower_Interface: STRUCT 
 		
-		Sensor_DoorOpened : BOOL;(*´«¸ĞÆ÷ĞÅºÅÖ¸Ê¾½ÎÏáÃÅÒÑ´ò¿ª*)
-		Sensor_DoorClosed : BOOL;(*´«¸ĞÆ÷ĞÅºÅÖ¸Ê¾½ÎÏáÃÅÒÑ¹Ø±Õ*)
+		Sensor_DoorOpened : BOOL;(*ä¼ æ„Ÿå™¨ä¿¡å·æŒ‡ç¤ºè½¿å¢é—¨å·²æ‰“å¼€*)
+		Sensor_DoorClosed : BOOL;(*ä¼ æ„Ÿå™¨ä¿¡å·æŒ‡ç¤ºè½¿å¢é—¨å·²å…³é—­*)
 		
-		Sensor_Floor1Approached :  BOOL;(*´«¸ĞÆ÷ĞÅºÅÖ¸Ê¾½ÎÏáÒÑµ½´ï¶ÔÓ¦Â¥²ã*)
+		Sensor_Floor1Approached :  BOOL;(*ä¼ æ„Ÿå™¨ä¿¡å·æŒ‡ç¤ºè½¿å¢å·²åˆ°è¾¾å¯¹åº”æ¥¼å±‚*)
 		Sensor_Floor2Approached :  BOOL;
 		Sensor_Floor3Approached :  BOOL;
 		Sensor_Floor4Approached :  BOOL;
@@ -22,50 +22,52 @@ tTower_Interface: STRUCT
 		Sensor_Floor6Approached :  BOOL;
 		Sensor_Floor7Approached :  BOOL;
 		
-		Signal_Start_DoorMotor_P : BOOL; (*¿ØÖÆĞÅºÅ£¬ÉÏÉıÑØ´¥·¢£¬Ê¹½ÎÏáÃÅµç»úÕı×ª¹Ì¶¨µÄ½Ç¶È£¬´ò¿ª½ÎÏáÃÅ*)
-		Signal_Start_DoorMotor_N : BOOL; (*¿ØÖÆĞÅºÅ£¬ÉÏÉıÑØ´¥·¢£¬Ê¹½ÎÏáÃÅµç»ú·´×ª¹Ì¶¨µÄ½Ç¶È£¬¹Ø±Õ½ÎÏáÃÅ*)
+		Signal_Start_DoorMotor_P : BOOL; (*æ§åˆ¶ä¿¡å·ï¼Œä¸Šå‡æ²¿è§¦å‘ï¼Œä½¿è½¿å¢é—¨ç”µæœºæ­£è½¬å›ºå®šçš„è§’åº¦ï¼Œæ‰“å¼€è½¿å¢é—¨*)
+		Signal_Start_DoorMotor_N : BOOL; (*æ§åˆ¶ä¿¡å·ï¼Œä¸Šå‡æ²¿è§¦å‘ï¼Œä½¿è½¿å¢é—¨ç”µæœºåè½¬å›ºå®šçš„è§’åº¦ï¼Œå…³é—­è½¿å¢é—¨*)
 		
-		Signal_Start_CabinMotor_P : BOOL; (*¿ØÖÆĞÅºÅ£¬ÉÏÉıÑØ´¥·¢£¬Ê¹½ÎÏáÌáÉıµç»úÕı×ª£¬µçÌİÉÏĞĞ*)
-		Signal_Start_CabinMotor_N : BOOL; (*¿ØÖÆĞÅºÅ£¬ÉÏÉıÑØ´¥·¢£¬Ê¹½ÎÏáÌáÉıµç»ú·´×ª£¬µçÌİÏÂĞĞ*)
-		Signal_Stop_CabinMotor : BOOL;    (*¿ØÖÆĞÅºÅ£¬ÉÏÉıÑØ´¥·¢£¬Ê¹½ÎÏáÌáÉıµç»úÍ£Ö¹*)
+		Signal_Start_CabinMotor_P : BOOL; (*æ§åˆ¶ä¿¡å·ï¼Œä¸Šå‡æ²¿è§¦å‘ï¼Œä½¿è½¿å¢æå‡ç”µæœºæ­£è½¬ï¼Œç”µæ¢¯ä¸Šè¡Œ*)
+		Signal_Start_CabinMotor_N : BOOL; (*æ§åˆ¶ä¿¡å·ï¼Œä¸Šå‡æ²¿è§¦å‘ï¼Œä½¿è½¿å¢æå‡ç”µæœºåè½¬ï¼Œç”µæ¢¯ä¸‹è¡Œ*)
+		Signal_Stop_CabinMotor : BOOL;    (*æ§åˆ¶ä¿¡å·ï¼Œä¸Šå‡æ²¿è§¦å‘ï¼Œä½¿è½¿å¢æå‡ç”µæœºåœæ­¢*)
 				
-		Sensor_Position_Door : UINT;	  (*½ÎÏáÃÅÎ»ÖÃ·´À¡*)
-		Sensor_Position_Cabin : UINT;     (*½ÎÏá´¹Ö±Î»ÖÃ·´À¡*)
+		Sensor_Position_Door : UINT;	  (*è½¿å¢é—¨ä½ç½®åé¦ˆ*)
+		Sensor_Position_Cabin : UINT;     (*è½¿å¢å‚ç›´ä½ç½®åé¦ˆ*)
 		
 END_STRUCT;
 			
 
 
-(*Â¥²ãÃæ°å½Ó¿ÚĞÅºÅ¶¨Òå*)		
+(*æ¥¼å±‚é¢æ¿æ¥å£ä¿¡å·å®šä¹‰*)		
 tFloor_Interface: STRUCT	
-		Key_Up : BOOL;(*ÏòÉÏ°´Å¥*)
-		Key_Down : BOOL;(*ÏòÏÂ°´Å¥*)
-		Display_Current_Floor_Left : USINT;(*×óµçÌİµ±Ç°Â¥²ãÏÔÊ¾ÊıÂë¹Ü*)
-		Display_Current_Floor_Right : USINT;(*ÓÒµçÌİµ±Ç°Â¥²ãÏÔÊ¾ÊıÂë¹Ü*)
-		Display_Current_Direction_Left : STRING[2];(*×óµçÌİµ±Ç°ÔËĞĞ·½ÏòÏÔÊ¾ÊıÂë¹Ü*)
-		Display_Current_Direction_Right : STRING[2];(*ÓÒµçÌİµ±Ç°ÔËĞĞ·½ÏòÏÔÊ¾ÊıÂë¹Ü*)		    
+		Key_Up : BOOL;(*å‘ä¸ŠæŒ‰é’®*)
+		Key_Down : BOOL;(*å‘ä¸‹æŒ‰é’®*)
+		Display_Current_Floor_Left : USINT;(*å·¦ç”µæ¢¯å½“å‰æ¥¼å±‚æ˜¾ç¤ºæ•°ç ç®¡*)
+		Display_Current_Floor_Right : USINT;(*å³ç”µæ¢¯å½“å‰æ¥¼å±‚æ˜¾ç¤ºæ•°ç ç®¡*)
+		Display_Current_Direction_Left : STRING[2];(*å·¦ç”µæ¢¯å½“å‰è¿è¡Œæ–¹å‘æ˜¾ç¤ºæ•°ç ç®¡*)
+		Display_Current_Direction_Right : STRING[2];(*å³ç”µæ¢¯å½“å‰è¿è¡Œæ–¹å‘æ˜¾ç¤ºæ•°ç ç®¡*)
+		Display_UpSelected : tCheckStatus; (*ç”µæ¢¯å‘ä¸ŠæŒ‰é’®æŒ‡ç¤ºç¯*)
+		Display_DownSelected : tCheckStatus; (*ç”µæ¢¯å‘ä¸‹æŒ‰é’®æŒ‡ç¤ºç¯*)
 END_STRUCT;
 
-(*¶ÔÓ¦Â¥²ãµÄÉèÖÃ×´Ì¬*)
+(*å¯¹åº”æ¥¼å±‚çš„è®¾ç½®çŠ¶æ€*)
 tCheckStatus : 
 		(
 		Checked:=16#3340,
 		UnChecked:=16#FE10		
 );
 
-(*½ÎÏá½Ó¿ÚĞÅºÅ¶¨Òå*)
+(*è½¿å¢æ¥å£ä¿¡å·å®šä¹‰*)
 tCabin_Interface: STRUCT	
 		
-		Key_Open : BOOL; (*¿ªÃÅ°´Å¥*)
-		Key_Close : BOOL; (*¹ØÃÅ°´Å¥*)
-		Key_Floor1 : BOOL; (*Ä¿±êÂ¥²ã°´Å¥*)
+		Key_Open : BOOL; (*å¼€é—¨æŒ‰é’®*)
+		Key_Close : BOOL; (*å…³é—¨æŒ‰é’®*)
+		Key_Floor1 : BOOL; (*ç›®æ ‡æ¥¼å±‚æŒ‰é’®*)
 		Key_Floor2 : BOOL;
 		Key_Floor3 : BOOL;
 		Key_Floor4 : BOOL;
 		Key_Floor5 : BOOL;
 		Key_Floor6 : BOOL;
 		Key_Floor7 : BOOL;
-		Display_Floor1Selected : tCheckStatus;(*Ä¿±êÂ¥²ã±»Ñ¡ÖĞÖ¸Ê¾µÆ*)
+		Display_Floor1Selected : tCheckStatus;(*ç›®æ ‡æ¥¼å±‚è¢«é€‰ä¸­æŒ‡ç¤ºç¯*)
 		Display_Floor2Selected : tCheckStatus;
 		Display_Floor3Selected : tCheckStatus;
 		Display_Floor4Selected : tCheckStatus;
@@ -73,8 +75,8 @@ tCabin_Interface: STRUCT
 		Display_Floor6Selected : tCheckStatus;
 		Display_Floor7Selected : tCheckStatus;
 			
-		Display_Current_Floor : USINT;  (*µ±Ç°Â¥²ãÏÔÊ¾ÊıÂë¹Ü*)
-		Display_Current_Direction : STRING[2];    (*µ±Ç°ÔËĞĞ·½ÏòÏÔÊ¾ÊıÂë¹Ü*)
+		Display_Current_Floor : USINT;  (*å½“å‰æ¥¼å±‚æ˜¾ç¤ºæ•°ç ç®¡*)
+		Display_Current_Direction : STRING[2];    (*å½“å‰è¿è¡Œæ–¹å‘æ˜¾ç¤ºæ•°ç ç®¡*)
 		
 END_STRUCT;
 	
