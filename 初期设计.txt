@@ -1,0 +1,146 @@
+IF 	LeftCabinState = CabinIsStoped  AND  RightCabinState = CabinIsStoped;
+  THEN Response:=Left_Response; 	
+ELSIF 	LeftCabinState = CabinIsStoped  AND  RightCabinState < > CabinIsStoped;
+  THEN Response:=Left_Response;
+ELSIF 	LeftCabinState < > CabinIsStoped  AND  RightCabinState = CabinIsStoped;
+  THEN Response:=Right_Response;
+ELSIF  LeftCabinState = CabinIsGoingUp  AND  RightCabinState = CabinIsGoingUp;
+THEN Response:=LURU_Response;
+ELSIF  LeftCabinState = CabinIsGoingUp  AND  RightCabinState = CabinIsGoingDown; THEN Response:=LURD_Response;
+ELSIF  LeftCabinState = CabinIsGoingDown  AND  RightCabinState = CabinIsGoingUp; THEN Response:=LDRU_Response;
+ELSIF  LeftCabinState = CabinIsGoingDown  AND  RightCabinState = CabinIsGoingDown; THEN Response:=LDRD_Response;
+END_IF
+CASE Response OF LeftResponse :
+IF  Floor1Panel.Key_Up = Checked 
+OR Floor1Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor1Selected = Checked  
+AND Display_Current_Floor_Left > 1 ;
+THEN   LeftTower.Signal_Start_CabinMotor_N:=TRUE ;
+ELSIF  Floor2Panel.Key_Up = Checked 
+OR Floor2Panel.Key_Down= Checked 
+OR LeftCabin.Display_Floor2Selected = Checked  
+AND Display_Current_Floor_Left > 2 ;
+THEN   LeftTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor3Panel.Key_Up = Checked 
+OR Floor3Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor3Selected = Checked  
+AND Display_Current_Floor_Left > 3 ;
+THEN   LeftTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor4Panel.Key_Up = Checked 
+OR Floor4Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor4Selected = Checked  
+AND Display_Current_Floor_Left > 4 ;
+THEN   LeftTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor5Panel.Key_Up = Checked 
+OR Floor5Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor5Selected = Checked  
+AND Display_Current_Floor_Left > 5 ;
+THEN   LeftTower.Signal_Start_CabinMotor_N:=TRUE;		
+ELSIF  Floor6Panel.Key_Up = Checked 
+OR Floor6Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor5Selected = Checked  
+AND Display_Current_Floor_Left > 6 ;
+THEN   LeftTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor2Panel.Key_Up = Checked 
+OR Floor2Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor2Selected = Checked  
+AND Display_Current_Floor_Left < 2 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;	
+ELSIF  Floor3Panel.Key_Up = Checked 
+OR Floor3Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor3Selected = Checked  
+AND Display_Current_Floor_Left < 3 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;	
+ELSIF  Floor4Panel.Key_Up = Checked 
+OR Floor4Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor4Selected = Checked  
+AND Display_Current_Floor_Left < 4 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE; 
+ELSIF  Floor5Panel.Key_Up = Checked 
+OR Floor5Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor5Selected = Checked  
+AND Display_Current_Floor_Left < 5 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;
+ELSIF  Floor6Panel.Key_Up = Checked 
+OR Floor6Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor6Selected = Checked  
+AND Display_Current_Floor_Left < 6 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;
+ELSIF  Floor7Panel.Key_Up = Checked 
+OR Floor7Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor7Selected = Checked  
+AND Display_Current_Floor_Left < 7 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;
+END_IF	
+
+RightResponse:
+IF  Floor1Panel.Key_Up = Checked 
+OR Floor1Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor1Selected = Checked  
+AND Display_Current_Floor_Right > 1 ;
+THEN   RightTower.Signal_Start_CabinMotor_N:=TRUE ;
+ELSIF  Floor2Panel.Key_Up = Checked 
+OR Floor2Panel.Key_Down= Checked 
+OR RightCabin.Display_Floor2Selected = Checked  
+AND Display_Current_Floor_Right > 2 ;
+THEN   RightTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor3Panel.Key_Up = Checked 
+OR Floor3Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor3Selected = Checked  
+AND Display_Current_Floor_Right > 3 ;
+THEN   RightTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor4Panel.Key_Up = Checked 
+OR Floor4Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor4Selected = Checked  
+AND Display_Current_Floor_Right > 4 ;
+THEN   RightTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor5Panel.Key_Up = Checked 
+OR Floor5Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor5Selected = Checked  
+AND Display_Current_Floor_Right > 5 ;
+THEN   RightTower.Signal_Start_CabinMotor_N:=TRUE;		
+ELSIF  Floor6Panel.Key_Up = Checked 
+OR Floor6Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor5Selected = Checked  
+AND Display_Current_Floor_Right > 6 ;
+THEN   RightTower.Signal_Start_CabinMotor_N:=TRUE;	
+ELSIF  Floor2Panel.Key_Up = Checked 
+OR Floor2Panel.Key_Down = Checked 
+OR LeftCabin.Display_Floor2Selected = Checked  
+AND Display_Current_Floor_Right < 2 ;
+THEN   RightTower.Signal_Start_CabinMotor_P:=TRUE;	
+ELSIF  Floor3Panel.Key_Up = Checked 
+OR Floor3Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor3Selected = Checked  
+AND Display_Current_Floor_Right < 3 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;	
+ELSIF  Floor4Panel.Key_Up = Checked 
+OR Floor4Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor4Selected = Checked  
+AND Display_Current_Floor_Right < 4 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE; 
+ELSIF  Floor5Panel.Key_Up = Checked 
+OR Floor5Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor5Selected = Checked  
+AND Display_Current_Floor_Right < 5 ;
+THEN   RightTower.Signal_Start_CabinMotor_P:=TRUE;
+ELSIF  Floor6Panel.Key_Up = Checked 
+OR Floor6Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor6Selected = Checked  
+AND Display_Current_Floor_Right < 6 ;
+THEN   LeftTower.Signal_Start_CabinMotor_P:=TRUE;
+ELSIF  Floor7Panel.Key_Up = Checked 
+OR Floor7Panel.Key_Down = Checked 
+OR RightCabin.Display_Floor7Selected = Checked  
+AND Display_Current_Floor_Right< 7 ;
+THEN   RightTower.Signal_Start_CabinMotor_P:=TRUE;
+END_IF	
+LURU_Response:
+LeftTower.Signal_Start_CabinMotor_P:=TRUE AND RightTower.Signal_Start_CabinMotor_P:=TRUE
+LURD_Response:
+LeftTower.Signal_Start_CabinMotor_P:=TRUE AND RightTower.Signal_Start_CabinMotor_N:=TRUE
+LDRU_Response:
+LeftTower.Signal_Start_CabinMotor_N:=TRUE AND RightTower.Signal_Start_CabinMotor_P:=TRUE
+LDRD_Response:
+LeftTower.Signal_Start_CabinMotor_N:=TRUE AND RightTower.Signal_Start_CabinMotor_N:=TRUE
+END CASE
