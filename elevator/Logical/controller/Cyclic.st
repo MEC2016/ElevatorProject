@@ -95,7 +95,91 @@ PROGRAM _CYCLIC
 	IF RightCabin.Display_Floor7Selected = UnChecked AND RightCabin.Key_Floor7 =1 THEN
 		RightCabin.Display_Floor7Selected := Checked;
 	END_IF	
+	
+	(*电梯门延时10秒关闭和强制关闭电梯*)
+		IF i2>=10 AND RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 THEN  RightTower.Signal_Start_DoorMotor_P:=0;RightTower.Signal_Start_DoorMotor_N:=1;
+	i2:=0;	END_IF
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Sensor_DoorOpened=1 THEN
+		i2:=i2+1;
+		IF RightTower.Sensor_DoorOpened=1 THEN 
 		
+			IF RightCabin.Key_Close=1 THEN RightTower.Signal_Start_DoorMotor_P:=0;RightTower.Signal_Start_DoorMotor_N:=1;END_IF 
+		 
+		ELSIF RightCabin.Key_Open=1 THEN RightTower.Signal_Start_DoorMotor_N:=0;RightTower.Signal_Start_DoorMotor_P:=1;(*此处逻辑可能要改*)
+		END_IF
+	END_IF
+	
+	IF i1>=10 AND LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 THEN  LeftTower.Signal_Start_DoorMotor_P:=0;LeftTower.Signal_Start_DoorMotor_N:=1;
+	i1:=0;	END_IF
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Sensor_DoorOpened=1 THEN
+		i1:=i1+1;
+		IF LeftTower.Sensor_DoorOpened=1 THEN 
+		
+			IF LeftCabin.Key_Close=1 THEN LeftTower.Signal_Start_DoorMotor_P:=0;LeftTower.Signal_Start_DoorMotor_N:=1;END_IF 
+		 
+		ELSIF LeftCabin.Key_Open=1 THEN LeftTower.Signal_Start_DoorMotor_N:=0;LeftTower.Signal_Start_DoorMotor_P:=1;(*此处逻辑可能要改*)
+		END_IF
+	END_IF
+	
+	IF RightTower.Signal_Start_CabinMotor_P = 0 AND RightTower.Signal_Start_CabinMotor_N =0 AND RightTower.Signal_Start_DoorMotor_N=1 THEN
+		IF Key_Up_Floor1=1 AND RightTower.Sensor_Floor1Approached=1 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+		IF RightTower.Sensor_Floor2Approached=1 THEN 
+			IF Key_Up_Floor2=1 AND Target_Floor_Right>=2 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor2=1 AND Target_Floor_Right<2 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF
+						
+		IF RightTower.Sensor_Floor3Approached=1 THEN 
+			IF Key_Up_Floor3=1 AND Target_Floor_Right>=3 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor3=1 AND Target_Floor_Right<3 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF
+							
+		IF RightTower.Sensor_Floor4Approached=1 THEN 
+			IF Key_Up_Floor4=1 AND Target_Floor_Right>=4 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor4=1 AND Target_Floor_Right<4 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF			
+		IF RightTower.Sensor_Floor5Approached=1 THEN 
+			IF Key_Up_Floor5=1 AND Target_Floor_Right>=5 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor5=1 AND Target_Floor_Right<5 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF							
+		IF RightTower.Sensor_Floor6Approached=1 THEN 
+			IF Key_Up_Floor6=1 AND Target_Floor_Right>=6 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor6=1 AND Target_Floor_Right<6 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF							
+		IF Key_Down_Floor7=1 AND RightTower.Sensor_Floor7Approached=1 THEN RightTower.Signal_Start_DoorMotor_P:=1;RightTower.Signal_Start_DoorMotor_N:=0;END_IF
+	END_IF	
+			
+	IF LeftTower.Signal_Start_DoorMotor_N=1 AND Key_Open_Left=1 THEN LeftTower.Signal_Start_DoorMotor_N:=0;
+	LeftTower.Signal_Start_DoorMotor_P:=1; END_IF 
+	IF RightTower.Signal_Start_DoorMotor_N=1 AND Key_Open_Right=1 THEN RightTower.Signal_Start_DoorMotor_N:=0;
+	RightTower.Signal_Start_DoorMotor_P:=1; END_IF 
+	
+	IF LeftTower.Signal_Start_CabinMotor_P = 0 AND LeftTower.Signal_Start_CabinMotor_N =0 AND LeftTower.Signal_Start_DoorMotor_N=1 THEN
+		IF Key_Up_Floor1=1 AND LeftTower.Sensor_Floor1Approached=1 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+		IF LeftTower.Sensor_Floor2Approached=1 THEN 
+			IF Key_Up_Floor2=1 AND Target_Floor_Left>=2 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor2=1 AND Target_Floor_Left<2 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF
+						
+		IF LeftTower.Sensor_Floor3Approached=1 THEN 
+			IF Key_Up_Floor3=1 AND Target_Floor_Left>=3 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor3=1 AND Target_Floor_Left<3 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF
+							
+		IF LeftTower.Sensor_Floor4Approached=1 THEN 
+			IF Key_Up_Floor4=1 AND Target_Floor_Left>=4 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor4=1 AND Target_Floor_Left<4 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF			
+		IF LeftTower.Sensor_Floor5Approached=1 THEN 
+			IF Key_Up_Floor5=1 AND Target_Floor_Left>=5 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor5=1 AND Target_Floor_Left<5 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF							
+		IF LeftTower.Sensor_Floor6Approached=1 THEN 
+			IF Key_Up_Floor6=1 AND Target_Floor_Left>=6 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+			IF Key_Down_Floor6=1 AND Target_Floor_Left<6 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+		END_IF							
+		IF Key_Down_Floor7=1 AND LeftTower.Sensor_Floor7Approached=1 THEN LeftTower.Signal_Start_DoorMotor_P:=1;LeftTower.Signal_Start_DoorMotor_N:=0;END_IF
+	END_IF
+	
 	(*此处插入左电梯目标楼层判断代码*)
 	
 	// 左侧电梯处于停止状态
