@@ -559,7 +559,38 @@ PROGRAM _CYCLIC
 	
 		END_IF
 	END_IF
-
+	
+	(*让电梯的上下电机动起来*)
+	IF Target_Floor_Left > 0 AND Target_Floor_Left < 8 AND LeftTower.Sensor_DoorClosed = 1  THEN
+		IF LeftCabin.Display_Current_Floor < Target_Floor_Left THEN // 上行
+			LeftTower.Signal_Start_CabinMotor_P := 1;
+			LeftTower.Signal_Start_CabinMotor_N := 0;
+			LeftTower.Signal_Stop_CabinMotor := 0;			
+		ELSIF LeftCabin.Display_Current_Floor > Target_Floor_Left THEN // 下行
+			LeftTower.Signal_Start_CabinMotor_P := 0;
+			LeftTower.Signal_Start_CabinMotor_N := 1;
+			LeftTower.Signal_Stop_CabinMotor := 0;
+		ELSE // 不动
+			LeftTower.Signal_Start_CabinMotor_P := 0;
+			LeftTower.Signal_Start_CabinMotor_N := 0;
+			LeftTower.Signal_Stop_CabinMotor := 1;
+		END_IF
+	END_IF
+	IF Target_Floor_Right > 0 AND Target_Floor_Right < 8 AND RightTower.Sensor_DoorClosed = 1  THEN
+		IF RightCabin.Display_Current_Floor < Target_Floor_Right THEN // 上行
+			RightTower.Signal_Start_CabinMotor_P := 1;
+			RightTower.Signal_Start_CabinMotor_N := 0;
+			RightTower.Signal_Stop_CabinMotor := 0;			
+		ELSIF RightCabin.Display_Current_Floor > Target_Floor_Right THEN // 下行
+			RightTower.Signal_Start_CabinMotor_P := 0;
+			RightTower.Signal_Start_CabinMotor_N := 1;
+			RightTower.Signal_Stop_CabinMotor := 0;
+		ELSE // 不动
+			RightTower.Signal_Start_CabinMotor_P := 0;
+			RightTower.Signal_Start_CabinMotor_N := 0;
+			RightTower.Signal_Stop_CabinMotor := 1;
+		END_IF
+	END_IF
 	
 	
 END_PROGRAM
