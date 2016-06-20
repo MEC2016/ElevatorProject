@@ -21,8 +21,8 @@
           <Property Name="ID" Value="32"/>
           <Property Name="Scalecx" Value="100"/>
           <Property Name="Scalecy" Value="100"/>
-          <Property Name="ScrollPositionX" Value="342"/>
-          <Property Name="ScrollPositionY" Value="178"/>
+          <Property Name="ScrollPositionX" Value="187"/>
+          <Property Name="ScrollPositionY" Value="278"/>
         </View>
         <View>
           <Property Name="ID" Value="536870912"/>

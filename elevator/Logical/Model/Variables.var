@@ -1,29 +1,12 @@
 VAR
-	LeftDoorState:tDoorState;
-	RightDoorState:tDoorState;
-	LeftCabinState:tCabinState;
-	RightCabinState:tCabinState;
-	
-
-
-	disp_direction : STRING[2] := '';
-	
-	Current_Floor_Left : USINT := 1;
-	Current_Floor_Right : USINT := 1;
 	Current_Direction_Left : USINT := 1;
 	Current_Direction_Right : USINT := 1;
-	
-	Target_Floor_Left : USINT := 1;
-	Target_Floor_Right : USINT := 1;
-	
-	Key_Up_Floor1 : BOOL := FALSE;
-	Key_Up_Floor2 : BOOL := FALSE;
-	Key_Up_Floor3 : BOOL := FALSE;
-	Key_Up_Floor4 : BOOL := FALSE;
-	Key_Up_Floor5 : BOOL := FALSE;
-	Key_Up_Floor6 : BOOL := FALSE;
-	Key_Up_Floor7 : BOOL := FALSE;
-	
+	Current_Floor_Left : USINT := 1;
+	Current_Floor_Right : USINT := 1;
+	disp_direction : STRING[2] := '';
+	i : USINT := 0;
+	Key_Close_Left : BOOL := FALSE;
+	Key_Close_Right : BOOL := FALSE;
 	Key_Down_Floor1 : BOOL := FALSE;
 	Key_Down_Floor2 : BOOL := FALSE;
 	Key_Down_Floor3 : BOOL := FALSE;
@@ -31,52 +14,55 @@ VAR
 	Key_Down_Floor5 : BOOL := FALSE;
 	Key_Down_Floor6 : BOOL := FALSE;
 	Key_Down_Floor7 : BOOL := FALSE;
-	
-	Key_Open_Left : BOOL := FALSE;
-	Key_Close_Left : BOOL := FALSE;
 	Key_Floor1_Left : BOOL := FALSE;
-	Key_Floor2_Left : BOOL := FALSE;
-	Key_Floor3_Left : BOOL := FALSE;
-	Key_Floor4_Left : BOOL := FALSE;
-	Key_Floor5_Left : BOOL := FALSE;
-	Key_Floor6_Left : BOOL := FALSE;
-	Key_Floor7_Left : BOOL := FALSE;
-	
-	Key_Open_Right : BOOL := FALSE;
-	Key_Close_Right : BOOL := FALSE;
 	Key_Floor1_Right : BOOL := FALSE;
+	Key_Floor2_Left : BOOL := FALSE;
 	Key_Floor2_Right : BOOL := FALSE;
+	Key_Floor3_Left : BOOL := FALSE;
 	Key_Floor3_Right : BOOL := FALSE;
+	Key_Floor4_Left : BOOL := FALSE;
 	Key_Floor4_Right : BOOL := FALSE;
+	Key_Floor5_Left : BOOL := FALSE;
 	Key_Floor5_Right : BOOL := FALSE;
+	Key_Floor6_Left : BOOL := FALSE;
 	Key_Floor6_Right : BOOL := FALSE;
+	Key_Floor7_Left : BOOL := FALSE;
 	Key_Floor7_Right : BOOL := FALSE;
-	
-	Sensor_Opened_Left : BOOL := FALSE;
-	Sensor_Closed_Left : BOOL := FALSE;
-	Sensor_Opened_Right : BOOL := FALSE;
-	Sensor_Closed_Right : BOOL := FALSE;
-	
-	Sensor_Floor1_Left : BOOL := FALSE;
-	Sensor_Floor2_Left : BOOL := FALSE;
-	Sensor_Floor3_Left : BOOL := FALSE;
-	Sensor_Floor4_Left : BOOL := FALSE;
-	Sensor_Floor5_Left : BOOL := FALSE;
-	Sensor_Floor6_Left : BOOL := FALSE;
-	Sensor_Floor7_Left : BOOL := FALSE;
-	
-	Sensor_Floor1_Right : BOOL := FALSE;
-	Sensor_Floor2_Right : BOOL := FALSE;
-	Sensor_Floor3_Right : BOOL := FALSE;
-	Sensor_Floor4_Right : BOOL := FALSE;
-	Sensor_Floor5_Right : BOOL := FALSE;
-	Sensor_Floor6_Right : BOOL := FALSE;
-	Sensor_Floor7_Right : BOOL := FALSE;
-	
+	Key_Open_Left : BOOL := FALSE;
+	Key_Open_Right : BOOL := FALSE;
+	Key_Up_Floor1 : BOOL := FALSE;
+	Key_Up_Floor2 : BOOL := FALSE;
+	Key_Up_Floor3 : BOOL := FALSE;
+	Key_Up_Floor4 : BOOL := FALSE;
+	Key_Up_Floor5 : BOOL := FALSE;
+	Key_Up_Floor6 : BOOL := FALSE;
+	Key_Up_Floor7 : BOOL := FALSE;
+	LeftCabinState : tCabinState;
+	LeftDoorState : tDoorState;
+	Position_Cabin_Left : UINT := 0;
+	Position_Cabin_Right : UINT := 0;
 	Position_Door_Left : UINT := 0;
 	Position_Door_Right : UINT := 0;
-	Position_Cabin_Left : UINT := 0;
-	Position_Cabin_Right: UINT := 0;
-	
-
+	RightCabinState : tCabinState;
+	RightDoorState : tDoorState;
+	Sensor_Closed_Left : BOOL := FALSE;
+	Sensor_Closed_Right : BOOL := FALSE;
+	Sensor_Floor1_Left : BOOL := FALSE;
+	Sensor_Floor1_Right : BOOL := FALSE;
+	Sensor_Floor2_Left : BOOL := FALSE;
+	Sensor_Floor2_Right : BOOL := FALSE;
+	Sensor_Floor3_Left : BOOL := FALSE;
+	Sensor_Floor3_Right : BOOL := FALSE;
+	Sensor_Floor4_Left : BOOL := FALSE;
+	Sensor_Floor4_Right : BOOL := FALSE;
+	Sensor_Floor5_Left : BOOL := FALSE;
+	Sensor_Floor5_Right : BOOL := FALSE;
+	Sensor_Floor6_Left : BOOL := FALSE;
+	Sensor_Floor6_Right : BOOL := FALSE;
+	Sensor_Floor7_Left : BOOL := FALSE;
+	Sensor_Floor7_Right : BOOL := FALSE;
+	Sensor_Opened_Left : BOOL := FALSE;
+	Sensor_Opened_Right : BOOL := FALSE;
+	Target_Floor_Left : USINT := 1;
+	Target_Floor_Right : USINT := 1;
 END_VAR

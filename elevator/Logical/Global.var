@@ -6,22 +6,9 @@
  * Declaration of global variables
  *********************************************************************************)
 VAR
-	
-	LeftTower:tTower_Interface;(*实例化左电梯井接口*)
-	RightTower:tTower_Interface;(*实例化右电梯井接口*)
-	
-	LeftCabin:tCabin_Interface;(*实例化左电梯轿厢接口*)
-	RightCabin:tCabin_Interface;(*实例化右电梯轿厢接口*)
-	
-	Floor1Panel : tFloor_Interface;(*实例化各楼层面板*)
-	Floor2Panel : tFloor_Interface;
-	Floor3Panel : tFloor_Interface;
-	Floor4Panel : tFloor_Interface;
-	Floor5Panel : tFloor_Interface;
-	Floor6Panel : tFloor_Interface;
-	Floor7Panel : tFloor_Interface;
-		
-END_VAR
- 
-VAR CONSTANT
+	LeftTower : tTower_Interface; (*实例化左电梯井接口*)
+	RightTower : tTower_Interface; (*实例化右电梯井接口*)
+	LeftCabin : tCabin_Interface; (*实例化左电梯轿厢接口*)
+	RightCabin : tCabin_Interface; (*实例化右电梯轿厢接口*)
+	FloorPanel : ARRAY[0..6] OF tFloor_Interface := [7(0)];
 END_VAR

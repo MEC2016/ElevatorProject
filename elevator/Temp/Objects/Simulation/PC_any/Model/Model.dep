@@ -1,4 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Model/Variables.var
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Global.typ
-$(AS_PROJECT_PATH)/Logical/Model/Variables.var
 $(AS_PROJECT_PATH)/Logical/Model/Types.typ

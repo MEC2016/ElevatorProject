@@ -1,0 +1,9 @@
+VAR
+	DownLast : USINT := 0;
+	UpLast : USINT := 0;
+	i : USINT := 0;
+	j : USINT := 0;
+	k : USINT := 0;
+	UpList : ARRAY[0..6] OF USINT := [7(0)];
+	DownList : ARRAY[0..6] OF USINT := [7(0)];
+END_VAR

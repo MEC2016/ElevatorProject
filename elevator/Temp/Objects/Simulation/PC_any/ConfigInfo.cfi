@@ -9,15 +9,15 @@
       Source="Model"
       Language="IEC">
       <InternalFile
-        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\Model\Cyclic.st.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any\Model\Cyclic.st.var" />
       <InternalFile
-        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\Model\Init.st.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any\Model\Init.st.var" />
       <InternalFile
-        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\Model\Exit.st.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any\Model\Exit.st.var" />
       <File
-        Path="E:\0-elevator\elevator\Logical\Model\Types.typ" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Types.typ" />
       <File
-        Path="E:\0-elevator\elevator\Logical\Model\Variables.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -32,15 +32,15 @@
       Source="controller"
       Language="IEC">
       <InternalFile
-        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\controller\Cyclic.st.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any\controller\Cyclic.st.var" />
       <InternalFile
-        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\controller\Init.st.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any\controller\Init.st.var" />
       <InternalFile
-        Path="E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any\controller\Exit.st.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any\controller\Exit.st.var" />
       <File
-        Path="E:\0-elevator\elevator\Logical\controller\Types.typ" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Types.typ" />
       <File
-        Path="E:\0-elevator\elevator\Logical\controller\Variables.var" />
+        Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

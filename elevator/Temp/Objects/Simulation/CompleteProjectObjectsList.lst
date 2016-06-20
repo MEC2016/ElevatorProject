@@ -2,348 +2,348 @@
 <?AutomationStudio Version="4.2.1.214"?>
 <Objects>
   <Object
-    Path="E:\0-elevator\elevator\Logical\Package.pkg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Package.pkg"
     LogicalPath=""
     Type="Package"
-    LastWriteTime="131069305979729454" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Global.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="131069424373981218"
+    LastWriteTime="131105398860000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Global.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="131069314358298681"
+    LastWriteTime="131105429960000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\runtime.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Runtime\runtime.var"
     LogicalPath="Libraries.Runtime.runtime.var"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\runtime.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Runtime\runtime.typ"
     LogicalPath="Libraries.Runtime.runtime.typ"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\runtime.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Runtime\runtime.fun"
     LogicalPath="Libraries.Runtime.runtime.fun"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Runtime\Binary.lby"
     LogicalPath="Libraries.Runtime"
     Type="Library"
-    LastWriteTime="130632881200000000" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Operator\operator.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Operator\operator.fun"
     LogicalPath="Libraries.Operator.operator.fun"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Operator\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Operator\Binary.lby"
     LogicalPath="Libraries.Operator"
     Type="Library"
-    LastWriteTime="130632881200000000" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\AsIecCon\AsIecCon.fun"
     LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398860000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\AsIecCon\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\AsIecCon\Binary.lby"
     LogicalPath="Libraries.AsIecCon"
     Type="Library"
-    LastWriteTime="130632881200000000" />
+    LastWriteTime="131105398860000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\astime\astime.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\astime\astime.var"
     LogicalPath="Libraries.astime.astime.var"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\astime\astime.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\astime\astime.typ"
     LogicalPath="Libraries.astime.astime.typ"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\astime\astime.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\astime\astime.fun"
     LogicalPath="Libraries.astime.astime.fun"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\astime\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\astime\Binary.lby"
     LogicalPath="Libraries.astime"
     Type="Library"
-    LastWriteTime="130632881200000000" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\standard\standard.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\standard\standard.fun"
     LogicalPath="Libraries.standard.standard.fun"
     Type="File"
-    LastWriteTime="131058874132229657"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\standard\standard.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\standard\standard.typ"
     LogicalPath="Libraries.standard.standard.typ"
     Type="File"
-    LastWriteTime="131058874132269659"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\standard\standard.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\standard\standard.var"
     LogicalPath="Libraries.standard.standard.var"
     Type="File"
-    LastWriteTime="131058874132319662"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\standard\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\standard\Binary.lby"
     LogicalPath="Libraries.standard"
     Type="Library"
-    LastWriteTime="131058874132359664" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\sys_lib.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\sys_lib\sys_lib.fun"
     LogicalPath="Libraries.sys_lib.sys_lib.fun"
     Type="File"
-    LastWriteTime="131058874253106570"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\sys_lib.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\sys_lib\sys_lib.typ"
     LogicalPath="Libraries.sys_lib.sys_lib.typ"
     Type="File"
-    LastWriteTime="131058874253486592"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\sys_lib.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\sys_lib\sys_lib.var"
     LogicalPath="Libraries.sys_lib.sys_lib.var"
     Type="File"
-    LastWriteTime="131058874254026623"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\sys_lib\Binary.lby"
     LogicalPath="Libraries.sys_lib"
     Type="Library"
-    LastWriteTime="131058874254066625" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\brsystem.fun"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\brsystem\brsystem.fun"
     LogicalPath="Libraries.brsystem.brsystem.fun"
     Type="File"
-    LastWriteTime="131058874607296829"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\brsystem.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\brsystem\brsystem.typ"
     LogicalPath="Libraries.brsystem.brsystem.typ"
     Type="File"
-    LastWriteTime="131058874607326831"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\brsystem.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\brsystem\brsystem.var"
     LogicalPath="Libraries.brsystem.brsystem.var"
     Type="File"
-    LastWriteTime="131058874607486840"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\Binary.lby"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\brsystem\Binary.lby"
     LogicalPath="Libraries.brsystem"
     Type="Library"
-    LastWriteTime="131058874607516842" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Package.pkg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="131058876421570600" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Model\Cyclic.st"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Cyclic.st"
     LogicalPath="Model.Cyclic.st"
     Type="File"
-    LastWriteTime="131069374632266155"
+    LastWriteTime="131105407460000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Model\Init.st"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Init.st"
     LogicalPath="Model.Init.st"
     Type="File"
-    LastWriteTime="131069362722034928"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Model\Exit.st"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Exit.st"
     LogicalPath="Model.Exit.st"
     Type="File"
-    LastWriteTime="131058866370525713"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Model\Types.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Types.typ"
     LogicalPath="Model.Types.typ"
     Type="File"
-    LastWriteTime="131069303471095969"
+    LastWriteTime="131105398880000000"
     Private="true" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Model\Variables.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Variables.var"
     LogicalPath="Model.Variables.var"
     Type="File"
-    LastWriteTime="131069307153326580"
+    LastWriteTime="131105407800000000"
     Private="true" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Model\IEC.prg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\IEC.prg"
     LogicalPath="Model"
     Type="Program"
-    LastWriteTime="131058866370575716" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\demo\VCObject.vc"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\demo\VCObject.vc"
     LogicalPath="demo.VCObject.vc"
     Type="File"
-    LastWriteTime="131058878122447884"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\demo\Vc.dob"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\demo\Vc.dob"
     LogicalPath="demo"
     Type="DataObject"
-    LastWriteTime="131058878122457885" />
+    LastWriteTime="131105398900000000" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\controller\Cyclic.st"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Cyclic.st"
     LogicalPath="controller.Cyclic.st"
     Type="File"
-    LastWriteTime="131069423551614181"
+    LastWriteTime="131108023383395180"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\controller\Init.st"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Init.st"
     LogicalPath="controller.Init.st"
     Type="File"
-    LastWriteTime="131069418968772058"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\controller\Exit.st"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Exit.st"
     LogicalPath="controller.Exit.st"
     Type="File"
-    LastWriteTime="131067843985154479"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\controller\Types.typ"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Types.typ"
     LogicalPath="controller.Types.typ"
     Type="File"
-    LastWriteTime="131067843985214483"
+    LastWriteTime="131105398880000000"
     Private="true" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\controller\Variables.var"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Variables.var"
     LogicalPath="controller.Variables.var"
     Type="File"
-    LastWriteTime="131067843985234484"
+    LastWriteTime="131105431120000000"
     Private="true" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\controller\IEC.prg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\IEC.prg"
     LogicalPath="controller"
     Type="Program"
-    LastWriteTime="131067843985254485" />
+    LastWriteTime="131105398880000000" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\Config.pkg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\Config.pkg"
     LogicalPath="Simulation"
     Type="Configuration"
-    LastWriteTime="131058866532774993" />
+    LastWriteTime="131105398900000000" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\Hardware.hw"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\Hardware.hw"
     LogicalPath="Simulation.Hardware.hw"
     Type="File"
-    LastWriteTime="131059659260282559"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\Hardware.hwl"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\Hardware.hwl"
     LogicalPath="Simulation.Hardware.hwl"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\Cpu.sw"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\Cpu.sw"
     LogicalPath="Simulation.PC_any.Cpu.sw"
     Type="File"
-    LastWriteTime="131069305980889521"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\Cpu.per"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\Cpu.per"
     LogicalPath="Simulation.PC_any.Cpu.per"
     Type="File"
-    LastWriteTime="131058863564015189"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\IoMap.iom"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\IoMap.iom"
     LogicalPath="Simulation.PC_any.IoMap.iom"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\PvMap.vvm"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\PvMap.vvm"
     LogicalPath="Simulation.PC_any.PvMap.vvm"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\VC\PS2-Keyboard.dis"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\VC\PS2-Keyboard.dis"
     LogicalPath="Simulation.PC_any.VC.PS2-Keyboard.dis"
     Type="File"
-    LastWriteTime="131059659258012429"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\VC\Package.pkg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\VC\Package.pkg"
     LogicalPath="Simulation.PC_any.VC"
     Type="Package"
-    LastWriteTime="131059659257412395" />
+    LastWriteTime="131105398900000000" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\PC_any\Cpu.pkg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\PC_any\Cpu.pkg"
     LogicalPath="Simulation.PC_any"
     Type="Cpu"
-    LastWriteTime="131059659256142322" />
+    LastWriteTime="131105398900000000" />
   <Object
-    Path="E:\0-elevator\elevator\Physical\Simulation\Hardware.jpg"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Physical\Simulation\Hardware.jpg"
     LogicalPath="Simulation.Hardware.jpg"
     Type="File"
-    LastWriteTime="131069360925102150"
+    LastWriteTime="131105398900000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
     LogicalPath="AsIecCon.h"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\astime\SG4\astime.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\astime\SG4\astime.h"
     LogicalPath="astime.h"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\brsystem\SG4\brsystem.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\brsystem\SG4\brsystem.h"
     LogicalPath="brsystem.h"
     Type="File"
-    LastWriteTime="130716883280000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Operator\SG4\Operator.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Operator\SG4\Operator.h"
     LogicalPath="Operator.h"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\Runtime\SG4\Runtime.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\Runtime\SG4\Runtime.h"
     LogicalPath="Runtime.h"
     Type="File"
-    LastWriteTime="130632881200000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\standard\SG4\standard.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\standard\SG4\standard.h"
     LogicalPath="standard.h"
     Type="File"
-    LastWriteTime="130716883320000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
   <Object
-    Path="E:\0-elevator\elevator\Logical\Libraries\sys_lib\SG4\sys_lib.h"
+    Path="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Libraries\sys_lib\SG4\sys_lib.h"
     LogicalPath="sys_lib.h"
     Type="File"
-    LastWriteTime="130716883320000000"
+    LastWriteTime="131105398880000000"
     Private="false" />
 </Objects>

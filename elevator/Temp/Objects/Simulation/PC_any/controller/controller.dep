@@ -1,2 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/controller/Variables.var
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Global.typ
