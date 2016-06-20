@@ -549,7 +549,7 @@
             <UInt32 Name="Right">36</UInt32>
             <UInt32 Name="Bottom">64</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor7Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -584,7 +584,7 @@
             <UInt32 Name="Top">29</UInt32>
             <UInt32 Name="Right">64</UInt32>
             <UInt32 Name="Bottom">64</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor7Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -610,7 +610,7 @@
             <UInt32 Name="Right">117</UInt32>
             <UInt32 Name="Bottom">64</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor7Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -645,7 +645,7 @@
             <UInt32 Name="Top">29</UInt32>
             <UInt32 Name="Right">145</UInt32>
             <UInt32 Name="Bottom">64</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor7Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -769,7 +769,7 @@
             <UInt32 Name="Right">37</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor5Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -804,7 +804,7 @@
             <UInt32 Name="Top">174</UInt32>
             <UInt32 Name="Right">65</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor5Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -830,7 +830,7 @@
             <UInt32 Name="Right">118</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor5Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -865,7 +865,7 @@
             <UInt32 Name="Top">174</UInt32>
             <UInt32 Name="Right">146</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor5Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -989,7 +989,7 @@
             <UInt32 Name="Right">231</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor6Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1024,7 +1024,7 @@
             <UInt32 Name="Top">174</UInt32>
             <UInt32 Name="Right">259</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor6Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1050,7 +1050,7 @@
             <UInt32 Name="Right">312</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor6Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1085,7 +1085,7 @@
             <UInt32 Name="Top">174</UInt32>
             <UInt32 Name="Right">340</UInt32>
             <UInt32 Name="Bottom">209</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor6Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1209,7 +1209,7 @@
             <UInt32 Name="Right">37</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor3Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1244,7 +1244,7 @@
             <UInt32 Name="Top">319</UInt32>
             <UInt32 Name="Right">65</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor3Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1270,7 +1270,7 @@
             <UInt32 Name="Right">118</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor3Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1305,7 +1305,7 @@
             <UInt32 Name="Top">319</UInt32>
             <UInt32 Name="Right">146</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor3Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1429,7 +1429,7 @@
             <UInt32 Name="Right">231</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor4Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1464,7 +1464,7 @@
             <UInt32 Name="Top">319</UInt32>
             <UInt32 Name="Right">259</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor4Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1490,7 +1490,7 @@
             <UInt32 Name="Right">312</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor4Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1525,7 +1525,7 @@
             <UInt32 Name="Top">319</UInt32>
             <UInt32 Name="Right">340</UInt32>
             <UInt32 Name="Bottom">354</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor4Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1649,7 +1649,7 @@
             <UInt32 Name="Right">38</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor1Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1684,7 +1684,7 @@
             <UInt32 Name="Top">464</UInt32>
             <UInt32 Name="Right">66</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor1Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1710,7 +1710,7 @@
             <UInt32 Name="Right">119</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor1Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1745,7 +1745,7 @@
             <UInt32 Name="Top">464</UInt32>
             <UInt32 Name="Right">147</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor1Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1869,7 +1869,7 @@
             <UInt32 Name="Right">232</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor2Panel.Display_Current_Floor_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Floor_Left]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1904,7 +1904,7 @@
             <UInt32 Name="Top">464</UInt32>
             <UInt32 Name="Right">260</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor2Panel.Display_Current_Direction_Left]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Direction_Left]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -1930,7 +1930,7 @@
             <UInt32 Name="Right">313</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor2Panel.Display_Current_Floor_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Floor_Right]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
             <UInt32 Name="MaxDatapoint">4294967295</UInt32>
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
@@ -1965,7 +1965,7 @@
             <UInt32 Name="Top">464</UInt32>
             <UInt32 Name="Right">341</UInt32>
             <UInt32 Name="Bottom">499</UInt32>
-            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor2Panel.Display_Current_Direction_Right]</Reference>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Direction_Right]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Output]</Reference>
             <UInt16 Name="StyleTableSize">20</UInt16>
@@ -3629,7 +3629,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor7Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[6].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3655,7 +3655,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor7Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[6].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3733,7 +3733,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor5Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[4].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3759,7 +3759,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor5Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[4].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3785,7 +3785,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor6Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[5].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3811,7 +3811,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor6Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[5].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3837,7 +3837,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor3Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[2].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3863,7 +3863,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor3Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[2].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3889,7 +3889,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor4Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[3].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3915,7 +3915,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor4Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[3].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3941,7 +3941,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor1Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[0].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3967,7 +3967,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor1Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[0].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -3993,7 +3993,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor2Panel.Key_Down]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[1].Key_Down]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>
@@ -4019,7 +4019,7 @@
               <Double Name="SetValue">1</Double>
               <Double Name="ResetValue">0</Double>
               <Double Name="CompletionValue">0</Double>
-              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Floor2Panel.Key_Up]</Reference>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.FloorPanel[1].Key_Up]</Reference>
               <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
               <Byte Name="Mode">2</Byte>
               <Byte Name="Status">0</Byte>

@@ -438,7 +438,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="29"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -452,7 +452,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="29"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
@@ -471,7 +471,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="29"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -485,7 +485,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="29"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_7">
@@ -542,7 +542,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -556,7 +556,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_6">
@@ -575,7 +575,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -589,7 +589,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_9">
@@ -646,7 +646,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -660,7 +660,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_8">
@@ -679,7 +679,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -693,7 +693,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="174"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_11">
@@ -750,7 +750,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -764,7 +764,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
@@ -783,7 +783,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -797,7 +797,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_13">
@@ -854,7 +854,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -868,7 +868,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_12">
@@ -887,7 +887,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -901,7 +901,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="319"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_15">
@@ -958,7 +958,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -972,7 +972,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_14">
@@ -991,7 +991,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -1005,7 +1005,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_17">
@@ -1062,7 +1062,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Floor_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Floor_Left]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -1076,7 +1076,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Direction_Left]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Direction_Left]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_16">
@@ -1095,7 +1095,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Floor_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Floor_Right]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="21"/>
         </Control>
@@ -1109,7 +1109,7 @@
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="Top" Value="464"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Direction_Right]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Direction_Right]"/>
           <Property Name="Width" Value="21"/>
         </Control>
         <Control ClassId="0x00001002" Name="Button_5">
@@ -1691,7 +1691,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor7Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[6].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1707,7 +1707,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor7Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[6].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1755,7 +1755,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor5Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[4].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1771,7 +1771,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor5Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[4].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1787,7 +1787,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor6Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[5].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1803,7 +1803,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor6Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[5].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1819,7 +1819,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor3Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[2].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1835,7 +1835,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor3Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[2].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1851,7 +1851,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor4Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[3].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1867,7 +1867,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor4Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[3].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1883,7 +1883,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor1Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[0].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1899,7 +1899,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor1Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[0].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1915,7 +1915,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor2Panel.Key_Down]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[1].Key_Down]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -1931,7 +1931,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Floor2Panel.Key_Up]"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.FloorPanel[1].Key_Up]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>

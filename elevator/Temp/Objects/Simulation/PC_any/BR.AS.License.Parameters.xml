@@ -2,13 +2,13 @@
 <Parameters>
   <Connection>
     <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
-    <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=*</ConnectionParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>E:\0-elevator\elevator\elevator.apj</ApjFullFileName>
+    <ApjFullFileName>C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\elevator.apj</ApjFullFileName>
     <ProjectName>elevator</ProjectName>
     <ActiveConfigurationName>Simulation</ActiveConfigurationName>
-    <LicenseDataFolder>E:\0-elevator\elevator\Temp\Objects\Simulation\PC_any</LicenseDataFolder>
+    <LicenseDataFolder>C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Temp\Objects\Simulation\PC_any</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

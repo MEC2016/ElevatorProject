@@ -13,42 +13,12 @@
     <Property Name="Platform" Value="" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vccbtn.br" />
-    <Property Name="Version" Value="01.00" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
     <Property Name="Name" Value="vccshape.br" />
     <Property Name="Version" Value="01.00" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vccline.br" />
-    <Property Name="Version" Value="01.00" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vccnum.br" />
-    <Property Name="Version" Value="01.00" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vccovl.br" />
-    <Property Name="Version" Value="01.00" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcctext.br" />
-    <Property Name="Version" Value="01.00" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vccslider.br" />
-    <Property Name="Version" Value="01.00" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vccstr.br" />
+    <Property Name="Name" Value="vccbar.br" />
     <Property Name="Version" Value="01.00" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
@@ -58,12 +28,27 @@
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vccscale.br" />
+    <Property Name="Name" Value="vccbtn.br" />
     <Property Name="Version" Value="01.00" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
   <Module>
-    <Property Name="Name" Value="vccbar.br" />
+    <Property Name="Name" Value="vccnum.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccstr.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vcctext.br" />
+    <Property Name="Version" Value="01.00" />
+    <Property Name="Platform" Value="Platform.x86.Generic" />
+  </Module>
+  <Module>
+    <Property Name="Name" Value="vccovl.br" />
     <Property Name="Version" Value="01.00" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>
@@ -84,36 +69,6 @@
   </Module>
   <Module>
     <Property Name="Name" Value="vcpdsw.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vctcal.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcnet.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcmgr.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcpkat.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcpdvnc.br" />
-    <Property Name="Version" Value="Core" />
-    <Property Name="Platform" Value="Platform.x86.Generic" />
-  </Module>
-  <Module>
-    <Property Name="Name" Value="vcpfar00.br" />
     <Property Name="Version" Value="Core" />
     <Property Name="Platform" Value="Platform.x86.Generic" />
   </Module>

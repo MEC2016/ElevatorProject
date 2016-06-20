@@ -43,13 +43,9 @@ PROGRAM _CYCLIC
 				LeftCabinState := CabinIsGoingDown;		
 			END_IF	
 			LeftCabin.Display_Current_Direction := '--';
-			Floor1Panel.Display_Current_Direction_Left :='--';
-			Floor2Panel.Display_Current_Direction_Left :='--';
-			Floor3Panel.Display_Current_Direction_Left :='--';
-			Floor4Panel.Display_Current_Direction_Left :='--';
-			Floor5Panel.Display_Current_Direction_Left :='--';
-			Floor6Panel.Display_Current_Direction_Left :='--';
-			Floor7Panel.Display_Current_Direction_Left :='--';		
+			FOR i := 0 TO 6 DO
+				FloorPanel[i].Display_Current_Direction_Left := '--';
+			END_FOR	
 		CabinIsGoingUp:
 			IF LeftTower.Sensor_Position_Cabin < 600 THEN
 			    LeftTower.Sensor_Position_Cabin := LeftTower.Sensor_Position_Cabin+1;
@@ -58,13 +54,9 @@ PROGRAM _CYCLIC
 				LeftCabinState := CabinIsStoped;		
 			END_IF	
 			LeftCabin.Display_Current_Direction := '/\';
-			Floor1Panel.Display_Current_Direction_Left := '/\';
-			Floor2Panel.Display_Current_Direction_Left := '/\';
-			Floor3Panel.Display_Current_Direction_Left := '/\';
-			Floor4Panel.Display_Current_Direction_Left := '/\';
-			Floor5Panel.Display_Current_Direction_Left := '/\';
-			Floor6Panel.Display_Current_Direction_Left := '/\';
-			Floor7Panel.Display_Current_Direction_Left := '/\';
+			FOR i := 0 TO 6 DO
+				FloorPanel[i].Display_Current_Direction_Left := '/\';
+			END_FOR	
 		
 		CabinIsGoingDown:
 			IF LeftTower.Sensor_Position_Cabin > 0 THEN
@@ -74,13 +66,9 @@ PROGRAM _CYCLIC
 				LeftCabinState := CabinIsStoped;		
 			END_IF	
 			LeftCabin.Display_Current_Direction := '\/';
-			Floor1Panel.Display_Current_Direction_Left := '\/';
-			Floor2Panel.Display_Current_Direction_Left := '\/';
-			Floor3Panel.Display_Current_Direction_Left := '\/';
-			Floor4Panel.Display_Current_Direction_Left := '\/';
-			Floor5Panel.Display_Current_Direction_Left := '\/';
-			Floor6Panel.Display_Current_Direction_Left := '\/';
-			Floor7Panel.Display_Current_Direction_Left := '\/';
+			FOR i := 0 TO 6 DO
+				FloorPanel[i].Display_Current_Direction_Left := '\/';
+			END_FOR	
 		
 		END_CASE
 
@@ -139,13 +127,9 @@ PROGRAM _CYCLIC
 		LeftCabin.Display_Current_Floor := 7;
 	END_IF	
 	
-	Floor1Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
-	Floor2Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
-	Floor3Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
-	Floor4Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
-	Floor5Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
-	Floor6Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
-	Floor7Panel.Display_Current_Floor_Left:= LeftCabin.Display_Current_Floor;
+	FOR i := 0 TO 6 DO
+		FloorPanel[i].Display_Current_Floor_Left := LeftCabin.Display_Current_Floor;
+	END_FOR	
 		
 	(*ÓÒµçÌÝ½ÎÏáÃÅ×´Ì¬»ú*)	
 	CASE RightDoorState OF 
@@ -186,13 +170,9 @@ PROGRAM _CYCLIC
 				RightCabinState := CabinIsGoingDown;		
 			END_IF	
 			RightCabin.Display_Current_Direction := '--';
-			Floor1Panel.Display_Current_Direction_Right := '--';
-			Floor2Panel.Display_Current_Direction_Right := '--';
-			Floor3Panel.Display_Current_Direction_Right := '--';
-			Floor4Panel.Display_Current_Direction_Right := '--';
-			Floor5Panel.Display_Current_Direction_Right := '--';
-			Floor6Panel.Display_Current_Direction_Right := '--';
-			Floor7Panel.Display_Current_Direction_Right := '--';
+			FOR i := 0 TO 6 DO
+				FloorPanel[i].Display_Current_Direction_Right := '--';
+			END_FOR	
 		
 		CabinIsGoingUp:
 			IF RightTower.Sensor_Position_Cabin < 600 THEN
@@ -202,13 +182,9 @@ PROGRAM _CYCLIC
 				RightCabinState := CabinIsStoped;		
 			END_IF	
 			RightCabin.Display_Current_Direction := '/\';
-			Floor1Panel.Display_Current_Direction_Right := '/\';
-			Floor2Panel.Display_Current_Direction_Right := '/\';
-			Floor3Panel.Display_Current_Direction_Right := '/\';
-			Floor4Panel.Display_Current_Direction_Right := '/\';
-			Floor5Panel.Display_Current_Direction_Right := '/\';
-			Floor6Panel.Display_Current_Direction_Right := '/\';
-			Floor7Panel.Display_Current_Direction_Right := '/\';
+			FOR i := 0 TO 6 DO
+				FloorPanel[i].Display_Current_Direction_Right := '/\';
+			END_FOR	
 		
 		CabinIsGoingDown:
 			IF RightTower.Sensor_Position_Cabin > 0 THEN
@@ -218,13 +194,9 @@ PROGRAM _CYCLIC
 				RightCabinState := CabinIsStoped;		
 			END_IF	
 			RightCabin.Display_Current_Direction := '\/';
-			Floor1Panel.Display_Current_Direction_Right := '\/';
-			Floor2Panel.Display_Current_Direction_Right := '\/';
-			Floor3Panel.Display_Current_Direction_Right := '\/';
-			Floor4Panel.Display_Current_Direction_Right := '\/';
-			Floor5Panel.Display_Current_Direction_Right := '\/';
-			Floor6Panel.Display_Current_Direction_Right := '\/';
-			Floor7Panel.Display_Current_Direction_Right := '\/';
+			FOR i := 0 TO 6 DO
+				FloorPanel[i].Display_Current_Direction_Right := '\/';
+			END_FOR	
 		
 		
 	END_CASE
@@ -283,13 +255,9 @@ PROGRAM _CYCLIC
 	ELSE
 		RightCabin.Display_Current_Floor := 7;
 	END_IF	
-	Floor1Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
-	Floor2Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
-	Floor3Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
-	Floor4Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
-	Floor5Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
-	Floor6Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
-	Floor7Panel.Display_Current_Floor_Right:= RightCabin.Display_Current_Floor;
+	FOR i := 0 TO 6 DO
+		FloorPanel[i].Display_Current_Floor_Right := RightCabin.Display_Current_Floor;
+	END_FOR	
 	
 	
 	

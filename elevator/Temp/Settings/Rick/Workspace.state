@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.1.214?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Cyclic.st" CaretLine="71" CaretColumn="10" FirstVisibleLine="55">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Cyclic.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="31">
+    <Bookmarks />
+  </TextEdit>
+  <TreeView ID="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Model\Variables.var" EditColumn="1" TopRow="23" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="118" Position="2" />
+      <Column Index="3" Width="106" Position="3" />
+      <Column Index="4" Width="82" Position="4" />
+      <Column Index="5" Width="130" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="31" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\Global.var" EditColumn="1" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="0" Position="2" />
+      <Column Index="3" Width="106" Position="3" />
+      <Column Index="4" Width="50" Position="4" />
+      <Column Index="5" Width="130" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="5" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+  <TreeView ID="C:\Users\Rick\Desktop\gittest\ElevatorProject\elevator\Logical\controller\Variables.var" EditColumn="1" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="200" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="118" Position="2" />
+      <Column Index="3" Width="106" Position="3" />
+      <Column Index="4" Width="82" Position="4" />
+      <Column Index="5" Width="130" Position="5" />
+      <Column Index="6" Width="100" Position="6" />
+      <Column Index="7" Width="200" Position="7" />
+      <Column Index="8" Width="0" Position="8" />
+      <Column Index="9" Width="0" Position="9" />
+      <Column Index="10" Width="0" Position="10" />
+    </Columns>
+    <ExpandedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="0" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+</State>

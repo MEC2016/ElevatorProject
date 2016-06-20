@@ -56,7 +56,7 @@ LIB_LOCAL_OBJ_demo=$(TEMP_PATH_demo)/localobj.vca
 
 # Hardware sources
 PANEL_HW_OBJECT_demo=$(TEMP_PATH_ROOT_demo)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/demo/dis.Hardware.vco
-PANEL_HW_SOURCE_demo=E:/0-elevator/elevator/Physical/Simulation/Hardware.hw 
+PANEL_HW_SOURCE_demo=C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Physical/Simulation/Hardware.hw 
 DIS_OBJECTS_demo=$(PANEL_HW_OBJECT_demo) $(KEYMAP_OBJECTS_demo)
 
 # KeyMapping flags
@@ -270,27 +270,27 @@ $(VCVK_OBJECTS_demo): $(VC_LANGUAGES_demo)
 TPR_OBJECTS_demo = $(addprefix $(TEMP_PATH_demo)/tpr., $(notdir $(TPR_SOURCES_demo:.tpr=.vco)))
 
 $(TEMP_PATH_demo)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/demo/TouchPads/NumPad.tpr
-	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "E:/0-elevator/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
+	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
 
 
 $(TEMP_PATH_demo)/tpr.AlphaPadQVGA.vco: $(AS_PROJECT_PATH)/Logical/demo/TouchPads/AlphaPadQVGA.tpr
-	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "E:/0-elevator/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
+	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
 
 
 $(TEMP_PATH_demo)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/demo/TouchPads/AlphaPad.tpr
-	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "E:/0-elevator/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
+	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
 
 
 $(TEMP_PATH_demo)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/demo/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "E:/0-elevator/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
+	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
 
 
 $(TEMP_PATH_demo)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/demo/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "E:/0-elevator/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
+	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
 
 
 $(TEMP_PATH_demo)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/demo/TouchPads/EditPad.tpr
-	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "E:/0-elevator/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
+	 $(VCC) -f "$<" -o "$@" -l "$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr" -cv "$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo" -pal "$(PALFILE_demo)" $(VCCFLAGS_demo) -prj "C:/Users/Rick/Desktop/gittest/ElevatorProject/elevator/Logical/demo" -p demo -so $(VC_STATIC_OPTIONS_demo) -vcr 4211 -sfas
 
 
 #Touch Pads END
@@ -768,11 +768,3 @@ $(TEMP_PATH_demo)/demo03.ccf: $(LIB_SHARED) $(SHARED_CCF) $(BMGRP_OBJECTS_demo) 
 	$(LINK) "$@.lfl" -o "$@" -p demo -lib "$(LIB_BMP_RES_demo)" -P "$(AS_PROJECT_PATH)" -m "bitmap resources" -profile "False" -warningLevel2 -vcr 4211 -sfas
 # 03 Module END
 
-# Post Build Steps
-
-.PHONY : vcPostBuild_demo
-
-vcPostBuild_demo :
-	$(VCC) -pb -vcm "$(TEMP_PATH_demo)/MODULEFILES.vcm" -fw "$(VCFIRMWAREPATH)" $(VCCFLAGS_demo) -p demo -vcr 4211 -sfas
-
-# Post Build Steps END

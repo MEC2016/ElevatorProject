@@ -41,49 +41,49 @@
       <Object Name="DataSource.RightCabin.Display_Floor5Selected" ClsId="0x0" Version="0" TargetIndex="35" Type="DP" RefString="Source[global].Variable[DataSource.RightCabin.Display_Floor5Selected]" />
       <Object Name="DataSource.RightCabin.Display_Floor6Selected" ClsId="0x0" Version="0" TargetIndex="36" Type="DP" RefString="Source[global].Variable[DataSource.RightCabin.Display_Floor6Selected]" />
       <Object Name="DataSource.RightCabin.Display_Floor7Selected" ClsId="0x0" Version="0" TargetIndex="37" Type="DP" RefString="Source[global].Variable[DataSource.RightCabin.Display_Floor7Selected]" />
-      <Object Name="DataSource.Floor1Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="38" Type="DP" RefString="Source[global].Variable[DataSource.Floor1Panel.Key_Up]" />
-      <Object Name="DataSource.Floor1Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="39" Type="DP" RefString="Source[global].Variable[DataSource.Floor1Panel.Key_Down]" />
-      <Object Name="DataSource.Floor1Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="40" Type="DP" RefString="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor1Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="41" Type="DP" RefString="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor1Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="42" Type="DP" RefString="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor1Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="43" Type="DP" RefString="Source[global].Variable[DataSource.Floor1Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.Floor2Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="44" Type="DP" RefString="Source[global].Variable[DataSource.Floor2Panel.Key_Up]" />
-      <Object Name="DataSource.Floor2Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="45" Type="DP" RefString="Source[global].Variable[DataSource.Floor2Panel.Key_Down]" />
-      <Object Name="DataSource.Floor2Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="46" Type="DP" RefString="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor2Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="47" Type="DP" RefString="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor2Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="48" Type="DP" RefString="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor2Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="49" Type="DP" RefString="Source[global].Variable[DataSource.Floor2Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.Floor3Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="50" Type="DP" RefString="Source[global].Variable[DataSource.Floor3Panel.Key_Up]" />
-      <Object Name="DataSource.Floor3Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="51" Type="DP" RefString="Source[global].Variable[DataSource.Floor3Panel.Key_Down]" />
-      <Object Name="DataSource.Floor3Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="52" Type="DP" RefString="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor3Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="53" Type="DP" RefString="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor3Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="54" Type="DP" RefString="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor3Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="55" Type="DP" RefString="Source[global].Variable[DataSource.Floor3Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.Floor4Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="56" Type="DP" RefString="Source[global].Variable[DataSource.Floor4Panel.Key_Up]" />
-      <Object Name="DataSource.Floor4Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="57" Type="DP" RefString="Source[global].Variable[DataSource.Floor4Panel.Key_Down]" />
-      <Object Name="DataSource.Floor4Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="58" Type="DP" RefString="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor4Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="59" Type="DP" RefString="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor4Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="60" Type="DP" RefString="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor4Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="61" Type="DP" RefString="Source[global].Variable[DataSource.Floor4Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.Floor5Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="62" Type="DP" RefString="Source[global].Variable[DataSource.Floor5Panel.Key_Up]" />
-      <Object Name="DataSource.Floor5Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="63" Type="DP" RefString="Source[global].Variable[DataSource.Floor5Panel.Key_Down]" />
-      <Object Name="DataSource.Floor5Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="64" Type="DP" RefString="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor5Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="65" Type="DP" RefString="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor5Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="66" Type="DP" RefString="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor5Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="67" Type="DP" RefString="Source[global].Variable[DataSource.Floor5Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.Floor6Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="68" Type="DP" RefString="Source[global].Variable[DataSource.Floor6Panel.Key_Up]" />
-      <Object Name="DataSource.Floor6Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="69" Type="DP" RefString="Source[global].Variable[DataSource.Floor6Panel.Key_Down]" />
-      <Object Name="DataSource.Floor6Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="70" Type="DP" RefString="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor6Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="71" Type="DP" RefString="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor6Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="72" Type="DP" RefString="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor6Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="73" Type="DP" RefString="Source[global].Variable[DataSource.Floor6Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.Floor7Panel.Key_Up" ClsId="0x0" Version="0" TargetIndex="74" Type="DP" RefString="Source[global].Variable[DataSource.Floor7Panel.Key_Up]" />
-      <Object Name="DataSource.Floor7Panel.Key_Down" ClsId="0x0" Version="0" TargetIndex="75" Type="DP" RefString="Source[global].Variable[DataSource.Floor7Panel.Key_Down]" />
-      <Object Name="DataSource.Floor7Panel.Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="76" Type="DP" RefString="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Floor_Left]" />
-      <Object Name="DataSource.Floor7Panel.Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="77" Type="DP" RefString="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Floor_Right]" />
-      <Object Name="DataSource.Floor7Panel.Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="78" Type="DP" RefString="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Direction_Left]" />
-      <Object Name="DataSource.Floor7Panel.Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="79" Type="DP" RefString="Source[global].Variable[DataSource.Floor7Panel.Display_Current_Direction_Right]" />
-      <Object Name="DataSource.RightTower.Sensor_Position_Door" ClsId="0x0" Version="0" TargetIndex="80" Type="DP" RefString="Source[global].Variable[DataSource.RightTower.Sensor_Position_Door]" />
+      <Object Name="DataSource.RightTower.Sensor_Position_Door" ClsId="0x0" Version="0" TargetIndex="38" Type="DP" RefString="Source[global].Variable[DataSource.RightTower.Sensor_Position_Door]" />
+      <Object Name="DataSource.FloorPanel[0].Key_Up" ClsId="0x0" Version="0" TargetIndex="39" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[0].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[0].Key_Down" ClsId="0x0" Version="0" TargetIndex="40" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[0].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[0].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="41" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[0].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="42" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[0].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="43" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[0].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="44" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[0].Display_Current_Direction_Right]" />
+      <Object Name="DataSource.FloorPanel[1].Key_Up" ClsId="0x0" Version="0" TargetIndex="45" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[1].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[1].Key_Down" ClsId="0x0" Version="0" TargetIndex="46" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[1].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[1].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="47" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[1].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="48" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[1].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="49" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[1].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="50" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[1].Display_Current_Direction_Right]" />
+      <Object Name="DataSource.FloorPanel[2].Key_Up" ClsId="0x0" Version="0" TargetIndex="51" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[2].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[2].Key_Down" ClsId="0x0" Version="0" TargetIndex="52" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[2].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[2].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="53" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[2].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="54" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[2].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="55" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[2].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="56" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[2].Display_Current_Direction_Right]" />
+      <Object Name="DataSource.FloorPanel[3].Key_Up" ClsId="0x0" Version="0" TargetIndex="57" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[3].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[3].Key_Down" ClsId="0x0" Version="0" TargetIndex="58" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[3].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[3].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="59" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[3].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="60" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[3].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="61" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[3].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="62" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[3].Display_Current_Direction_Right]" />
+      <Object Name="DataSource.FloorPanel[4].Key_Up" ClsId="0x0" Version="0" TargetIndex="63" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[4].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[4].Key_Down" ClsId="0x0" Version="0" TargetIndex="64" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[4].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[4].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="65" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[4].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="66" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[4].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="67" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[4].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="68" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[4].Display_Current_Direction_Right]" />
+      <Object Name="DataSource.FloorPanel[5].Key_Up" ClsId="0x0" Version="0" TargetIndex="69" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[5].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[5].Key_Down" ClsId="0x0" Version="0" TargetIndex="70" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[5].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[5].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="71" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[5].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="72" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[5].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="73" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[5].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="74" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[5].Display_Current_Direction_Right]" />
+      <Object Name="DataSource.FloorPanel[6].Key_Up" ClsId="0x0" Version="0" TargetIndex="75" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[6].Key_Up]" />
+      <Object Name="DataSource.FloorPanel[6].Key_Down" ClsId="0x0" Version="0" TargetIndex="76" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[6].Key_Down]" />
+      <Object Name="DataSource.FloorPanel[6].Display_Current_Floor_Left" ClsId="0x0" Version="0" TargetIndex="77" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Floor_Left]" />
+      <Object Name="DataSource.FloorPanel[6].Display_Current_Floor_Right" ClsId="0x0" Version="0" TargetIndex="78" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Floor_Right]" />
+      <Object Name="DataSource.FloorPanel[6].Display_Current_Direction_Left" ClsId="0x0" Version="0" TargetIndex="79" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Direction_Left]" />
+      <Object Name="DataSource.FloorPanel[6].Display_Current_Direction_Right" ClsId="0x0" Version="0" TargetIndex="80" Type="DP" RefString="Source[global].Variable[DataSource.FloorPanel[6].Display_Current_Direction_Right]" />
       <Object Name="Internal.Display.Brightness" ClsId="0x0" Version="0" TargetIndex="81" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
       <Object Name="Internal.Display.Contrast" ClsId="0x0" Version="0" TargetIndex="82" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
       <Object Name="Internal.Display.BackLight" ClsId="0x0" Version="0" TargetIndex="83" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
@@ -524,7 +524,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor1Panel.Key_Up">
+        <Group Name="RightTower.Sensor_Position_Door">
           <UInt32 Name="DPID">38</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -535,7 +535,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor1Panel.Key_Down">
+        <Group Name="FloorPanel[0].Key_Up">
           <UInt32 Name="DPID">39</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -546,7 +546,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor1Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[0].Key_Down">
           <UInt32 Name="DPID">40</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -557,7 +557,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor1Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[0].Display_Current_Floor_Left">
           <UInt32 Name="DPID">41</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -568,7 +568,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor1Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[0].Display_Current_Floor_Right">
           <UInt32 Name="DPID">42</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -579,7 +579,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor1Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[0].Display_Current_Direction_Left">
           <UInt32 Name="DPID">43</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -590,7 +590,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor2Panel.Key_Up">
+        <Group Name="FloorPanel[0].Display_Current_Direction_Right">
           <UInt32 Name="DPID">44</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -601,7 +601,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor2Panel.Key_Down">
+        <Group Name="FloorPanel[1].Key_Up">
           <UInt32 Name="DPID">45</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -612,7 +612,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor2Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[1].Key_Down">
           <UInt32 Name="DPID">46</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -623,7 +623,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor2Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[1].Display_Current_Floor_Left">
           <UInt32 Name="DPID">47</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -634,7 +634,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor2Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[1].Display_Current_Floor_Right">
           <UInt32 Name="DPID">48</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -645,7 +645,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor2Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[1].Display_Current_Direction_Left">
           <UInt32 Name="DPID">49</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -656,7 +656,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor3Panel.Key_Up">
+        <Group Name="FloorPanel[1].Display_Current_Direction_Right">
           <UInt32 Name="DPID">50</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -667,7 +667,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor3Panel.Key_Down">
+        <Group Name="FloorPanel[2].Key_Up">
           <UInt32 Name="DPID">51</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -678,7 +678,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor3Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[2].Key_Down">
           <UInt32 Name="DPID">52</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -689,7 +689,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor3Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[2].Display_Current_Floor_Left">
           <UInt32 Name="DPID">53</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -700,7 +700,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor3Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[2].Display_Current_Floor_Right">
           <UInt32 Name="DPID">54</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -711,7 +711,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor3Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[2].Display_Current_Direction_Left">
           <UInt32 Name="DPID">55</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -722,7 +722,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor4Panel.Key_Up">
+        <Group Name="FloorPanel[2].Display_Current_Direction_Right">
           <UInt32 Name="DPID">56</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -733,7 +733,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor4Panel.Key_Down">
+        <Group Name="FloorPanel[3].Key_Up">
           <UInt32 Name="DPID">57</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -744,7 +744,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor4Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[3].Key_Down">
           <UInt32 Name="DPID">58</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -755,7 +755,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor4Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[3].Display_Current_Floor_Left">
           <UInt32 Name="DPID">59</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -766,7 +766,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor4Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[3].Display_Current_Floor_Right">
           <UInt32 Name="DPID">60</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -777,7 +777,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor4Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[3].Display_Current_Direction_Left">
           <UInt32 Name="DPID">61</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -788,7 +788,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor5Panel.Key_Up">
+        <Group Name="FloorPanel[3].Display_Current_Direction_Right">
           <UInt32 Name="DPID">62</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -799,7 +799,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor5Panel.Key_Down">
+        <Group Name="FloorPanel[4].Key_Up">
           <UInt32 Name="DPID">63</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -810,7 +810,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor5Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[4].Key_Down">
           <UInt32 Name="DPID">64</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -821,7 +821,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor5Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[4].Display_Current_Floor_Left">
           <UInt32 Name="DPID">65</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -832,7 +832,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor5Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[4].Display_Current_Floor_Right">
           <UInt32 Name="DPID">66</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -843,7 +843,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor5Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[4].Display_Current_Direction_Left">
           <UInt32 Name="DPID">67</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -854,7 +854,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor6Panel.Key_Up">
+        <Group Name="FloorPanel[4].Display_Current_Direction_Right">
           <UInt32 Name="DPID">68</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -865,7 +865,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor6Panel.Key_Down">
+        <Group Name="FloorPanel[5].Key_Up">
           <UInt32 Name="DPID">69</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -876,7 +876,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor6Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[5].Key_Down">
           <UInt32 Name="DPID">70</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -887,7 +887,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor6Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[5].Display_Current_Floor_Left">
           <UInt32 Name="DPID">71</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -898,7 +898,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor6Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[5].Display_Current_Floor_Right">
           <UInt32 Name="DPID">72</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -909,7 +909,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor6Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[5].Display_Current_Direction_Left">
           <UInt32 Name="DPID">73</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -920,7 +920,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor7Panel.Key_Up">
+        <Group Name="FloorPanel[5].Display_Current_Direction_Right">
           <UInt32 Name="DPID">74</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -931,7 +931,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor7Panel.Key_Down">
+        <Group Name="FloorPanel[6].Key_Up">
           <UInt32 Name="DPID">75</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -942,7 +942,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor7Panel.Display_Current_Floor_Left">
+        <Group Name="FloorPanel[6].Key_Down">
           <UInt32 Name="DPID">76</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -953,7 +953,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor7Panel.Display_Current_Floor_Right">
+        <Group Name="FloorPanel[6].Display_Current_Floor_Left">
           <UInt32 Name="DPID">77</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -964,7 +964,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor7Panel.Display_Current_Direction_Left">
+        <Group Name="FloorPanel[6].Display_Current_Floor_Right">
           <UInt32 Name="DPID">78</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -975,7 +975,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Floor7Panel.Display_Current_Direction_Right">
+        <Group Name="FloorPanel[6].Display_Current_Direction_Left">
           <UInt32 Name="DPID">79</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -986,7 +986,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="RightTower.Sensor_Position_Door">
+        <Group Name="FloorPanel[6].Display_Current_Direction_Right">
           <UInt32 Name="DPID">80</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>

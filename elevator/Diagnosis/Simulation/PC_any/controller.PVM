@@ -1,6 +1,19 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=controller 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=14 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                               LeftCabin                         tCabin_Interface    0 "                                                               *"    0   24    1    0    0    1         
-                  Display_Floor1Selected                                     DINT    0 "                                                           65040"    1    4    1   10    0    0 e,0,Chec
+                                       j                                    USINT    0 "                                                               7"    0    5    1   10    1    0         
+                                       i                                    USINT    0 "                                                               7"    0    5    1   10    1    0         
+                                  UpLast                                    USINT    0 "                                                               1"    0    5    1   10    1    0         
+                                  UpList                              USINT[0..6]    0 "                                                               *"    0    5    7    0    1    1         
+                               UpList[0]                                    USINT    0 "                                                               2"    1    5    1   10    1    0         
+                               UpList[1]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                               UpList[2]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                               UpList[3]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                               UpList[4]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                               UpList[5]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                               UpList[6]                                    USINT    0 "                                                               0"    1    5    1   10    1    0         
+                               LeftCabin                         tCabin_Interface    0 "                                                               *"    0   24    1    0    0    0         
+                  Display_Floor1Selected                                     DINT    0 "                                                           65040"    1    4    1   10    0    0 e,13120,
 
+                               LeftTower                         tTower_Interface    0 "                                                               *"    0   24    1    0    0    1         
+                   Sensor_Position_Cabin                                     UINT    0 "                                                             500"    1    6    1   10    0    0         
